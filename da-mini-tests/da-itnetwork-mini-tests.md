@@ -130,8 +130,122 @@ Pomáhá automatizovat analýzu dat, reporting a hledání trendů.
 
 ---
 
+# Lekce 3  
+## Strukturovaná a nestrukturovaná data
 
+---
 
-### 10. Jak AI pomáhá v datové analytice?
-**Odpověď:**  
-Pomáhá automatizovat analýzu dat, reporting a hledání trendů.
+## 1. Jaký je hlavní rozdíl mezi strukturovanými a nestrukturovanými daty?
+
+### Odpověď:
+Strukturovaná data mají pevnou organizaci (tabulky, řádky, sloupce), zatímco nestrukturovaná data pevnou strukturu nemají a poskytují širší kontext.
+
+---
+
+## 2. Uveď 3 příklady strukturovaných dat.
+
+### Odpověď:
+- customer database
+- sales transactions
+- inventory tables
+
+---
+
+## 3. Proč jsou strukturovaná data vhodná pro SQL databáze?
+
+### Odpověď:
+Protože mají pevnou strukturu v podobě řádků a sloupců.
+
+---
+
+## 4. Uveď 3 příklady nestrukturovaných dat.
+
+### Odpověď:
+- recenze zákazníků
+- e-maily
+- fotografie
+
+---
+
+## 5. Jaká je hlavní výhoda nestrukturovaných dat?
+
+### Odpověď:
+Poskytují hlubší insight a širší kontext.
+
+---
+
+## 6. Proč jsou nestrukturovaná data náročnější na zpracování?
+
+### Odpověď:
+Protože nemají pevnou strukturu, mají různé formáty a často větší objem dat.
+
+---
+
+## 7. Jaké nástroje se používají pro práci se strukturovanými daty?
+
+### Odpověď:
+- Excel
+- Google Sheets
+- SQL databáze
+- Power BI
+- Power Query
+
+---
+
+## 8. Jaké technologie nebo nástroje se používají pro nestrukturovaná data?
+
+### Odpověď:
+- Python
+- Elasticsearch
+- Hadoop
+- OpenCV
+- NLTK
+
+---
+
+## 9. Proč firmy kombinují strukturovaná a nestrukturovaná data?
+
+### Odpověď:
+Kvůli širšímu kontextu a lepšímu rozhodování.
+
+---
+
+## 10. Uveď praktický příklad kombinace obou typů dat v businessu.
+
+### Odpověď:
+Segmentace zákazníků kombinovaná se zákaznickými recenzemi.
+
+---
+
+## 11. Jaký je typický problém rigidní struktury dat?
+
+### Odpověď:
+Složitější změny datového modelu a nižší flexibilita.
+
+---
+
+## 12. Proč jsou nestrukturovaná data důležitá pro AI a machine learning?
+
+### Odpověď:
+Protože obsahují text, obraz, zvuk a další komplexní informace vhodné pro AI analýzy.
+
+---
+
+## 13. Co znamená „kontext“ u nestrukturovaných dat?
+
+### Odpověď:
+Například možnost analyzovat emoce, sentiment nebo význam textu.
+
+---
+
+## 14. Jaký mindset by měl mít analytik při práci s různými typy dat?
+
+### Odpověď:
+Měl by chápat různé typy dat, jejich omezení a umět je kombinovat.
+
+---
+
+## 15. Co je hlavní takeaway této lekce?
+
+### Odpověď:
+Moderní datová analytika kombinuje strukturovaná i nestrukturovaná data pro lepší insight a rozhodování.
