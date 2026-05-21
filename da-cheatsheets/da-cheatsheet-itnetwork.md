@@ -289,3 +289,189 @@ Ale hlavně:
 
 > Nejlepší rozhodnutí nejsou založená na pocitech.  
 > Jsou založená na kvalitních datech a správné interpretaci.
+
+---
+
+# Lekce 3 — Strukturovaná a nestrukturovaná data
+
+---
+
+# Strukturovaná vs nestrukturovaná data
+
+Data mohou mít:
+- pevnou strukturu,
+- nebo volnou / neorganizovanou podobu.
+
+Oba typy dat jsou důležité pro moderní datovou analytiku.
+
+---
+
+# Strukturovaná data
+
+Strukturovaná data:
+- mají pevně definovaný formát,
+- jsou organizována do tabulek,
+- obsahují řádky a sloupce,
+- snadno se filtrují a analyzují.
+
+---
+
+# Příklady strukturovaných dat
+
+- customer database
+- sales transactions
+- inventory tables
+- bankovní transakce
+- CRM data
+
+---
+
+# Výhody strukturovaných dat
+
+- jednoduché vyhledávání
+- rychlá analýza
+- snadná agregace
+- vhodné pro reporting
+- dobře fungují v SQL databázích
+
+---
+
+# Nevýhody strukturovaných dat
+
+- menší flexibilita
+- rigidní datový model
+- obtížnější práce s komplexním obsahem
+
+---
+
+# Nástroje pro strukturovaná data
+
+- SQL databáze
+- Excel
+- Google Sheets
+- Power BI
+- Power Query
+
+---
+
+# Nestrukturovaná data
+
+Nestrukturovaná data:
+- nemají pevnou tabulkovou strukturu,
+- obsahují bohatý kontext,
+- bývají složitější na zpracování.
+
+---
+
+# Příklady nestrukturovaných dat
+
+- e-maily
+- PDF dokumenty
+- obrázky
+- videa
+- audio
+- sociální sítě
+- zákaznické recenze
+
+---
+
+# Výhody nestrukturovaných dat
+
+- obsahují hlubší kontext
+- umožňují sentiment analýzu
+- poskytují detailnější vhled
+- vhodné pro AI a machine learning
+
+---
+
+# Nevýhody nestrukturovaných dat
+
+- složitější analýza
+- vyšší výpočetní náročnost
+- proměnlivá kvalita dat
+- potřeba specializovaných nástrojů
+
+---
+
+# Nástroje pro nestrukturovaná data
+
+- Elasticsearch
+- Hadoop
+- Python
+- NLTK
+- OpenCV
+- cloud storage řešení
+
+---
+
+# Praktické využití dat
+
+## E-commerce
+- nákupní historie
+- zákaznické recenze
+- produktové fotografie
+
+---
+
+## Marketing
+- customer behavior
+- sociální sítě
+- sentiment analýza
+
+---
+
+## Zdravotnictví
+- laboratorní výsledky
+- lékařské poznámky
+- obrazová data
+
+---
+
+# Kombinace dat
+
+Moderní analytika často kombinuje:
+- strukturovaná data,
+- nestrukturovaná data.
+
+Příklad:
+- customer database + recenze zákazníků.
+
+---
+
+# Přínosy kombinace dat
+
+- lepší personalizace
+- hlubší insight
+- lepší rozhodování
+- širší business kontext
+
+---
+
+# Technické výzvy
+
+Při práci s daty řešíme:
+- integraci systémů,
+- kvalitu dat,
+- ukládání dat,
+- kompatibilitu formátů,
+- výkon zpracování.
+
+---
+
+# Důležitý analytický mindset
+
+Ne všechna data vypadají jako tabulka v Excelu.
+
+Analytik musí:
+- chápat různé typy dat,
+- umět je kombinovat,
+- rozumět jejich omezením,
+- vybrat správný nástroj pro analýzu.
+
+---
+
+# Hlavní takeaway
+
+> Strukturovaná data poskytují přesnost.  
+> Nestrukturovaná data poskytují kontext.  
+> Skutečná hodnota vzniká jejich kombinací.
