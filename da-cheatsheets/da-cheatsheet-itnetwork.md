@@ -2,6 +2,10 @@
 
 ---
 
+# Lekce 1 — Úvod do datové analýzy
+
+---
+
 # Co je datová analýza
 
 Datová analýza je proces:
@@ -9,180 +13,20 @@ Datová analýza je proces:
 - čištění dat,
 - zkoumání dat,
 - interpretace výsledků,
-- podpory business rozhodování.
+- podpory rozhodování.
 
-Cílem není pouze pracovat s čísly, ale získat:
-- insighty,
-- trendy,
-- souvislosti,
-- podklady pro rozhodování.
+Cílem není pouze práce s čísly, ale získání užitečných insightů.
 
 ---
 
-# Hlavní myšlenka
-
-> Data sama o sobě nemají hodnotu.
-> Hodnotu vytváří až rozhodnutí založené na datech.
-
----
-
-# Role datového analytika
+# Co dělá datový analytik
 
 Datový analytik:
 - pracuje s daty,
-- hledá trendy,
+- hledá trendy a souvislosti,
 - identifikuje problémy,
 - interpretuje výsledky,
-- pomáhá business rozhodování.
-
-Analytik nehledá jen čísla.
-Analytik hledá:
-- příčiny,
-- souvislosti,
-- business dopady.
-
----
-
-# Data-driven decision making (DDDM)
-
-Rozhodování založené na:
-- datech,
-- faktech,
-- analýze,
-- důkazech.
-
-NE pouze na:
-- intuici,
-- dojmech,
-- odhadech.
-
----
-
-# Příklady využití datové analýzy
-
-## Business
-- revenue reporting
-- customer analytics
-- marketing
-- forecasting
-- optimalizace nákladů
-
-## Každodenní život
-- doporučení filmů
-- reklamy na internetu
-- navigace
-- předpověď počasí
-
----
-
-# Základní pojmy
-
-## Data
-Surové informace:
-- čísla
-- text
-- obrázky
-- logy
-- audio/video
-
----
-
-## Proměnná
-Charakteristika datového bodu.
-
-Příklady:
-- věk
-- revenue
-- country
-- category
-
----
-
-## Populace
-Celá skupina objektů, kterou chceme analyzovat.
-
-Příklad:
-- všichni zákazníci firmy
-
----
-
-## Vzorek
-Část populace použitá pro analýzu.
-
-Důležité:
-> vzorek musí být reprezentativní.
-
----
-
-# Typy dat
-
-## Kvantitativní data
-Číselná data.
-
-Příklady:
-- revenue
-- quantity
-- age
-- sales
-
----
-
-## Kvalitativní data
-Popisná data.
-
-Příklady:
-- country
-- category
-- gender
-- product type
-
----
-
-# Základní statistické pojmy
-
-## Průměr (Average)
-Součet hodnot / počet hodnot.
-
----
-
-## Medián
-Prostřední hodnota v seřazených datech.
-
----
-
-## Modus
-Nejčastější hodnota.
-
----
-
-## Rozptyl
-Měří variabilitu dat.
-
----
-
-## Směrodatná odchylka
-Ukazuje, jak moc se data odchylují od průměru.
-
----
-
-# Cíle datové analýzy
-
-- podpora rozhodování
-- hledání trendů
-- optimalizace procesů
-- identifikace problémů
-- predikce budoucího vývoje
-- snížení rizik
-
----
-
-# Business mindset analytika
-
-Správná otázka:
-> Proč se něco stalo?
-
-NE pouze:
-> Kolik se prodalo?
+- pomáhá firmám lépe rozhodovat.
 
 ---
 
@@ -192,7 +36,7 @@ NE pouze:
 Surová fakta.
 
 Příklad:
-- únorové tržby klesly o 20 %
+- tržby klesly o 20 %
 
 ---
 
@@ -212,28 +56,35 @@ Příklad:
 
 ---
 
-# Typické chyby junior analytiků
+# Typy dat
 
-## ❌ Soustředění pouze na nástroje
-- SQL
-- Excel
-- dashboardy
+## Kvantitativní data
+Číselná data.
 
-Bez pochopení business problému.
-
----
-
-## ❌ Slepá důvěra v data
-Data mohou obsahovat:
-- chyby,
-- duplicity,
-- NULL hodnoty,
-- nekonzistence.
+Příklady:
+- revenue
+- quantity
+- age
 
 ---
 
-## ❌ Špatná interpretace
-Korelace ≠ příčina.
+## Kvalitativní data
+Popisná data.
+
+Příklady:
+- country
+- category
+- product type
+
+---
+
+# Hlavní cíle datové analýzy
+
+- podpora rozhodování
+- hledání trendů
+- optimalizace procesů
+- identifikace problémů
+- predikce budoucího vývoje
 
 ---
 
@@ -248,20 +99,6 @@ Korelace ≠ příčina.
 
 ---
 
-# AI v datové analytice
-
-AI pomáhá:
-- s EDA,
-- cleaningem,
-- SQL,
-- reportingem,
-- automatizací workflow.
-
-Ale:
-> AI nenahrazuje analytické myšlení.
-
----
-
 # Důležitý mindset
 
 Datová analytika není jen o technologiích.
@@ -269,5 +106,186 @@ Datová analytika není jen o technologiích.
 Je o:
 - logice,
 - interpretaci,
-- business rozhodování,
+- práci s daty,
 - schopnosti najít příběh v datech.
+
+---
+
+# Hlavní takeaway
+
+> Data sama o sobě nemají hodnotu.  
+> Hodnotu vytváří správné rozhodnutí založené na datech.
+
+---
+
+# Lekce 2 — Role dat v rozhodování
+
+---
+
+# Data-Driven Decision Making (DDDM)
+
+Datově podložené rozhodování znamená:
+- rozhodovat na základě dat,
+- používat fakta místo dojmů,
+- opírat se o analýzu místo intuice.
+
+---
+
+# Data vs intuice
+
+Intuice může být užitečná, ale:
+- bývá subjektivní,
+- může být zkreslená,
+- často ignoruje souvislosti.
+
+Data pomáhají:
+- potvrdit hypotézy,
+- odhalit trendy,
+- snížit riziko špatných rozhodnutí.
+
+---
+
+# Přínosy práce s daty
+
+## Objektivita
+Data pomáhají odstranit subjektivní pohled.
+
+---
+
+## Přesnější rozhodování
+Rozhodnutí jsou podložena fakty.
+
+---
+
+## Odhalování trendů
+Data ukazují:
+- vzorce,
+- sezónnost,
+- změny chování zákazníků.
+
+---
+
+## Optimalizace procesů
+Pomocí dat lze:
+- snížit náklady,
+- zvýšit efektivitu,
+- zlepšit výkon firmy.
+
+---
+
+# Příklady využití dat
+
+## Marketing
+- cílení reklam,
+- analýza kampaní,
+- customer behavior.
+
+---
+
+## E-commerce
+- doporučování produktů,
+- revenue reporting,
+- analýza objednávek.
+
+---
+
+## Logistika
+- optimalizace tras,
+- snížení nákladů,
+- plánování kapacit.
+
+---
+
+## Finance
+- řízení nákladů,
+- forecasting,
+- plánování rozpočtu.
+
+---
+
+# Proces datově podloženého rozhodování
+
+## 1. Definice cíle
+Co chceme zjistit nebo zlepšit?
+
+---
+
+## 2. Sběr dat
+Shromáždění relevantních dat.
+
+---
+
+## 3. Analýza dat
+Hledání:
+- trendů,
+- vzorců,
+- problémů,
+- anomálií.
+
+---
+
+## 4. Interpretace výsledků
+Převod analýzy do business závěrů.
+
+---
+
+## 5. Rozhodnutí a akce
+Implementace změn na základě dat.
+
+---
+
+# Kvalita dat
+
+Špatná data vedou ke špatným rozhodnutím.
+
+Typické problémy:
+- duplicity,
+- chybějící hodnoty,
+- zastaralá data,
+- nekonzistentní formáty.
+
+---
+
+# Etika a GDPR
+
+Při práci s daty je důležité:
+- chránit osobní údaje,
+- dodržovat GDPR,
+- pracovat s daty transparentně,
+- zabránit zneužití dat.
+
+---
+
+# AI a automatizace
+
+Moderní analytika využívá:
+- AI,
+- machine learning,
+- automatizaci procesů,
+- prediktivní modely.
+
+AI pomáhá:
+- hledat trendy,
+- automatizovat reporting,
+- zrychlovat analýzu dat.
+
+---
+
+# Business mindset analytika
+
+Správná otázka není jen:
+
+> Kolik se prodalo?
+
+Ale hlavně:
+
+> Proč se to stalo?  
+> Co to znamená pro business?  
+> Jaké rozhodnutí z toho plyne?
+
+---
+
+# Hlavní takeaway
+
+> Nejlepší rozhodnutí nejsou založená na pocitech.  
+> Jsou založená na kvalitních datech a správné interpretaci.
