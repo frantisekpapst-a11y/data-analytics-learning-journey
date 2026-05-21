@@ -2,241 +2,174 @@
 
 ---
 
-# 📘 Mini Test 1 — Základní pojmy
+# 📘 Základní pojmy
 
-## 1. Co je hlavním cílem datové analýzy?
+## 1. Co je datová analýza?
+
+### Odpověď:
+Proces zkoumání, čištění a interpretace dat za účelem získání užitečných informací pro rozhodování.
+
+---
+
+## 2. Jaký je hlavní cíl datové analýzy?
 
 ### Odpověď:
 Získat užitečné informace, trendy a insighty pro lepší rozhodování.
 
 ---
 
-## 2. Jaký je rozdíl mezi daty a insightem?
+## 3. Co jsou data?
 
 ### Odpověď:
-- Data = surová fakta
-- Insight = interpretovaný závěr využitelný pro business rozhodnutí
+Surové informace, například:
+- čísla,
+- text,
+- obrázky,
+- logy.
+
+---
+
+## 4. Co je proměnná?
+
+### Odpověď:
+Charakteristika datového bodu, která může nabývat různých hodnot.
 
 Příklad:
-- Data: Prodeje klesly o 20 %
-- Insight: Pokles způsobila nefunkční mobilní aplikace
+- věk,
+- revenue,
+- country.
 
 ---
 
-## 3. Co znamená DDDM?
-
-### Odpověď:
-Data-Driven Decision Making.
-
-Rozhodování založené na:
-- datech,
-- analýze,
-- faktech,
-- důkazech.
-
----
-
-## 4. Co je populace?
+## 5. Co je populace?
 
 ### Odpověď:
 Celá skupina objektů, kterou chceme analyzovat.
 
-Příklad:
-- všichni zákazníci firmy
-
 ---
 
-## 5. Co je vzorek?
+## 6. Co je vzorek?
 
 ### Odpověď:
 Část populace použitá pro analýzu.
 
 ---
 
-## 6. Proč musí být vzorek reprezentativní?
+## 7. Proč je důležité, aby byl vzorek reprezentativní?
 
 ### Odpověď:
 Aby výsledky analýzy odpovídaly celé populaci.
 
 ---
 
-## 7. Jaký je rozdíl mezi kvantitativními a kvalitativními daty?
+# 📘 Typy dat
+
+## 8. Co jsou kvantitativní data?
 
 ### Odpověď:
+Číselná data.
 
-## Kvantitativní data
-Číselná data:
-- revenue
-- age
-- quantity
-
-## Kvalitativní data
-Popisná data:
-- country
-- category
-- gender
+Příklad:
+- revenue,
+- věk,
+- počet objednávek.
 
 ---
 
-# 📘 Mini Test 2 — Business mindset
-
-## 1. Proč firmy používají datovou analýzu?
+## 9. Co jsou kvalitativní data?
 
 ### Odpověď:
-Protože umožňuje:
+Popisná data.
+
+Příklad:
+- země,
+- kategorie produktu,
+- pohlaví.
+
+---
+
+# 📘 Business & analytický mindset
+
+## 10. Co znamená Data-Driven Decision Making (DDDM)?
+
+### Odpověď:
+Rozhodování založené na datech a faktech místo intuice.
+
+---
+
+## 11. Proč firmy používají datovou analýzu?
+
+### Odpověď:
+Pro:
 - lepší rozhodování,
+- pochopení zákazníků,
 - optimalizaci procesů,
-- vyšší zisky,
 - snížení nákladů,
-- lepší pochopení zákazníků.
+- růst firmy.
 
 ---
 
-## 2. Proč nestačí rozhodování pouze podle intuice?
+## 12. Jaká je role datového analytika?
 
 ### Odpověď:
-Intuice může být:
-- subjektivní,
-- nepřesná,
-- zkreslená.
-
-Data poskytují objektivnější pohled.
+Analyzovat data, hledat souvislosti a pomáhat businessu dělat lepší rozhodnutí.
 
 ---
 
-## 3. Co je důležitější:
-- hodně dat,
-- nebo správná interpretace dat?
+## 13. Jaký je rozdíl mezi daty a insightem?
 
 ### Odpověď:
-Správná interpretace dat.
+- Data = surová fakta
+- Insight = užitečný závěr získaný z dat
 
 ---
 
-## 4. Jaký je hlavní úkol datového analytika?
+## 14. Proč firmy nechtějí rozhodovat pouze intuitivně?
 
 ### Odpověď:
-Pomáhat businessu dělat lepší rozhodnutí na základě dat.
+Protože intuice může být nepřesná nebo subjektivní. Data poskytují objektivnější pohled.
 
 ---
 
-## 5. Co je typická chyba junior analytiků?
+## 15. Jaká je typická chyba junior analytiků?
 
 ### Odpověď:
-Soustředění pouze na nástroje místo business problému.
+Soustředění pouze na nástroje místo pochopení business problému.
 
 ---
 
-# 📘 Mini Test 3 — Praktické scénáře
+# 📘 Praktické využití datové analýzy
 
-## Scénář 1
-
-E-shop zjistil:
-- pokles objednávek o 30 %.
-
-Jaký by měl být první krok analytika?
+## 16. Ve kterých oblastech se používá datová analýza?
 
 ### Odpověď:
-Ověřit data a hledat možné příčiny:
+Například:
 - marketing,
-- technický problém,
-- sezónnost,
-- změny cen,
-- dostupnost produktů.
+- sales,
+- finance,
+- logistika,
+- customer analytics.
 
 ---
 
-## Scénář 2
-
-Firma analyzuje pouze zákazníky z Prahy a chce závěry pro celé Česko.
-
-Jaký je problém?
+## 17. Jak datová analýza pomáhá firmám získat konkurenční výhodu?
 
 ### Odpověď:
-Vzorek není reprezentativní.
+Pomáhá lépe chápat zákazníky, trendy a firemní procesy.
 
 ---
 
-## Scénář 3
-
-Analytik vytvořil dashboard s 50 grafy.
-
-Jaký může být problém?
+## 18. Jak může datová analýza pomoci snížit náklady?
 
 ### Odpověď:
-Dashboard je nepřehledný a management z něj nezíská rychlé insighty.
+Optimalizací procesů a efektivnějším rozhodováním.
 
 ---
 
-## Scénář 4
+# 📌 Hlavní takeaway
 
-Analytik zjistil vysokou korelaci mezi dvěma proměnnými.
-
-Může automaticky tvrdit, že jedna způsobuje druhou?
+## 19. Jaká je nejdůležitější myšlenka první lekce?
 
 ### Odpověď:
-Ne.
-
-Korelace ≠ příčina.
-
----
-
-# 📘 Mini Test 4 — Statistiky základy
-
-## 1. Co je průměr?
-
-### Odpověď:
-Součet hodnot dělený počtem hodnot.
-
----
-
-## 2. Co je medián?
-
-### Odpověď:
-Prostřední hodnota v seřazených datech.
-
----
-
-## 3. Kdy může být medián lepší než průměr?
-
-### Odpověď:
-Když dataset obsahuje extrémní hodnoty (outliers).
-
----
-
-## 4. Co měří rozptyl?
-
-### Odpověď:
-Variabilitu dat.
-
----
-
-## 5. Co ukazuje směrodatná odchylka?
-
-### Odpověď:
-Jak moc se hodnoty odchylují od průměru.
-
----
-
-# 📘 Bonus — Analytické myšlení
-
-## Otázka:
-Co je důležitější:
-- perfektní SQL query,
-- nebo správná business otázka?
-
-### Odpověď:
-Správná business otázka.
-
-Špatně položená otázka vede ke špatné analýze i s perfektním SQL.
-
----
-
-# 📌 Důležitý takeaway
-
-Datový analytik:
-- nehledá jen čísla,
-- hledá souvislosti,
-- interpretuje data,
-- podporuje rozhodování,
-- přemýšlí businessově.
+Data sama o sobě nemají hodnotu.
+Hodnotu vytváří až správné rozhodnutí založené na datech.
