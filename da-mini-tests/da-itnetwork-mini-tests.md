@@ -2,174 +2,140 @@
 
 ---
 
-# 📘 Základní pojmy
-
-## 1. Co je datová analýza?
-
-### Odpověď:
-Proces zkoumání, čištění a interpretace dat za účelem získání užitečných informací pro rozhodování.
+# 🧪 Mini Tests — Lekce 1 a 2
 
 ---
 
-## 2. Jaký je hlavní cíl datové analýzy?
+# Lekce 1 — Úvod do datové analýzy
 
-### Odpověď:
-Získat užitečné informace, trendy a insighty pro lepší rozhodování.
+## Otázky a odpovědi
 
----
-
-## 3. Co jsou data?
-
-### Odpověď:
-Surové informace, například:
-- čísla,
-- text,
-- obrázky,
-- logy.
+### 1. Co je hlavním cílem datové analýzy?
+**Odpověď:**  
+Získávání užitečných insightů a podpora rozhodování pomocí dat.
 
 ---
 
-## 4. Co je proměnná?
-
-### Odpověď:
-Charakteristika datového bodu, která může nabývat různých hodnot.
-
-Příklad:
-- věk,
-- revenue,
-- country.
+### 2. Jaký je rozdíl mezi daty a insightem?
+**Odpověď:**  
+Data jsou surová fakta, insight je užitečný závěr pro business.
 
 ---
 
-## 5. Co je populace?
-
-### Odpověď:
-Celá skupina objektů, kterou chceme analyzovat.
-
----
-
-## 6. Co je vzorek?
-
-### Odpověď:
-Část populace použitá pro analýzu.
+### 3. Co dělá datový analytik?
+**Odpověď:**  
+Analyzuje data, hledá trendy, interpretuje výsledky a podporuje business rozhodování.
 
 ---
 
-## 7. Proč je důležité, aby byl vzorek reprezentativní?
-
-### Odpověď:
-Aby výsledky analýzy odpovídaly celé populaci.
-
----
-
-# 📘 Typy dat
-
-## 8. Co jsou kvantitativní data?
-
-### Odpověď:
-Číselná data.
-
-Příklad:
-- revenue,
-- věk,
-- počet objednávek.
+### 4. Co jsou kvantitativní data?
+**Odpověď:**  
+Číselná data, například revenue, quantity nebo age.
 
 ---
 
-## 9. Co jsou kvalitativní data?
-
-### Odpověď:
-Popisná data.
-
-Příklad:
-- země,
-- kategorie produktu,
-- pohlaví.
+### 5. Co jsou kvalitativní data?
+**Odpověď:**  
+Popisná data, například country, category nebo product type.
 
 ---
 
-# 📘 Business & analytický mindset
-
-## 10. Co znamená Data-Driven Decision Making (DDDM)?
-
-### Odpověď:
-Rozhodování založené na datech a faktech místo intuice.
+### 6. Vyjmenuj alespoň 3 nástroje používané v datové analytice.
+**Odpověď:**  
+Například Excel, SQL, Power BI, Python nebo Power Query.
 
 ---
 
-## 11. Proč firmy používají datovou analýzu?
-
-### Odpověď:
-Pro:
-- lepší rozhodování,
-- pochopení zákazníků,
-- optimalizaci procesů,
-- snížení nákladů,
-- růst firmy.
+### 7. Proč nestačí pouze sbírat data?
+**Odpověď:**  
+Protože skutečnou hodnotu přináší až interpretace dat a správné rozhodnutí.
 
 ---
 
-## 12. Jaká je role datového analytika?
-
-### Odpověď:
-Analyzovat data, hledat souvislosti a pomáhat businessu dělat lepší rozhodnutí.
-
----
-
-## 13. Jaký je rozdíl mezi daty a insightem?
-
-### Odpověď:
-- Data = surová fakta
-- Insight = užitečný závěr získaný z dat
+### 8. Co znamená pojem insight?
+**Odpověď:**  
+Užitečný závěr nebo poznatek získaný z analýzy dat.
 
 ---
 
-## 14. Proč firmy nechtějí rozhodovat pouze intuitivně?
-
-### Odpověď:
-Protože intuice může být nepřesná nebo subjektivní. Data poskytují objektivnější pohled.
-
----
-
-## 15. Jaká je typická chyba junior analytiků?
-
-### Odpověď:
-Soustředění pouze na nástroje místo pochopení business problému.
+### 9. Jaký mindset by měl mít datový analytik?
+**Odpověď:**  
+Měl by přemýšlet logicky, chápat business souvislosti a hledat příčiny problémů.
 
 ---
 
-# 📘 Praktické využití datové analýzy
-
-## 16. Ve kterých oblastech se používá datová analýza?
-
-### Odpověď:
-Například:
-- marketing,
-- sales,
-- finance,
-- logistika,
-- customer analytics.
+### 10. Jaký je rozdíl mezi informací a daty?
+**Odpověď:**  
+Informace jsou zpracovaná a interpretovaná data.
 
 ---
 
-## 17. Jak datová analýza pomáhá firmám získat konkurenční výhodu?
+# Lekce 2 — Role dat v rozhodování
 
-### Odpověď:
-Pomáhá lépe chápat zákazníky, trendy a firemní procesy.
+## Otázky a odpovědi
 
----
-
-## 18. Jak může datová analýza pomoci snížit náklady?
-
-### Odpověď:
-Optimalizací procesů a efektivnějším rozhodováním.
+### 1. Co znamená DDDM?
+**Odpověď:**  
+Data-Driven Decision-Making, tedy rozhodování založené na datech.
 
 ---
 
-# 📌 Hlavní takeaway
+### 2. Proč jsou data důležitá při rozhodování?
+**Odpověď:**  
+Pomáhají dělat objektivnější a přesnější rozhodnutí.
 
-## 19. Jaká je nejdůležitější myšlenka první lekce?
+---
 
-### Odpověď:
-Data sama o sobě nemají hodnotu.
-Hodnotu vytváří až správné rozhodnutí založené na datech.
+### 3. Jak data pomáhají firmám?
+**Odpověď:**  
+Pomáhají optimalizovat procesy, snižovat náklady a odhalovat trendy.
+
+---
+
+### 4. Jaký je rozdíl mezi rozhodováním podle intuice a podle dat?
+**Odpověď:**  
+Intuice je subjektivní, zatímco data poskytují objektivní fakta.
+
+---
+
+### 5. Jaké jsou základní kroky datově podloženého rozhodování?
+**Odpověď:**  
+Definice cíle, sběr dat, analýza dat, interpretace výsledků a rozhodnutí.
+
+---
+
+### 6. Co může způsobit nekvalitní dataset?
+**Odpověď:**  
+Špatné závěry a chybná rozhodnutí.
+
+---
+
+### 7. Uveď příklad využití dat v marketingu.
+**Odpověď:**  
+Analýza reklamních kampaní nebo cílení reklamy na zákazníky.
+
+---
+
+### 8. Co znamená optimalizace procesů pomocí dat?
+**Odpověď:**  
+Zlepšování efektivity a snižování nákladů na základě analýzy dat.
+
+---
+
+### 9. Proč je důležité dodržovat GDPR?
+**Odpověď:**  
+Kvůli ochraně osobních údajů a legální práci s daty.
+
+---
+
+### 10. Jak AI pomáhá v datové analytice?
+**Odpověď:**  
+Pomáhá automatizovat analýzu dat, reporting a hledání trendů.
+
+---
+
+
+
+### 10. Jak AI pomáhá v datové analytice?
+**Odpověď:**  
+Pomáhá automatizovat analýzu dat, reporting a hledání trendů.
