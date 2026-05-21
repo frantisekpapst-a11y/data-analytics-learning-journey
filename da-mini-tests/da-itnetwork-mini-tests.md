@@ -2,10 +2,6 @@
 
 ---
 
-# 🧪 Mini Tests — Lekce 1 a 2
-
----
-
 # Lekce 1 — Úvod do datové analýzy
 
 ## Otázky a odpovědi
