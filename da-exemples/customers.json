@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "jmeno": "Jan Novák",
+        "mesto": "Praha",
+        "vek": 29,
+        "email": "jan.novak@email.cz",
+        "premium": false,
+        "objednavky": [
+            "Notebook",
+            "Myš"
+        ]
+    }
+]
