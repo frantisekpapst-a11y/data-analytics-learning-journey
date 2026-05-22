@@ -3054,3 +3054,169 @@ Musíme chápat:
 - charakter dat.
 
 Grafická analýza často odhalí více než samotná čísla.
+
+---
+
+# Data Analysis Basics – Cheat Sheet (Lekce 13)
+
+## Typy analytických přístupů
+
+| Typ analýzy | Otázka |
+|---|---|
+| Deskriptivní analýza | Co se stalo? |
+| Explorativní analýza | Jaké jsou vztahy a vzory? |
+| Diagnostická analýza | Proč se to stalo? |
+| Prediktivní analýza | Co se pravděpodobně stane? |
+| Preskriptivní analýza | Co bychom měli udělat? |
+
+---
+
+## Deskriptivní analýza
+
+Slouží k základnímu popisu dat.
+
+### Nejčastější ukazatele
+
+| Ukazatel | Význam |
+|---|---|
+| Průměr | Průměrná hodnota |
+| Medián | Prostřední hodnota |
+| Rozptyl | Variabilita dat |
+| Směrodatná odchylka | Typická odchylka od průměru |
+| Kvartily | Rozdělení dat na čtvrtiny |
+
+### Důležité interpretace
+
+Pokud:
+
+```text
+průměr >> medián
+```
+
+pak:
+
+- data obsahují extrémně vysoké hodnoty,
+- rozložení je nerovnoměrné,
+- průměr může být zkreslený outliery.
+
+---
+
+## Korelace
+
+Korelace měří sílu vztahu mezi dvěma proměnnými.
+
+| Hodnota | Význam |
+|---|---|
+| +1 | Perfektní pozitivní vztah |
+| 0 | Žádná souvislost |
+| -1 | Perfektní negativní vztah |
+
+### Interpretace korelace
+
+| Korelace | Interpretace |
+|---|---|
+| 0,7 až 1 | Silná pozitivní |
+| 0,3 až 0,7 | Mírná pozitivní |
+| 0 až 0,3 | Slabá |
+| kolem 0 | Prakticky žádná |
+| -0,3 až -0,7 | Mírná negativní |
+| -0,7 až -1 | Silná negativní |
+
+### Korelace ≠ kauzalita
+
+To, že dvě věci korelují, neznamená, že jedna způsobuje druhou.
+
+---
+
+## Funkce CORREL
+
+```excel
+=CORREL(oblast1;oblast2)
+```
+
+Příklad:
+
+```excel
+=CORREL(Data!E2:E101;Data!G2:G101)
+```
+
+---
+
+## Diagnostická analýza
+
+Ověřuje, zda rozdíl mezi skupinami není náhodný.
+
+Používá:
+- t-test,
+- ANOVA,
+- statistické testy.
+
+---
+
+## T-test
+
+```excel
+=T.TEST(oblast1;oblast2;2;2)
+```
+
+### Parametry
+
+| Parametr | Význam |
+|---|---|
+| první 2 | oboustranný test |
+| druhá 2 | předpoklad stejného rozptylu |
+
+---
+
+## p-hodnota
+
+Určuje pravděpodobnost, že rozdíl vznikl náhodou.
+
+| p-hodnota | Význam |
+|---|---|
+| < 0,05 | Statisticky významné |
+| > 0,05 | Rozdíl může být náhodný |
+
+---
+
+## Správné analytické formulace
+
+Nevhodné:
+- „Kampaň určitě fungovala.“
+- „Kampaň nefungovala.“
+
+Vhodné:
+- „Data neprokazují statisticky významný vliv kampaně.“
+- „Na základě dostupných dat nebyl potvrzen významný efekt kampaně.“
+
+---
+
+## Typický analytický postup
+
+1. Popis dat
+   - průměr,
+   - medián,
+   - kvartily,
+   - extrémy.
+
+2. Hledání vztahů
+   - korelace,
+   - grafy,
+   - kontingenční tabulky.
+
+3. Ověření hypotéz
+   - t-test,
+   - statistická významnost,
+   - interpretace výsledků.
+
+---
+
+## Důležité pojmy
+
+| Pojem | Význam |
+|---|---|
+| Outlier | Extrémní hodnota |
+| Korelace | Síla vztahu mezi proměnnými |
+| Kauzalita | Příčinný vztah |
+| p-hodnota | Pravděpodobnost náhodného výsledku |
+| Statistická významnost | Rozdíl pravděpodobně není náhodný |
