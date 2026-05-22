@@ -475,3 +475,258 @@ Analytik musí:
 > Strukturovaná data poskytují přesnost.  
 > Nestrukturovaná data poskytují kontext.  
 > Skutečná hodnota vzniká jejich kombinací.
+
+---
+
+# Lekce 4 — Datový formát CSV
+
+---
+
+# Datové formáty
+
+Datové formáty slouží:
+- k ukládání dat,
+- přenosu dat,
+- sdílení dat mezi systémy,
+- analýze dat.
+
+---
+
+# Nejpoužívanější datové formáty
+
+- CSV
+- JSON
+- XML
+- SQL
+
+---
+
+# CSV (Comma-Separated Values)
+
+CSV je jednoduchý textový formát pro ukládání tabulkových dat.
+
+Data jsou:
+- organizována do řádků,
+- rozdělena do sloupců,
+- oddělena čárkou nebo středníkem.
+
+---
+
+# Struktura CSV
+
+Typická struktura:
+
+```csv
+Jmeno;Prijmeni;Mesto
+Jan;Novak;Praha
+Jana;Svobodova;Brno
+```
+
+---
+
+# Hlavička CSV
+
+První řádek obvykle obsahuje:
+- názvy sloupců,
+- popis dat.
+
+Například:
+```text
+Brand
+Model
+TopSpeed
+Range
+Efficiency
+```
+
+---
+
+# Výhody CSV
+
+- jednoduchost
+- široká kompatibilita
+- malá velikost souborů
+- snadný import/export
+- podpora téměř ve všech analytických nástrojích
+
+---
+
+# Nevýhody CSV
+
+- nepodporuje hierarchická data
+- nepodporuje binární data
+- omezené datové typy
+- problémy s oddělovači
+- omezená validace dat
+
+---
+
+# Oddělovače v CSV
+
+Nejčastější:
+- čárka `,`
+- středník `;`
+
+---
+
+# České prostředí vs anglické prostředí
+
+V českém prostředí se často používá:
+```text
+;
+```
+
+Důvod:
+- desetinná čísla používají čárku.
+
+Například:
+```text
+12,5
+```
+
+---
+
+# Typické problémy CSV
+
+## Špatný oddělovač
+Všechna data skončí v jednom sloupci.
+
+---
+
+## Špatné kódování
+Chybně zobrazené znaky:
+```text
+ěščřžý
+```
+
+---
+
+## Numerické hodnoty jako text
+Například:
+```text
+250 km/h
+```
+
+místo:
+```text
+250
+```
+
+---
+
+# Clean vs Norm dataset
+
+## Clean
+Obsahuje:
+- čisté numerické hodnoty,
+- vhodné pro analýzu.
+
+---
+
+## Norm
+Obsahuje:
+- jednotky,
+- text uvnitř numerických hodnot.
+
+---
+
+# Proč jsou čistá data důležitá
+
+Analytické nástroje potřebují:
+- správné datové typy,
+- numerické sloupce,
+- konzistentní formát.
+
+---
+
+# Import CSV do Excelu
+
+Možnosti:
+- otevření přímo,
+- import přes:
+```text
+Data → Načíst data → Z textu/CSV
+```
+
+---
+
+# Power Query při importu
+
+Power Query umožňuje:
+- transformaci dat,
+- čištění dat,
+- změnu datových typů,
+- práci s locale settings,
+- ETL workflow.
+
+---
+
+# UTF-8 a kódování
+
+UTF-8 je standardní mezinárodní kódování textu.
+
+Důležité pro:
+- správné zobrazení znaků,
+- kompatibilitu mezi systémy.
+
+---
+
+# CSV vs JSON
+
+## CSV
+- jednoduchý tabulkový formát
+- plochá data
+
+---
+
+## JSON
+- podporuje hierarchii
+- podporuje nested objekty
+- vhodný pro API a moderní aplikace
+
+---
+
+# Praktické využití CSV
+
+- export z databází
+- reporting
+- business analytics
+- import do Power BI
+- datové pipeline
+- práce v Excelu
+- práce v Pythonu
+
+---
+
+# Typické chyby junior analytiků
+
+- špatný oddělovač
+- ignorování datových typů
+- práce s textem místo numerických hodnot
+- nevalidní encoding
+- nekontrolování kvality importu
+
+---
+
+# Analytický mindset
+
+Při práci s daty nestačí:
+```text
+soubor otevřít
+```
+
+Analytik musí kontrolovat:
+- datové typy,
+- oddělovače,
+- encoding,
+- kvalitu dat,
+- konzistenci dat.
+
+---
+
+# Hlavní takeaway
+
+> CSV je jednoduchý a univerzální formát pro přenos a analýzu tabulkových dat.
+
+A zároveň:
+> kvalita importu dat zásadně ovlivňuje kvalitu celé analýzy.
