@@ -913,3 +913,280 @@ CSV je jednoduchý tabulkový formát.
 JSON podporuje hierarchii a moderní datové struktury.
 JSON je klíčový formát pro API, Python a Power BI.
 Čitelnost a správné formátování dat jsou velmi důležité.
+
+---
+
+# 📄 Datové formáty XML a SQL — Cheatsheet
+
+---
+
+# XML (Extensible Markup Language)
+
+XML je:
+- textový formát,
+- značkovací jazyk,
+- formát pro ukládání a přenos strukturovaných dat.
+
+Používá:
+- tagy,
+- atributy,
+- hierarchickou strukturu.
+
+---
+
+# Charakteristika XML
+
+XML:
+- je velmi čitelné,
+- podporuje hierarchii,
+- používá otevírací a zavírací tagy,
+- často se používá v enterprise systémech.
+
+---
+
+# Příklad XML
+
+```xml
+<osoba>
+    <jmeno>Jan</jmeno>
+    <mesto>Praha</mesto>
+</osoba>
+```
+
+---
+
+# Tagy v XML
+
+Tag:
+- označuje element,
+- popisuje význam dat.
+
+## Otevírací tag
+
+```xml
+<jmeno>
+```
+
+## Zavírací tag
+
+```xml
+</jmeno>
+```
+
+---
+
+# Kořenový element
+
+Každý XML dokument má:
+- jeden hlavní (root) element.
+
+Příklad:
+
+```xml
+<osoby>
+```
+
+Uvnitř jsou další elementy.
+
+---
+
+# Atributy XML
+
+Atribut:
+- vlastnost elementu.
+
+Příklad:
+
+```xml
+<mesto hlavni="ano">
+```
+
+`hlavni="ano"` je atribut.
+
+---
+
+# Hierarchie XML
+
+XML umožňuje:
+- zanořování elementů,
+- stromovou strukturu dat.
+
+To je hlavní rozdíl oproti CSV.
+
+---
+
+# XML entity
+
+Některé znaky nelze zapisovat přímo.
+
+Používají se entity:
+
+| Znak | Entita |
+|---|---|
+| < | `&lt;` |
+| > | `&gt;` |
+| & | `&amp;` |
+| " | `&quot;` |
+
+---
+
+# Výhody XML
+
+- vysoká čitelnost,
+- podpora složitých struktur,
+- standardizace,
+- široké použití v enterprise systémech.
+
+---
+
+# Nevýhody XML
+
+- velké soubory,
+- vyšší datová náročnost,
+- pomalejší zpracování,
+- „ukecanost“.
+
+---
+
+# JSON vs XML
+
+| JSON | XML |
+|---|---|
+| kratší | ukecanější |
+| modernější | enterprise standard |
+| API | podnikové systémy |
+| key-value | tagy |
+
+---
+
+# SQL (Structured Query Language)
+
+SQL je:
+- jazyk pro práci s databázemi,
+- standard pro práci s relačními databázemi.
+
+Používá se pro:
+- ukládání dat,
+- filtrování dat,
+- analýzu dat,
+- úpravu dat.
+
+---
+
+# Databázová tabulka
+
+Tabulka:
+- obsahuje řádky a sloupce,
+- ukládá strukturovaná data.
+
+Příklad:
+
+| id | jmeno | mesto |
+|---|---|---|
+| 1 | Jan | Praha |
+
+---
+
+# SQL příkaz INSERT INTO
+
+Používá se pro:
+- vložení dat do tabulky.
+
+Příklad:
+
+```sql
+INSERT INTO osoby (jmeno, mesto)
+VALUES ('Jan', 'Praha');
+```
+
+---
+
+# SQL datové typy
+
+## VARCHAR
+
+Textový datový typ.
+
+Příklad:
+
+```sql
+VARCHAR(50)
+```
+
+= text maximálně 50 znaků.
+
+---
+
+## INTEGER
+
+Celé číslo.
+
+Příklad:
+
+```sql
+INTEGER
+```
+
+---
+
+# CREATE TABLE
+
+Vytvoření databázové tabulky.
+
+Příklad:
+
+```sql
+CREATE TABLE osoby (
+    id INTEGER,
+    jmeno VARCHAR(50)
+);
+```
+
+---
+
+# CSV vs SQL databáze
+
+## CSV
+- obyčejný soubor,
+- statická data,
+- bez vztahů.
+
+## SQL databáze
+- aktivní databázový systém,
+- umožňuje dotazy,
+- podporuje vztahy mezi tabulkami,
+- vhodná pro velké objemy dat.
+
+---
+
+# Využití XML
+
+- enterprise systémy,
+- výměna dat,
+- konfigurace aplikací,
+- dokumentové systémy.
+
+---
+
+# Využití SQL
+
+- datová analytika,
+- business intelligence,
+- reporting,
+- databázové aplikace,
+- backend systémy.
+
+---
+
+# Důležitý mindset
+
+Neexistuje jeden nejlepší datový formát.
+
+Každý formát je vhodný pro jiný typ práce:
+
+| Formát | Použití |
+|---|---|
+| CSV | jednoduchá tabulková data |
+| JSON | API a aplikace |
+| XML | enterprise systémy |
+| SQL | databáze |
