@@ -1516,3 +1516,349 @@ Databáze umožňují:
 - efektivně je analyzovat.
 
 Pro datového analytika jsou relační databáze a SQL jeden ze základních pilířů.
+
+---
+
+# Lekce 8 — Data Lifecycle a metody sběru dat
+
+---
+
+# Data Lifecycle
+
+Data Lifecycle představuje životní cyklus dat od jejich vzniku až po archivaci nebo odstranění.
+
+Data během svého životního cyklu:
+- vznikají,
+- sbírají se,
+- čistí,
+- analyzují,
+- prezentují,
+- ukládají,
+- archivují nebo mažou.
+
+---
+
+# Hlavní fáze Data Lifecycle
+
+## 1. Stanovení cílů
+
+Určujeme:
+- co chceme zjistit,
+- jaké metriky budeme sledovat,
+- jaký business problém řešíme.
+
+Příklady:
+- predikce poptávky,
+- analýza zákaznického chování,
+- detekce anomálií.
+
+---
+
+## 2. Sběr dat
+
+Získáváme data z různých zdrojů.
+
+Možné zdroje:
+- databáze,
+- Excel soubory,
+- API,
+- web scraping,
+- IoT senzory,
+- formuláře,
+- analytické nástroje.
+
+---
+
+## 3. Čištění a úprava dat
+
+Cílem je zajistit:
+- konzistenci,
+- správnost,
+- použitelnost dat.
+
+Typické problémy:
+- duplicity,
+- NULL hodnoty,
+- chybné formáty,
+- nekonzistentní názvy.
+
+---
+
+# Data cleaning
+
+Data cleaning je proces:
+- opravování,
+- čištění,
+- standardizace dat.
+
+Bez kvalitních dat vznikají špatné analýzy.
+
+---
+
+## 4. Analýza a interpretace
+
+Používáme:
+- statistiku,
+- SQL,
+- Excel,
+- Power BI,
+- Python,
+- machine learning.
+
+Cílem je získat:
+- insighty,
+- trendy,
+- business doporučení.
+
+---
+
+## 5. Prezentace výsledků
+
+Výsledky prezentujeme například pomocí:
+- dashboardů,
+- reportů,
+- grafů,
+- prezentací.
+
+Důležitá je:
+- srozumitelnost,
+- relevance,
+- business dopad.
+
+---
+
+## 6. Archivace nebo odstranění dat
+
+Data:
+- ukládáme pro budoucí využití,
+- nebo bezpečně mažeme.
+
+Důvody:
+- GDPR,
+- bezpečnost,
+- přehlednost,
+- optimalizace systémů.
+
+---
+
+# Význam plánování sběru dat
+
+Před sběrem dat je důležité:
+- určit cíle,
+- definovat datové zdroje,
+- ověřit kvalitu dat,
+- zkontrolovat kompatibilitu systémů.
+
+Dobré plánování:
+- šetří čas,
+- snižuje chyby,
+- zjednodušuje analýzu.
+
+---
+
+# Tradiční metody sběru dat
+
+## Dotazníky
+
+Slouží ke sběru odpovědí od uživatelů nebo zákazníků.
+
+---
+
+## Rozhovory
+
+Detailnější získávání informací pomocí komunikace s respondenty.
+
+---
+
+## Pozorování
+
+Sledování chování lidí nebo procesů bez přímého zásahu.
+
+---
+
+# Automatizovaný sběr dat
+
+Moderní analytika často využívá automatizovaný sběr dat.
+
+Výhody:
+- rychlost,
+- méně lidských chyb,
+- velké objemy dat,
+- pravidelná aktualizace.
+
+---
+
+# Interní zdroje dat
+
+Data uvnitř firmy.
+
+Příklady:
+- CRM systémy,
+- ERP systémy,
+- databáze objednávek,
+- logy,
+- zákaznická data.
+
+---
+
+# Externí zdroje dat
+
+Data mimo organizaci.
+
+Příklady:
+- open data,
+- veřejné statistiky,
+- externí API,
+- komerční datasety,
+- data konkurence.
+
+---
+
+# API
+
+API (Application Programming Interface) je rozhraní umožňující komunikaci mezi systémy.
+
+Pomocí API lze:
+- automaticky získávat data,
+- odesílat data,
+- propojit aplikace.
+
+Příklady:
+- kurzovní lístky,
+- počasí,
+- sociální sítě,
+- e-shop systémy.
+
+---
+
+# Web scraping
+
+Web scraping je automatizovaný sběr dat z webových stránek.
+
+Použití:
+- ceny konkurence,
+- recenze produktů,
+- články,
+- katalogy produktů.
+
+---
+
+# Nástroje pro web scraping
+
+Například:
+- Beautiful Soup,
+- Selenium,
+- Scrapy.
+
+---
+
+# IoT
+
+IoT (Internet of Things) označuje síť chytrých zařízení a senzorů.
+
+Senzory mohou měřit:
+- teplotu,
+- tlak,
+- polohu,
+- vlhkost,
+- pohyb.
+
+Data jsou často přenášena v reálném čase.
+
+---
+
+# Výzvy IoT dat
+
+- velké objemy dat,
+- výpadky připojení,
+- potřeba real-time zpracování,
+- přesnost senzorů,
+- konfigurace zařízení.
+
+---
+
+# Kvalita dat
+
+Kvalitní data jsou:
+- přesná,
+- aktuální,
+- konzistentní,
+- relevantní.
+
+Špatná data vedou ke:
+- špatným analýzám,
+- chybným rozhodnutím,
+- zkresleným výsledkům.
+
+---
+
+# Kontrola externích dat
+
+Před použitím externích dat ověřujeme:
+- strukturu,
+- formát,
+- aktuálnost,
+- přesnost,
+- metodiku sběru,
+- licenční podmínky.
+
+---
+
+# GDPR
+
+GDPR chrání osobní údaje fyzických osob.
+
+Analytik musí řešit:
+- ochranu dat,
+- anonymizaci,
+- bezpečné ukládání,
+- správné používání dat,
+- zákonný souhlas.
+
+---
+
+# Etika práce s daty
+
+Důležité principy:
+- sbírat jen potřebná data,
+- chránit data před zneužitím,
+- pracovat transparentně,
+- minimalizovat rizika.
+
+---
+
+# Data governance mindset
+
+Analytik neřeší jen analýzu dat.
+
+Musí přemýšlet také o:
+- kvalitě dat,
+- bezpečnosti,
+- správě dat,
+- integritě dat,
+- legálním použití dat.
+
+---
+
+# Typické chyby junior analytiků
+
+- podcenění kvality dat,
+- sběr nepotřebných dat,
+- ignorování GDPR,
+- špatná dokumentace zdrojů,
+- neověřování externích datasetů,
+- slepá důvěra v automatizovaný sběr dat.
+
+---
+
+# Hlavní takeaway
+
+Datová analytika nezačíná dashboardem.
+
+Začíná:
+- správným sběrem dat,
+- kvalitními daty,
+- pochopením business cíle,
+- správou a bezpečností dat.
+
+Kvalita vstupních dat zásadně ovlivňuje kvalitu celé analýzy.
