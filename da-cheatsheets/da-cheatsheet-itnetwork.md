@@ -3220,3 +3220,294 @@ Vhodné:
 | Kauzalita | Příčinný vztah |
 | p-hodnota | Pravděpodobnost náhodného výsledku |
 | Statistická významnost | Rozdíl pravděpodobně není náhodný |
+
+---
+
+# Data Analysis Basics – Cheat Sheet (Lekce 14)
+
+## Preskriptivní analýza
+
+Preskriptivní analýza doporučuje nejlepší možné rozhodnutí na základě dat.
+
+Neřeší pouze:
+- co se stalo,
+- proč se to stalo,
+
+ale hlavně:
+- co bychom měli udělat.
+
+Použití:
+- optimalizace výroby,
+- plánování kapacit,
+- rozdělení rozpočtu,
+- pricing,
+- logistika.
+
+---
+
+## Základ optimalizační úlohy
+
+### Cíl (Objective Function)
+
+Například:
+
+```text
+maximalizovat zisk
+```
+
+nebo:
+
+```text
+minimalizovat náklady
+```
+
+---
+
+### Decision Variables
+
+Proměnné, které může Solver měnit.
+
+Například:
+- počet notebooků,
+- počet sluchátek.
+
+---
+
+### Constraints (Omezení)
+
+Podmínky, které nesmí být porušeny.
+
+Příklad:
+
+```text
+suroviny <= 100
+čas <= 90
+```
+
+---
+
+## Solver (Řešitel)
+
+Excel nástroj pro optimalizaci.
+
+Solver:
+- zkouší různé kombinace,
+- počítá výsledky,
+- hledá nejlepší řešení.
+
+Použití:
+- finance,
+- výroba,
+- supply chain,
+- plánování,
+- forecasting.
+
+---
+
+## Trade-off
+
+Není možné maximalizovat vše současně.
+
+Typický konflikt:
+- vyšší zisk,
+- vyšší náklady,
+- vyšší spotřeba času.
+
+Analytik hledá nejlepší kompromis.
+
+---
+
+## Data mining
+
+Data mining = hledání skrytých vzorů v datech.
+
+Použití:
+- segmentace zákazníků,
+- hledání anomálií,
+- doporučovací systémy,
+- marketing,
+- odhalování trendů.
+
+---
+
+## Kontingenční tabulky
+
+Kontingenční tabulka umožňuje:
+- agregaci dat,
+- seskupování,
+- porovnávání kategorií,
+- multidimenzionální pohled na data.
+
+Příklad:
+
+| Region | Produkt | Počet kusů |
+
+---
+
+## Podmíněné formátování
+
+Slouží ke zvýraznění:
+- extrémních hodnot,
+- anomálií,
+- trendů,
+- rozdílů mezi kategoriemi.
+
+---
+
+## Filtrování a řazení
+
+Použití:
+- top produkty,
+- nejvyšší tržby,
+- nejnižší prodeje,
+- hledání outlierů.
+
+---
+
+## Intervalové skupiny (Binning / Segmentation)
+
+Rozdělení dat do kategorií podle rozsahu hodnot.
+
+Příklad:
+
+| Hodnota | Kategorie |
+|---|---|
+| < 50 000 | Nízký |
+| < 200 000 | Střední |
+| < 500 000 | Vyšší |
+| jinak | Extrémní |
+
+Použití:
+- zákaznické segmenty,
+- risk scoring,
+- marketing,
+- reporting.
+
+---
+
+## Funkce IFS
+
+Modernější alternativa k více vnořeným KDYŽ.
+
+```excel
+=IFS(
+A2<50000;"Nízký";
+A2<200000;"Střední";
+A2<500000;"Vyšší";
+PRAVDA;"Extrémní"
+)
+```
+
+Výhody:
+- lepší čitelnost,
+- jednodušší údržba,
+- vhodné pro více podmínek.
+
+---
+
+## Kontingenční tabulka – typický setup
+
+Řádky:
+- Region
+
+Sloupce:
+- Produkt
+
+Hodnoty:
+- Součet Počet_kusů
+
+Použití:
+- analýza produktů podle regionů,
+- hledání trendů,
+- porovnání výkonu.
+
+---
+
+## Typické analytické insighty
+
+Příklady:
+- produkt se v regionu vůbec neprodává,
+- některý region výrazně převyšuje ostatní,
+- existují extrémní objednávky,
+- různé segmenty zákazníků se chovají odlišně.
+
+---
+
+## Analytické nástroje
+
+### Excel / Google Sheets
+
+Použití:
+- menší datasety,
+- rychlá analýza,
+- reporting,
+- kontingenční tabulky.
+
+---
+
+### SQL
+
+Použití:
+- práce s databázemi,
+- filtrování,
+- agregace,
+- JOINy,
+- velké objemy dat.
+
+---
+
+### BI nástroje
+
+Příklady:
+- Power BI,
+- Tableau,
+- Qlik.
+
+Použití:
+- dashboardy,
+- reporting,
+- vizualizace dat.
+
+---
+
+### Python / R
+
+Použití:
+- automatizace,
+- pokročilá analýza,
+- machine learning,
+- práce s velkými datasety.
+
+Důležité knihovny v Pythonu:
+- pandas,
+- NumPy,
+- matplotlib,
+- seaborn,
+- scikit-learn.
+
+---
+
+## Důležité pojmy
+
+| Pojem | Význam |
+|---|---|
+| Solver | Nástroj pro optimalizaci |
+| Constraint | Omezení |
+| Decision Variable | Proměnná rozhodování |
+| Objective Function | Cílová funkce |
+| Data mining | Hledání vzorů v datech |
+| Binning | Rozdělení do intervalů |
+| Segmentation | Rozdělení do skupin |
+| Outlier | Extrémní hodnota |
+
+---
+
+## Praktický mindset analytika
+
+Analytik:
+- nehledá jen čísla,
+- hledá rozhodnutí,
+- pracuje s omezeními,
+- hledá kompromisy,
+- segmentuje data,
+- interpretuje business dopady.
