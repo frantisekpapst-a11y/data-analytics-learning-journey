@@ -2771,3 +2771,286 @@ Musíme chápat také:
 - stabilitu dat,
 - přítomnost extrémních hodnot,
 - spolehlivost průměru.
+
+---
+
+# Lekce 12 — Rozdělení dat: Základní rozdělení
+
+---
+
+# Rozdělení dat
+
+Rozdělení dat popisuje:
+- jak jsou hodnoty rozprostřené,
+- kde se soustředí,
+- jak často se vyskytují.
+
+---
+
+# Proč je rozdělení dat důležité
+
+Rozdělení ovlivňuje:
+- výběr statistických metod,
+- interpretaci výsledků,
+- modelování,
+- forecasting,
+- machine learning.
+
+---
+
+# Typy rozdělení
+
+## Normální rozdělení
+- symetrické,
+- většina hodnot kolem průměru,
+- zvonová křivka.
+
+---
+
+## Šikmé rozdělení
+- asymetrické,
+- více hodnot na jedné straně,
+- časté v business datech.
+
+---
+
+# Normální rozdělení
+
+## Charakteristika
+
+- symetrické kolem středu,
+- průměr ≈ medián,
+- většina hodnot blízko průměru,
+- méně hodnot na krajích.
+
+---
+
+# Graf normálního rozdělení
+
+Typický tvar:
+
+```text
+        /\
+      /    \
+    /        \
+  /            \
+```
+
+---
+
+# Proč je normální rozdělení důležité
+
+Mnoho statistických metod:
+- předpokládá normalitu dat,
+- funguje nejlépe při normálním rozdělení.
+
+---
+
+# Příklady normálního rozdělení
+
+- výška lidí,
+- výsledky IQ testů,
+- chyby měření,
+- některé školní testy.
+
+---
+
+# Centrální limitní věta
+
+## Princip
+
+Součet mnoha malých náhodných vlivů vede k normálnímu rozdělení.
+
+---
+
+# Histogram
+
+## Definice
+
+Graf zobrazující četnost hodnot v intervalech.
+
+---
+
+# K čemu histogram slouží
+
+Pomáhá:
+- vizualizovat distribuci,
+- identifikovat skewness,
+- najít outliers,
+- pochopit strukturu dat.
+
+---
+
+# Normální histogram
+
+- nejvyšší sloupce uprostřed,
+- symetrický tvar,
+- méně hodnot na krajích.
+
+---
+
+# Pravostranně šikmé rozdělení
+
+## Charakteristika
+
+- většina hodnot vlevo,
+- několik extrémně vysokých hodnot vpravo,
+- dlouhý „ocas“ doprava.
+
+---
+
+# Typický tvar
+
+```text
+███████████▇▆▅▄▃▂
+```
+
+---
+
+# Příklady pravostranně šikmých dat
+
+- příjmy,
+- majetek,
+- návštěvnost webů,
+- velikosti souborů,
+- spending zákazníků.
+
+---
+
+# Skewed distribution
+
+## Význam
+
+Asymetrické rozdělení dat.
+
+---
+
+# Důsledky skewed dat
+
+- průměr může být zavádějící,
+- medián bývá lepší reprezentant,
+- častější outliers.
+
+---
+
+# Outlier
+
+Extrémní hodnota výrazně odlišná od zbytku dat.
+
+---
+
+# Vliv outlierů
+
+Mohou:
+- zkreslit průměr,
+- ovlivnit rozptyl,
+- změnit interpretaci dat.
+
+---
+
+# Q–Q graf
+
+## Definice
+
+Quantile–Quantile graf.
+
+Porovnává:
+- skutečná data,
+- ideální normální rozdělení.
+
+---
+
+# Interpretace Q–Q grafu
+
+## Body na přímce
+Data odpovídají normálnímu rozdělení.
+
+---
+
+## Odchylky od přímky
+Data nejsou normálně rozdělená.
+
+---
+
+# Shapiro–Wilkův test
+
+## Účel
+
+Test normality dat.
+
+---
+
+# Interpretace p-hodnoty
+
+## p > 0,05
+Data se významně neliší od normálního rozdělení.
+
+---
+
+## p < 0,05
+Data se od normálního rozdělení významně liší.
+
+---
+
+# Interval spolehlivosti
+
+## Definice
+
+Rozmezí, ve kterém se pravděpodobně nachází skutečný průměr populace.
+
+---
+
+# 95% interval spolehlivosti
+
+Znázorňuje:
+```text
+95% pravděpodobnost,
+že skutečný průměr leží v daném intervalu
+```
+
+---
+
+# Co potřebujeme pro interval spolehlivosti
+
+- průměr,
+- směrodatnou odchylku,
+- velikost vzorku,
+- kritickou hodnotu.
+
+---
+
+# Kdy je distribuce důležitá v businessu
+
+Například:
+- forecasting,
+- anomaly detection,
+- customer behavior,
+- revenue analysis,
+- risk management,
+- machine learning.
+
+---
+
+# Typické chyby junior analytiků
+
+- ignorování distribuce,
+- používání průměru u skewed dat,
+- neidentifikování outlierů,
+- špatná interpretace histogramu.
+
+---
+
+# Hlavní takeaway
+
+Nestačí:
+- znát průměr,
+- nebo medián.
+
+Musíme chápat:
+- tvar distribuce,
+- symetrii,
+- variabilitu,
+- outliers,
+- charakter dat.
+
+Grafická analýza často odhalí více než samotná čísla.
