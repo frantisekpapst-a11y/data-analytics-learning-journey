@@ -1998,3 +1998,240 @@ Data jsou koncentrovaná kolem průměru.
 
 ### Odpověď:
 Nestačí znát pouze střední hodnotu — důležité je také vědět, jak moc jsou data rozptýlená a jak spolehlivě průměr reprezentuje dataset.
+
+---
+
+# Lekce 12 — Rozdělení dat: Základní rozdělení
+
+---
+
+# Otázky a odpovědi
+
+## 1. Co znamená rozdělení dat?
+
+### Odpověď:
+Rozprostření hodnot v datasetu.
+
+---
+
+## 2. Proč je důležité znát rozdělení dat?
+
+### Odpověď:
+Protože ovlivňuje:
+- interpretaci dat,
+- výběr statistických metod,
+- modelování,
+- analýzu.
+
+---
+
+## 3. Co je normální rozdělení?
+
+### Odpověď:
+Symetrické rozdělení, kde většina hodnot leží kolem průměru.
+
+---
+
+## 4. Jak vypadá normální rozdělení graficky?
+
+### Odpověď:
+Jako symetrická zvonová křivka.
+
+---
+
+## 5. Jaké vlastnosti má normální rozdělení?
+
+### Odpověď:
+- symetrie,
+- většina hodnot kolem středu,
+- méně hodnot na krajích,
+- průměr ≈ medián.
+
+---
+
+## 6. Proč se normální rozdělení vyskytuje tak často?
+
+### Odpověď:
+Protože mnoho jevů vzniká součtem mnoha malých náhodných vlivů.
+
+---
+
+## 7. Co říká centrální limitní věta?
+
+### Odpověď:
+Součet mnoha náhodných vlivů vede k normálnímu rozdělení.
+
+---
+
+## 8. Co je histogram?
+
+### Odpověď:
+Graf zobrazující četnost hodnot v intervalech.
+
+---
+
+## 9. K čemu se histogram používá?
+
+### Odpověď:
+K vizualizaci rozdělení dat.
+
+---
+
+## 10. Jak poznáme normální rozdělení na histogramu?
+
+### Odpověď:
+Histogram má přibližně symetrický zvonový tvar.
+
+---
+
+## 11. Co je pravostranně šikmé rozdělení?
+
+### Odpověď:
+Rozdělení, kde většina hodnot leží vlevo a několik extrémních hodnot tvoří pravý ocas.
+
+---
+
+## 12. Jaké typy dat bývají pravostranně šikmé?
+
+### Odpověď:
+Například:
+- příjmy,
+- majetek,
+- návštěvnost webů,
+- spending zákazníků.
+
+---
+
+## 13. Co znamená skewed distribution?
+
+### Odpověď:
+Asymetrické (šikmé) rozdělení dat.
+
+---
+
+## 14. Proč bývají příjmy nebo majetek pravostranně šikmé?
+
+### Odpověď:
+Protože většina lidí má nižší hodnoty a malé množství lidí extrémně vysoké hodnoty.
+
+---
+
+## 15. Co je Q–Q graf?
+
+### Odpověď:
+Graf porovnávající kvantily skutečných dat s normálním rozdělením.
+
+---
+
+## 16. Co znamená, když body v Q–Q grafu leží na přímce?
+
+### Odpověď:
+Data odpovídají normálnímu rozdělení.
+
+---
+
+## 17. Co znamenají odchylky bodů od přímky v Q–Q grafu?
+
+### Odpověď:
+Data nejsou normálně rozdělená nebo obsahují outliers.
+
+---
+
+## 18. Co je outlier?
+
+### Odpověď:
+Extrémní hodnota výrazně odlišná od ostatních dat.
+
+---
+
+## 19. Jak mohou outliers ovlivnit analýzu?
+
+### Odpověď:
+Mohou:
+- zkreslit průměr,
+- zvýšit rozptyl,
+- ovlivnit interpretaci výsledků.
+
+---
+
+## 20. K čemu slouží Shapiro–Wilkův test?
+
+### Odpověď:
+K ověření, zda data odpovídají normálnímu rozdělení.
+
+---
+
+## 21. Co znamená p-hodnota větší než 0,05?
+
+### Odpověď:
+Data se významně neliší od normálního rozdělení.
+
+---
+
+## 22. Co znamená p-hodnota menší než 0,05?
+
+### Odpověď:
+Data se od normálního rozdělení významně liší.
+
+---
+
+## 23. Co je interval spolehlivosti?
+
+### Odpověď:
+Rozmezí, ve kterém se pravděpodobně nachází skutečný průměr populace.
+
+---
+
+## 24. Co znamená 95% interval spolehlivosti?
+
+### Odpověď:
+S pravděpodobností 95 % leží skutečný průměr v daném intervalu.
+
+---
+
+## 25. Jaké informace potřebujeme pro výpočet intervalu spolehlivosti?
+
+### Odpověď:
+- průměr,
+- směrodatnou odchylku,
+- velikost vzorku,
+- kritickou hodnotu.
+
+---
+
+## 26. Co znamená symetrické rozdělení?
+
+### Odpověď:
+Levá a pravá strana distribuce jsou přibližně stejné.
+
+---
+
+## 27. Jaký je rozdíl mezi normálním a skewed rozdělením?
+
+### Odpověď:
+Normální rozdělení je symetrické, skewed rozdělení je asymetrické.
+
+---
+
+## 28. Proč je distribuce důležitá v datové analytice?
+
+### Odpověď:
+Pomáhá správně interpretovat data a zvolit vhodné analytické metody.
+
+---
+
+## 29. Jaké business oblasti často pracují se skewed daty?
+
+### Odpověď:
+Například:
+- finance,
+- e-commerce,
+- marketing,
+- customer analytics.
+
+---
+
+## 30. Jaký je hlavní takeaway této lekce?
+
+### Odpověď:
+Pro pochopení dat nestačí pouze statistické ukazatele — důležité je chápat také tvar distribuce, symetrii, outliers a celkovou strukturu dat.
