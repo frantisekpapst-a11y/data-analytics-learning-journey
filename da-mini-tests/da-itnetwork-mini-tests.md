@@ -825,3 +825,206 @@ Přiřaď vhodný formát:
 - enterprise systémy: XML
 
 ---
+
+# Lekce 7 — Databáze a tabulky
+
+---
+
+# Otázky a odpovědi
+
+## 1. Co je databáze?
+
+### Odpověď:
+Databáze je systém pro ukládání, správu a práci s daty.
+
+---
+
+## 2. Jaký je rozdíl mezi databází a obyčejným souborem?
+
+### Odpověď:
+Databáze umožňuje efektivně vyhledávat, upravovat a propojovat data, kontrolovat jejich správnost a pracovat s více uživateli současně.
+
+---
+
+## 3. Co je relační databáze?
+
+### Odpověď:
+Relační databáze ukládá data do tabulek propojených vztahy.
+
+---
+
+## 4. Jaké relační databáze patří mezi nejznámější?
+
+### Odpověď:
+Například:
+- MySQL
+- PostgreSQL
+- Microsoft SQL Server
+- Oracle
+
+---
+
+## 5. Co je databázová tabulka?
+
+### Odpověď:
+Tabulka je základní struktura relační databáze obsahující řádky a sloupce.
+
+---
+
+## 6. Co představuje řádek v databázové tabulce?
+
+### Odpověď:
+Řádek představuje jeden konkrétní záznam.
+
+---
+
+## 7. Co představuje sloupec v databázové tabulce?
+
+### Odpověď:
+Sloupec představuje vlastnost nebo atribut záznamu.
+
+---
+
+## 8. Co je datový typ?
+
+### Odpověď:
+Datový typ určuje, jaký druh hodnot může být uložen ve sloupci.
+
+---
+
+## 9. Jaké jsou běžné datové typy?
+
+### Odpověď:
+Například:
+- text,
+- číslo,
+- datum a čas,
+- boolean hodnota.
+
+---
+
+## 10. Co je primární klíč?
+
+### Odpověď:
+Primární klíč jednoznačně identifikuje každý řádek v tabulce.
+
+---
+
+## 11. Jaké vlastnosti má primární klíč?
+
+### Odpověď:
+- musí být unikátní,
+- nesmí být prázdný.
+
+---
+
+## 12. Proč nestačí jako identifikátor například jméno?
+
+### Odpověď:
+Protože více lidí může mít stejné jméno.
+
+---
+
+## 13. Co je cizí klíč?
+
+### Odpověď:
+Cizí klíč propojuje jednu tabulku s jinou tabulkou a odkazuje na primární klíč v jiné tabulce.
+
+---
+
+## 14. Co je integrita dat?
+
+### Odpověď:
+Integrita dat znamená, že data jsou správná, konzistentní a správně propojená.
+
+---
+
+## 15. Jaký je vztah 1:1?
+
+### Odpověď:
+Každý záznam v první tabulce odpovídá jednomu záznamu v druhé tabulce.
+
+---
+
+## 16. Jaký je vztah 1:N?
+
+### Odpověď:
+Jeden záznam v první tabulce může mít více souvisejících záznamů v druhé tabulce.
+
+Příklad:
+- zákazník a objednávky.
+
+---
+
+## 17. Jaký je vztah M:N?
+
+### Odpověď:
+Více záznamů v jedné tabulce může souviset s více záznamy v druhé tabulce.
+
+Příklad:
+- produkty a objednávky.
+
+---
+
+## 18. Jak se řeší vztah M:N?
+
+### Odpověď:
+Pomocí spojovací tabulky.
+
+---
+
+## 19. Co je spojovací tabulka?
+
+### Odpověď:
+Tabulka obsahující cizí klíče z propojených tabulek.
+
+---
+
+## 20. Jaké tabulky může obsahovat jednoduchý e-shop?
+
+### Odpověď:
+Například:
+- Zakaznici,
+- Produkty,
+- Objednavky,
+- ProduktyObjednavky.
+
+---
+
+## 21. K čemu slouží tabulka ProduktyObjednavky?
+
+### Odpověď:
+Propojuje produkty a objednávky.
+
+---
+
+## 22. Proč jsou databáze důležité pro datovou analytiku?
+
+### Odpověď:
+Protože firmy v databázích ukládají data, která analytici následně analyzují pomocí SQL, Power BI a dalších nástrojů.
+
+---
+
+## 23. Jak Power BI pracuje s databázemi?
+
+### Odpověď:
+Power BI se může přímo připojit k databázím a načítat z nich data pro reporting a dashboardy.
+
+---
+
+## 24. Co umožňuje SQL?
+
+### Odpověď:
+SQL umožňuje:
+- vybírat data,
+- filtrovat data,
+- spojovat tabulky,
+- upravovat data,
+- vytvářet databázové struktury.
+
+---
+
+## 25. Co je hlavní takeaway této lekce?
+
+### Odpověď:
+Databáze nejsou jen místo pro ukládání dat, ale systémy pro organizaci, propojení, kontrolu a efektivní analýzu dat.
