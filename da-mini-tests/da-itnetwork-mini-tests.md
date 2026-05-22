@@ -245,6 +245,163 @@ Měl by chápat různé typy dat, jejich omezení a umět je kombinovat.
 
 ---
 
+# Lekce 4  
+## Datový formát CSV
+
+---
+
+## 1. Co znamená zkratka CSV?
+
+### Odpověď:
+Comma-Separated Values.
+
+---
+
+## 2. K čemu se CSV formát používá?
+
+### Odpověď:
+K ukládání, importu a exportu tabulkových dat mezi různými systémy a aplikacemi.
+
+---
+
+## 3. Jak vypadají data v CSV souboru?
+
+### Odpověď:
+Data jsou organizována do řádků a sloupců, jednotlivé hodnoty jsou oddělené čárkou nebo středníkem.
+
+---
+
+## 4. Co obvykle obsahuje první řádek CSV souboru?
+
+### Odpověď:
+Hlavičku se jmény jednotlivých sloupců.
+
+---
+
+## 5. Jaké jsou hlavní výhody CSV formátu?
+
+### Odpověď:
+- jednoduchost,
+- kompatibilita,
+- snadný import/export dat.
+
+---
+
+## 6. Jaké jsou hlavní nevýhody CSV formátu?
+
+### Odpověď:
+- nepodporuje hierarchická data,
+- nepodporuje binární data,
+- omezené datové typy.
+
+---
+
+## 7. Proč může být problém používat čárku jako oddělovač?
+
+### Odpověď:
+Protože čárka může být použita i v desetinných číslech nebo textech, což může způsobit špatné načtení dat.
+
+---
+
+## 8. Jaký oddělovač se často používá v českém prostředí místo čárky?
+
+### Odpověď:
+Středník (;).
+
+---
+
+## 9. Jaký je rozdíl mezi:
+- `ElectricCarData_Clean.csv`
+a
+- `ElectricCarData_Norm.csv`?
+
+### Odpověď:
+Verze Clean obsahuje čisté hodnoty bez jednotek, zatímco Norm obsahuje jednotky přímo v datech.
+
+---
+
+## 10. Proč je dataset bez jednotek vhodnější pro analýzu?
+
+### Odpověď:
+Protože numerické hodnoty lze snadněji převádět na datové typy a analyzovat.
+
+---
+
+## 11. Jak poznáš, že se CSV importovalo do Excelu správně?
+
+### Odpověď:
+Data jsou správně rozdělena do více sloupců.
+
+---
+
+## 12. Co se stane, když Excel použije špatný oddělovač?
+
+### Odpověď:
+Všechna data se mohou načíst do jednoho sloupce.
+
+---
+
+## 13. K čemu slouží Power Query při importu CSV?
+
+### Odpověď:
+K transformaci, čištění a úpravě dat před načtením do Excelu.
+
+---
+
+## 14. Proč je důležité správné kódování souboru?
+
+### Odpověď:
+Kvůli správnému zobrazení znaků a textu.
+
+---
+
+## 15. Jaké datové formáty byly v lekci zmíněny kromě CSV?
+
+### Odpověď:
+- JSON
+- XML
+- SQL
+
+---
+
+## 16. Jaký je hlavní rozdíl mezi CSV a JSON?
+
+### Odpověď:
+JSON podporuje hierarchická data a složitější struktury.
+
+---
+
+## 17. Proč CSV není vhodné pro hierarchická data?
+
+### Odpověď:
+Protože CSV je plochý tabulkový formát bez podpory zanořených struktur.
+
+---
+
+## 18. Jaký mindset by měl mít analytik při práci s importem dat?
+
+### Odpověď:
+Měl by chápat:
+- výhody a nevýhody datových formátů,
+- cíle analýzy,
+- vhodné nástroje pro práci s daty.
+
+---
+
+## 19. Proč je CSV stále velmi používaný formát v businessu?
+
+### Odpověď:
+Kvůli jednoduchosti, kompatibilitě a široké podpoře v různých systémech.
+
+---
+
+## 20. Co je hlavní takeaway této lekce?
+
+### Odpověď:
+CSV je jednoduchý a univerzální formát pro přenos a analýzu tabulkových dat.
+
+---
+
 ## 15. Co je hlavní takeaway této lekce?
 
 ### Odpověď:
