@@ -1862,3 +1862,252 @@ Začíná:
 - správou a bezpečností dat.
 
 Kvalita vstupních dat zásadně ovlivňuje kvalitu celé analýzy.
+
+---
+
+# Lekce 9 — Ukládání a archivace dat
+
+---
+
+# Typy úložišť
+
+## Lokální úložiště
+Příklady:
+- HDD,
+- SSD,
+- USB,
+- NAS.
+
+### Výhody
+- rychlý přístup,
+- kontrola nad daty,
+- bez internetu.
+
+### Nevýhody
+- riziko ztráty dat,
+- horší spolupráce,
+- manuální zálohování.
+
+---
+
+## Cloudové úložiště
+Příklady:
+- Google Drive,
+- OneDrive,
+- Dropbox.
+
+### Výhody
+- přístup odkudkoli,
+- automatické zálohování,
+- snadné sdílení,
+- collaboration.
+
+### Nevýhody
+- závislost na internetu,
+- pravidelné náklady,
+- bezpečnost závisí na poskytovateli.
+
+---
+
+## Hybridní přístup
+
+Kombinace:
+- lokálního úložiště,
+- cloudového úložiště.
+
+Časté použití:
+- citlivá data lokálně,
+- pracovní data v cloudu.
+
+---
+
+# Organizace projektů
+
+## Doporučená struktura
+
+```text
+projekt/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+├── scripts/
+├── outputs/
+├── dashboards/
+├── reports/
+├── docs/
+└── README.md
+```
+
+---
+
+# Význam složek
+
+## raw
+Původní neupravená data.
+
+Nikdy je nepřepisujeme.
+
+---
+
+## processed
+Očištěná a transformovaná data připravená pro analýzu.
+
+---
+
+## outputs
+Grafy, exporty, reporty, výsledky analýzy.
+
+---
+
+## docs
+Dokumentace projektu, poznámky, metadata.
+
+---
+
+# Pojmenovávání souborů
+
+## Doporučení
+
+- malá písmena,
+- bez mezer,
+- používat podtržítka,
+- přidávat datum,
+- jasný popis obsahu.
+
+---
+
+## Správné příklady
+
+```text
+sales_data_2024_03.csv
+customer_analysis_2024_05.pbix
+report_final_2024_05.pdf
+```
+
+---
+
+## Špatné příklady
+
+```text
+novy soubor.xlsx
+final_final_v2_REAL.xlsx
+uprava2.csv
+```
+
+---
+
+# Archivace dat
+
+Archivace znamená:
+- přesun již nepoužívaných dat,
+- zachování možnosti budoucího použití,
+- dlouhodobé uchování.
+
+---
+
+# Proč archivovat
+
+- audit,
+- historické porovnání,
+- reporting,
+- forecasting,
+- právní požadavky.
+
+---
+
+# Otevřené formáty
+
+## Doporučené formáty
+
+| Typ | Formát |
+|---|---|
+| Tabulky | CSV |
+| Text | TXT, MD |
+| Dokumenty | PDF/A |
+| Metadata | JSON, XML |
+
+---
+
+# Proč používat otevřené formáty
+
+- dlouhodobá čitelnost,
+- nezávislost na softwaru,
+- lepší kompatibilita,
+- menší riziko nečitelnosti.
+
+---
+
+# Zálohování
+
+## Pravidlo 3–2–1
+
+- 3 kopie dat,
+- 2 různé typy úložišť,
+- 1 kopie mimo hlavní zařízení.
+
+---
+
+# Rizika ztráty dat
+
+- selhání disku,
+- smazání souborů,
+- ransomware,
+- poškození systému,
+- lidská chyba.
+
+---
+
+# Citlivá data
+
+Příklady:
+- osobní údaje,
+- finanční data,
+- interní reporty,
+- zákaznické databáze.
+
+---
+
+# Zabezpečení dat
+
+## Možnosti ochrany
+
+- hesla,
+- šifrování,
+- BitLocker,
+- VeraCrypt,
+- omezení přístupu,
+- MFA / 2FA,
+- audit logy.
+
+---
+
+# Bezpečné sdílení
+
+Nevhodné:
+- posílání citlivých dat běžným e-mailem.
+
+Vhodné:
+- zabezpečené odkazy,
+- expirační linky,
+- šifrované archivy.
+
+---
+
+# Hlavní takeaway
+
+Kvalitní analytik:
+- neřeší jen analýzu,
+- ale i organizaci,
+- bezpečnost,
+- archivaci,
+- správu dat,
+- zálohování.
+
+Dobrá správa dat šetří:
+- čas,
+- peníze,
+- stres,
+- riziko ztráty práce.
