@@ -2462,3 +2462,312 @@ Správný statistický ukazatel závisí na:
 - business kontextu.
 
 Medián často lépe reprezentuje realitu než průměr.
+
+---
+
+# Lekce 11 — Úvod do statistiky: Míry variability
+
+---
+
+# Míry variability
+
+Míry variability popisují:
+- jak moc jsou data rozptýlená,
+- jak moc se hodnoty liší,
+- jak stabilní nebo proměnlivý dataset je.
+
+---
+
+# Proč jsou důležité
+
+Samotný průměr nestačí.
+
+Dva datasety mohou mít:
+- stejný průměr,
+- ale úplně jinou variabilitu.
+
+---
+
+# Hlavní ukazatele variability
+
+- rozptyl,
+- směrodatná odchylka,
+- variační rozpětí,
+- interkvartilní rozpětí (IQR).
+
+---
+
+# Rozptyl
+
+## Definice
+
+Rozptyl ukazuje, jak moc se hodnoty liší od průměru.
+
+---
+
+# Interpretace rozptylu
+
+## Malý rozptyl
+Hodnoty jsou blízko průměru.
+
+---
+
+## Velký rozptyl
+Hodnoty jsou více rozptýlené.
+
+---
+
+# Výpočet rozptylu
+
+1. Spočítáme průměr.
+2. Odečteme průměr od každé hodnoty.
+3. Odchylky umocníme.
+4. Spočítáme jejich průměr.
+
+---
+
+# Proč se odchylky umocňují
+
+- odstranění záporných hodnot,
+- větší odchylky mají větší váhu.
+
+---
+
+# Populace vs vzorek
+
+## Populace
+
+Dělíme:
+```text
+n
+```
+
+---
+
+## Vzorek
+
+Dělíme:
+```text
+n - 1
+```
+
+Kvůli korekci odhadu.
+
+---
+
+# Excel funkce — rozptyl
+
+## Rozptyl populace
+
+```excel
+=VAR.P()
+```
+
+---
+
+## Rozptyl vzorku
+
+```excel
+=VAR.S()
+```
+
+---
+
+# Směrodatná odchylka
+
+## Definice
+
+Druhá odmocnina z rozptylu.
+
+---
+
+# Vzorec
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+# Výhoda směrodatné odchylky
+
+Je:
+- ve stejných jednotkách jako data,
+- snadněji interpretovatelná.
+
+---
+
+# Interpretace směrodatné odchylky
+
+## Nízká hodnota
+Data jsou stabilní a koncentrovaná kolem průměru.
+
+---
+
+## Vysoká hodnota
+Data jsou rozptýlená a proměnlivá.
+
+---
+
+# Excel funkce — směrodatná odchylka
+
+## Populace
+
+```excel
+=SMODCH.P()
+```
+
+---
+
+## Vzorek
+
+```excel
+=SMODCH.VÝBĚR()
+```
+
+---
+
+# Variační rozpětí
+
+## Definice
+
+Rozdíl mezi:
+- nejvyšší,
+- a nejnižší hodnotou.
+
+---
+
+# Vzorec
+
+:contentReference[oaicite:1]{index=1}
+
+---
+
+# Výhody variačního rozpětí
+
+- rychlé,
+- jednoduché,
+- snadno pochopitelné.
+
+---
+
+# Nevýhody variačního rozpětí
+
+Bere v úvahu pouze:
+- minimum,
+- maximum.
+
+Ignoruje zbytek dat.
+
+---
+
+# Kvartily
+
+Kvartily rozdělují data na čtyři části.
+
+---
+
+# Q1
+
+25 % hodnot je pod touto hranicí.
+
+---
+
+# Q2
+
+Medián.
+
+50 % hodnot je pod touto hranicí.
+
+---
+
+# Q3
+
+75 % hodnot je pod touto hranicí.
+
+---
+
+# Interkvartilní rozpětí (IQR)
+
+## Definice
+
+Rozdíl mezi:
+- třetím kvartilem,
+- prvním kvartilem.
+
+---
+
+# Vzorec
+
+:contentReference[oaicite:2]{index=2}
+
+---
+
+# Výhody IQR
+
+- odolné vůči extrémům,
+- ignoruje outliers,
+- vhodné pro skewed data.
+
+---
+
+# Kdy používat IQR
+
+Například:
+- mzdy,
+- ceny nemovitostí,
+- spending,
+- data s outliers.
+
+---
+
+# Rozptyl vs směrodatná odchylka
+
+## Rozptyl
+- matematicky přesný,
+- hůře interpretovatelný.
+
+---
+
+## Směrodatná odchylka
+- intuitivnější,
+- praktičtější,
+- používanější v businessu.
+
+---
+
+# Typické business použití
+
+## Nízká variabilita
+- stabilní výroba,
+- konzistentní KPI,
+- predikovatelné procesy.
+
+---
+
+## Vysoká variabilita
+- nestabilita,
+- riziko,
+- anomálie,
+- nekonzistence.
+
+---
+
+# Typické chyby junior analytiků
+
+- používání pouze průměru,
+- ignorování variability,
+- nepochopení outliers,
+- špatná interpretace rozptylu.
+
+---
+
+# Hlavní takeaway
+
+K pochopení datasetu nestačí:
+- znát průměr,
+- nebo medián.
+
+Musíme chápat také:
+- rozptýlení dat,
+- stabilitu dat,
+- přítomnost extrémních hodnot,
+- spolehlivost průměru.
