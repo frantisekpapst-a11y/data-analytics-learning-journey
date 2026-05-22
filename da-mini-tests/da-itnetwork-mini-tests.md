@@ -1503,3 +1503,262 @@ Datový analytik musí řešit nejen analýzu, ale i:
 - zálohování,
 - bezpečnost,
 - správu dat.
+
+---
+
+# Lekce 10 — Úvod do statistiky: Střední hodnota
+
+---
+
+# Otázky a odpovědi
+
+## 1. Co je statistika?
+
+### Odpověď:
+Statistika je věda o sběru, zpracování, analýze a interpretaci dat.
+
+---
+
+## 2. Co je populace?
+
+### Odpověď:
+Soubor všech prvků, které nás zajímají.
+
+Například:
+- všichni zákazníci firmy,
+- všichni obyvatelé ČR.
+
+---
+
+## 3. Co je vzorek?
+
+### Odpověď:
+Část populace vybraná ke zkoumání.
+
+---
+
+## 4. Co je proměnná?
+
+### Odpověď:
+Vlastnost, kterou u dat sledujeme.
+
+Například:
+- věk,
+- příjem,
+- počet objednávek.
+
+---
+
+## 5. Co je frekvence?
+
+### Odpověď:
+Počet výskytů určité hodnoty v datech.
+
+---
+
+## 6. Co znamená distribuce dat?
+
+### Odpověď:
+Rozložení hodnot ve vzorku nebo populaci.
+
+---
+
+## 7. Co je střední hodnota?
+
+### Odpověď:
+Hodnota reprezentující typickou úroveň dat.
+
+---
+
+## 8. Jaké základní ukazatele střední hodnoty známe?
+
+### Odpověď:
+- průměr,
+- vážený průměr,
+- medián,
+- modus.
+
+---
+
+## 9. Jak se počítá aritmetický průměr?
+
+### Odpověď:
+Součet všech hodnot dělený počtem hodnot.
+
+---
+
+## 10. Jaký je vzorec pro aritmetický průměr?
+
+### Odpověď:
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+## 11. Jaká je hlavní nevýhoda průměru?
+
+### Odpověď:
+Průměr je citlivý na extrémní hodnoty (outliers).
+
+---
+
+## 12. Co je outlier?
+
+### Odpověď:
+Odlehlá hodnota výrazně vybočující ze zbytku dat.
+
+---
+
+## 13. Co je medián?
+
+### Odpověď:
+Střední hodnota seřazeného souboru dat.
+
+---
+
+## 14. Jak se počítá medián?
+
+### Odpověď:
+Data se seřadí a vybere se prostřední hodnota.
+U sudého počtu hodnot se zprůměrují dvě prostřední hodnoty.
+
+---
+
+## 15. Proč je medián často lepší než průměr?
+
+### Odpověď:
+Protože je odolnější vůči extrémním hodnotám.
+
+---
+
+## 16. Kdy používáme medián?
+
+### Odpověď:
+Například:
+- u mezd,
+- cen nemovitostí,
+- příjmů,
+- skewed dat.
+
+---
+
+## 17. Co je vážený průměr?
+
+### Odpověď:
+Průměr, kde některé hodnoty mají vyšší důležitost než jiné.
+
+---
+
+## 18. Kdy používáme vážený průměr?
+
+### Odpověď:
+Například:
+- školní známky,
+- KPI,
+- marže produktů,
+- hodnocení výkonu.
+
+---
+
+## 19. Co je modus?
+
+### Odpověď:
+Nejčastěji se vyskytující hodnota v datech.
+
+---
+
+## 20. Kdy používáme modus?
+
+### Odpověď:
+Například:
+- nejčastější velikost,
+- nejprodávanější produkt,
+- nejčastější odpověď v dotazníku.
+
+---
+
+## 21. Může mít dataset více modů?
+
+### Odpověď:
+Ano. Pokud se více hodnot vyskytuje stejně často.
+
+---
+
+## 22. Může dataset nemít modus?
+
+### Odpověď:
+Ano. Pokud se žádná hodnota neopakuje.
+
+---
+
+## 23. Jaký je rozdíl mezi průměrem a mediánem?
+
+### Odpověď:
+Průměr je citlivý na extrémní hodnoty, medián je vůči nim odolnější.
+
+---
+
+## 24. Co lépe reprezentuje typickou mzdu ve firmě?
+
+### Odpověď:
+Medián, protože vysoké manažerské platy mohou zkreslit průměr.
+
+---
+
+## 25. Jaký je rozdíl mezi průměrem, mediánem a modem?
+
+### Odpověď:
+- průměr = matematický průměr,
+- medián = prostřední hodnota,
+- modus = nejčastější hodnota.
+
+---
+
+## 26. Jaká funkce v Excelu počítá průměr?
+
+### Odpověď:
+
+```excel
+=PRŮMĚR(A1:A10)
+```
+
+---
+
+## 27. Jaká funkce v Excelu počítá medián?
+
+### Odpověď:
+
+```excel
+=MEDIAN(A1:A10)
+```
+
+---
+
+## 28. Jaká funkce v Excelu počítá modus?
+
+### Odpověď:
+
+```excel
+=MODE.SNGL(A1:A10)
+```
+
+---
+
+## 29. Jak se v Excelu počítá vážený průměr?
+
+### Odpověď:
+
+```excel
+=SOUČIN.SKALÁRNÍ(A1:A5;B1:B5)/SUMA(B1:B5)
+```
+
+---
+
+## 30. Proč jsou statistické ukazatele důležité v datové analytice?
+
+### Odpověď:
+Pomáhají:
+- odhalovat trendy,
+- interpretovat data,
+- nacházet odchylky,
+- podporovat business rozhodování.
