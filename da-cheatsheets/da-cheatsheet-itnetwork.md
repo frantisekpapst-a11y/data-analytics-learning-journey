@@ -3511,3 +3511,256 @@ Analytik:
 - hledá kompromisy,
 - segmentuje data,
 - interpretuje business dopady.
+
+---
+
+# Data Analysis Basics – Cheat Sheet (Lekce 15)
+
+## Analýza prodejních dat
+
+Analýza prodejních dat pomáhá:
+- odhalit trendy,
+- najít sezónnost,
+- plánovat marketing,
+- optimalizovat zásoby,
+- předvídat poptávku.
+
+Použití:
+- forecasting,
+- reporting,
+- business planning,
+- supply chain.
+
+---
+
+## Sezónnost (Seasonality)
+
+Sezónnost = pravidelné změny v čase.
+
+Příklad:
+- léto → vyšší prodeje,
+- zima → nižší prodeje.
+
+Sezónnost závisí na:
+- typu produktu,
+- trhu,
+- zákaznickém chování,
+- svátcích,
+- počasí.
+
+---
+
+## Spojnicový graf (Line Chart)
+
+Použití:
+- vývoj v čase,
+- trendy,
+- sezónnost,
+- časové řady.
+
+Typické osy:
+- X = čas,
+- Y = hodnota.
+
+---
+
+## Segmentace zákazníků
+
+Rozdělení zákazníků do skupin podle:
+- útraty,
+- počtu nákupů,
+- chování,
+- hodnoty zákazníka.
+
+---
+
+## Typické segmenty
+
+| Segment | Charakteristika |
+|---|---|
+| Low Value | nízká útrata a aktivita |
+| Mid Value | průměrní zákazníci |
+| High Value | nejhodnotnější zákazníci |
+
+---
+
+## Business význam segmentace
+
+Použití:
+- cílený marketing,
+- loyalty programy,
+- personalizace,
+- VIP zákazníci,
+- retention strategie.
+
+Důležitý princip:
+
+```text
+malá část zákazníků často tvoří většinu tržeb
+```
+
+---
+
+## Funkce IFS
+
+Použití pro více podmínek.
+
+```excel
+=IFS(
+A(A2<=10;B2<=2000);"Low Value";
+A(A2<=20;B2<=4000);"Mid Value";
+PRAVDA;"High Value"
+)
+```
+
+---
+
+## Funkce A()
+
+Český ekvivalent:
+
+```text
+AND()
+```
+
+Vrací PRAVDA pouze pokud:
+- platí všechny podmínky.
+
+---
+
+## Bodový graf (Scatter Plot)
+
+Použití:
+- vztah dvou proměnných,
+- segmentace,
+- clustering,
+- hledání outlierů.
+
+Příklad:
+- počet nákupů,
+- výše útraty.
+
+---
+
+## A/B testování
+
+Porovnání dvou variant:
+- A,
+- B.
+
+Cíl:
+- zjistit, která varianta funguje lépe.
+
+Použití:
+- reklamy,
+- bannery,
+- weby,
+- e-maily,
+- UX,
+- marketing.
+
+---
+
+## Důležitá podmínka A/B testu
+
+Varianty A a B musí běžet:
+- ve stejném období,
+- za stejných podmínek.
+
+Jinak může dojít ke zkreslení:
+- sezónností,
+- počasím,
+- slevami,
+- změnou chování zákazníků.
+
+---
+
+## Konverze
+
+Konverze = uživatel provedl požadovanou akci.
+
+Například:
+- kliknutí,
+- nákup,
+- registrace,
+- odeslání formuláře.
+
+---
+
+## Konverzní míra (Conversion Rate)
+
+Vzorec:
+
+```text
+konverze / návštěvníci
+```
+
+Excel:
+
+```excel
+=C2/B2
+```
+
+---
+
+## Interpretace A/B testu
+
+| Varianta | Konverzní míra |
+|---|---|
+| A | 12 % |
+| B | 15 % |
+
+Závěr:
+- varianta B je efektivnější,
+- dosahuje vyšší konverzní míry.
+
+---
+
+## Typické analytické formulace
+
+Nevhodné:
+- „Varianta B určitě funguje.“
+- „Reklama A je špatná.“
+
+Vhodné:
+- „Varianta B dosahuje vyšší konverzní míry.“
+- „Data naznačují lepší výkon varianty B.“
+- „Varianta B je pravděpodobně efektivnější.“
+
+---
+
+## Důležité metriky
+
+| Metrika | Význam |
+|---|---|
+| Konverzní míra | Podíl konverzí vůči návštěvníkům |
+| Tržby | Celkový prodej |
+| Počet nákupů | Aktivita zákazníků |
+| Útrata | Hodnota zákazníka |
+
+---
+
+## Praktický analytický mindset
+
+Analytik:
+- sleduje trendy v čase,
+- segmentuje zákazníky,
+- pracuje s konverzemi,
+- porovnává varianty,
+- rozhoduje na základě dat,
+- ne na základě pocitů.
+
+---
+
+## Důležité pojmy
+
+| Pojem | Význam |
+|---|---|
+| Seasonality | Sezónnost |
+| Conversion Rate | Konverzní míra |
+| Segmentation | Segmentace zákazníků |
+| Scatter Plot | Bodový graf |
+| A/B Testing | Porovnání dvou variant |
+| High Value Customer | Vysoce hodnotný zákazník |
+| Trend | Vývoj v čase |
+| Insight | Analytický poznatek |
