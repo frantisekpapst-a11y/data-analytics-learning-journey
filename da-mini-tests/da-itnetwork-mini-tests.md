@@ -406,3 +406,161 @@ CSV je jednoduchý a univerzální formát pro přenos a analýzu tabulkových d
 
 ### Odpověď:
 Moderní datová analytika kombinuje strukturovaná i nestrukturovaná data pro lepší insight a rozhodování.
+
+---
+
+# Lekce 5 — Práce ve VS Code s CSV a JSON
+
+---
+
+# Otázky a odpovědi
+
+## 1. Co je VS Code?
+
+### Odpověď:
+VS Code je moderní editor kódu a nástroj pro práci s daty používaný developery i datovými analytiky.
+
+---
+
+## 2. Proč je VS Code užitečný v datové analytice?
+
+### Odpověď:
+Protože umožňuje:
+- vidět skutečnou strukturu dat,
+- kontrolovat oddělovače,
+- pracovat s JSON,
+- analyzovat CSV,
+- odhalovat chyby v datech.
+
+---
+
+## 3. K čemu slouží rozšíření Rainbow CSV?
+
+### Odpověď:
+K barevnému zvýraznění sloupců CSV souborů pro lepší čitelnost a orientaci v datech.
+
+---
+
+## 4. Co znamená zkratka JSON?
+
+### Odpověď:
+JavaScript Object Notation.
+
+---
+
+## 5. Jaký je hlavní rozdíl mezi CSV a JSON?
+
+### Odpověď:
+CSV je jednoduchý tabulkový formát bez hierarchie.
+
+JSON podporuje:
+- hierarchii,
+- objekty,
+- pole,
+- vnořená data.
+
+---
+
+## 6. Co je objekt v JSON?
+
+### Odpověď:
+Objekt:
+- používá složené závorky {},
+- obsahuje dvojice:
+  - klíč : hodnota.
+
+Příklad:
+{
+  "jmeno": "Jan"
+}
+
+---
+
+## 7. Co je pole (array) v JSON?
+
+### Odpověď:
+Pole:
+- používá hranaté závorky [],
+- obsahuje seznam položek.
+
+Příklad:
+[
+  {},
+  {},
+  {}
+]
+
+---
+
+## 8. Co znamená hierarchie dat v JSON?
+
+### Odpověď:
+Že JSON umožňuje:
+- objekty v objektech,
+- pole v objektech,
+- vnořenou strukturu dat.
+
+---
+
+## 9. Proč je JSON důležitý v moderní datové analytice?
+
+### Odpověď:
+Protože se používá:
+- v API,
+- cloudových službách,
+- webových aplikacích,
+- Power BI,
+- Pythonu,
+- AI aplikacích.
+
+---
+
+## 10. Jaká je výhoda JSON oproti CSV?
+
+### Odpověď:
+JSON umožňuje ukládat složitější a hierarchická data.
+
+---
+
+## 11. Jaká je nevýhoda JSON?
+
+### Odpověď:
+- složitější struktura,
+- větší soubory,
+- vyšší náročnost zpracování.
+
+---
+
+## 12. Jaká klávesová zkratka formátuje JSON ve VS Code?
+
+### Odpověď:
+Shift + Alt + F
+
+---
+
+## 13. Proč je důležité formátování JSON?
+
+### Odpověď:
+Kvůli:
+- čitelnosti,
+- orientaci,
+- hledání chyb,
+- pochopení struktury.
+
+---
+
+## 14. Co představuje jeden objekt v datasetu iris.json?
+
+### Odpověď:
+Jedno měření jedné květiny.
+
+---
+
+## 15. Jaký mindset je důležitý pro práci s CSV a JSON?
+
+### Odpověď:
+CSV = tabulka
+
+JSON = datová struktura
+
+Moderní analytik musí rozumět oběma přístupům.
