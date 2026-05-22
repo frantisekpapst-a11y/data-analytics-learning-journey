@@ -2635,3 +2635,190 @@ Jaký typ analytického přístupu je vhodný pro hledání nejlepší kombinace
 
 **Odpověď:**  
 Preskriptivní analýza, protože hledá optimální řešení při omezených zdrojích a navrhuje nejlepší možné rozhodnutí.
+
+---
+
+# Mini testy – Lekce 15
+
+## Mini test
+
+### 1.
+Co je hlavním cílem analýzy prodejních dat?
+
+a) Mazání databází  
+b) Hledání trendů a sezónnosti  
+c) Programování webu  
+d) Tvorba SQL serveru
+
+**Odpověď:** b
+
+---
+
+### 2.
+Co znamená sezónnost (seasonality)?
+
+a) Náhodná chyba v datech  
+b) Pravidelné změny v čase  
+c) Typ databáze  
+d) Druh korelace
+
+**Odpověď:** b
+
+---
+
+### 3.
+Který graf je nejvhodnější pro zobrazení trendu v čase?
+
+a) Koláčový graf  
+b) Bodový graf  
+c) Spojnicový graf  
+d) Histogram
+
+**Odpověď:** c
+
+---
+
+### 4.
+Co je hlavním cílem segmentace zákazníků?
+
+a) Smazat neaktivní zákazníky  
+b) Rozdělit zákazníky podle chování nebo hodnoty  
+c) Převést data do SQL  
+d) Automaticky zvýšit tržby
+
+**Odpověď:** b
+
+---
+
+### 5.
+Který segment obvykle generuje největší část tržeb?
+
+a) Low Value  
+b) Mid Value  
+c) High Value  
+d) Všechny stejně
+
+**Odpověď:** c
+
+---
+
+### 6.
+Co dělá funkce A() v Excelu?
+
+a) Počítá průměr  
+b) Vrací PRAVDA, pokud platí všechny podmínky  
+c) Počítá korelaci  
+d) Filtruje data
+
+**Odpověď:** b
+
+---
+
+### 7.
+K čemu slouží bodový graf (Scatter Plot)?
+
+a) Pro časové řady  
+b) Pro vztah dvou proměnných  
+c) Pro export dat  
+d) Pro SQL JOINy
+
+**Odpověď:** b
+
+---
+
+### 8.
+Co je A/B testing?
+
+a) Záloha databáze  
+b) Porovnání dvou variant  
+c) Typ dashboardu  
+d) Druh filtru
+
+**Odpověď:** b
+
+---
+
+### 9.
+Jaká je důležitá podmínka správného A/B testu?
+
+a) Varianty musí běžet ve stejném období  
+b) Varianta B musí mít vyšší cenu  
+c) Test musí běžet jen v létě  
+d) Musí obsahovat SQL databázi
+
+**Odpověď:** a
+
+---
+
+### 10.
+Co je konverze?
+
+a) Chyba v datech  
+b) Uživatel provedl požadovanou akci  
+c) Export do PDF  
+d) Změna datového typu
+
+**Odpověď:** b
+
+---
+
+### 11.
+Jak se počítá konverzní míra?
+
+a) návštěvníci × konverze  
+b) konverze / návštěvníci  
+c) návštěvníci − konverze  
+d) konverze + návštěvníci
+
+**Odpověď:** b
+
+---
+
+### 12.
+Varianta A má konverzní míru 12 % a varianta B 15 %. Co lze říct?
+
+a) Varianta A je lepší  
+b) Varianta B dosahuje vyšší konverze  
+c) Obě varianty jsou stejné  
+d) Nelze porovnat
+
+**Odpověď:** b
+
+---
+
+### 13.
+Které tvrzení je analyticky správně?
+
+a) Varianta B určitě funguje  
+b) Varianta A je špatná  
+c) Varianta B pravděpodobně dosahuje lepšího výkonu  
+d) Data jsou zbytečná
+
+**Odpověď:** c
+
+---
+
+### 14.
+Co je conversion rate?
+
+a) Konverzní míra  
+b) Korelace  
+c) Datový typ  
+d) Segmentace
+
+**Odpověď:** a
+
+---
+
+### 15.
+E-shop zjistil:
+- v létě výrazně rostou prodeje,
+- VIP zákazníci tvoří většinu tržeb,
+- nový banner má vyšší konverzní míru.
+
+Jaké tři analytické koncepty se v tomto příkladu objevují?
+
+**Odpověď:**  
+- analýza sezónnosti prodejů,
+- segmentace zákazníků,
+- A/B testování.
