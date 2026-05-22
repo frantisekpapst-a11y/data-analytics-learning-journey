@@ -730,3 +730,186 @@ Analytik musí kontrolovat:
 
 A zároveň:
 > kvalita importu dat zásadně ovlivňuje kvalitu celé analýzy.
+
+---
+
+# Lekce 5 — Práce ve VS Code s CSV a JSON
+
+---
+
+# Visual Studio Code (VS Code)
+
+VS Code je:
+- moderní editor kódu,
+- nástroj pro práci s daty,
+- prostředí používané developery i datovými analytiky.
+
+Umožňuje:
+- zobrazovat datové soubory,
+- upravovat JSON,
+- pracovat s CSV,
+- analyzovat strukturu dat,
+- používat rozšíření.
+
+---
+
+# Proč používat VS Code v datové analytice
+
+VS Code pomáhá:
+- vidět skutečnou strukturu dat,
+- kontrolovat oddělovače,
+- odhalovat chyby v datech,
+- pracovat s JSON a API,
+- připravovat data pro Python a Power BI.
+
+---
+
+# Rainbow CSV
+
+Rozšíření:
+
+`Rainbow CSV`
+
+Použití:
+- barevné zvýraznění sloupců CSV,
+- lepší orientace v datech,
+- jednodušší čtení velkých datasetů.
+
+---
+
+# CSV ve VS Code
+
+CSV soubor:
+- je obyčejný textový soubor,
+- data jsou oddělena:
+  - čárkou,
+  - nebo středníkem.
+
+Ve VS Code:
+- vidíme skutečný obsah souboru,
+- strukturu sloupců,
+- oddělovače,
+- hlavičky.
+
+---
+
+# JSON (JavaScript Object Notation)
+
+JSON je moderní datový formát pro:
+- ukládání dat,
+- přenos dat,
+- API komunikaci,
+- práci s webovými aplikacemi.
+
+Používá:
+- klíč : hodnota,
+- objekty,
+- pole,
+- hierarchii.
+
+---
+
+# Výhody JSON
+
+- čitelný formát,
+- podporuje hierarchii,
+- ideální pro API,
+- snadná práce v Pythonu,
+- široká kompatibilita.
+
+---
+
+# Nevýhody JSON
+
+- větší datové soubory,
+- složitější struktura,
+- nepodporuje komentáře,
+- nepodporuje binární data bez převodu.
+
+---
+
+# Struktura JSON
+
+## Objekt
+
+```json
+{
+  "jmeno": "Jan",
+  "vek": 30
+}
+
+Objekt:
+
+používá složené závorky {},
+obsahuje dvojice:
+klíč : hodnota
+Pole (Array)
+[
+  {},
+  {},
+  {}
+]
+
+Pole:
+
+používá hranaté závorky [],
+obsahuje seznam položek.
+Hierarchie dat
+
+JSON umožňuje:
+
+objekty v objektech,
+pole v objektech,
+vnořená data.
+
+Příklad:
+
+{
+  "zakaznik": {
+    "jmeno": "Jan",
+    "mesto": "Praha"
+  }
+}
+Formátování JSON ve VS Code
+
+Klávesová zkratka:
+
+Shift + Alt + F
+
+Použití:
+
+automatické odsazení,
+lepší čitelnost,
+kontrola struktury.
+JSON vs CSV
+CSV
+jednoduchý,
+tabulkový formát,
+vhodný pro Excel,
+bez hierarchie.
+JSON
+flexibilní,
+podporuje hierarchii,
+vhodný pro API,
+vhodný pro moderní aplikace.
+Typické použití JSON
+API
+webové aplikace
+cloudové služby
+Power BI
+Python
+AI aplikace
+Důležitý mindset
+
+CSV = tabulka
+
+JSON = datová struktura
+
+Moderní analytik musí rozumět oběma přístupům.
+
+Hlavní takeaway
+VS Code ukazuje skutečnou strukturu dat.
+CSV je jednoduchý tabulkový formát.
+JSON podporuje hierarchii a moderní datové struktury.
+JSON je klíčový formát pro API, Python a Power BI.
+Čitelnost a správné formátování dat jsou velmi důležité.
