@@ -1028,3 +1028,241 @@ SQL umožňuje:
 
 ### Odpověď:
 Databáze nejsou jen místo pro ukládání dat, ale systémy pro organizaci, propojení, kontrolu a efektivní analýzu dat.
+
+---
+
+# Lekce 8 — Data Lifecycle a metody sběru dat
+
+---
+
+# Otázky a odpovědi
+
+## 1. Co je Data Lifecycle?
+
+### Odpověď:
+Data Lifecycle představuje životní cyklus dat od jejich vzniku až po archivaci nebo odstranění.
+
+---
+
+## 2. Jaké jsou hlavní fáze Data Lifecycle?
+
+### Odpověď:
+- stanovení cílů,
+- sběr dat,
+- čištění a úprava dat,
+- analýza a interpretace,
+- prezentace výsledků,
+- archivace nebo odstranění dat.
+
+---
+
+## 3. Co je cílem fáze čištění dat?
+
+### Odpověď:
+Zajistit konzistenci, správnost a použitelnost dat pro další analýzu.
+
+---
+
+## 4. Jaké problémy řeší data cleaning?
+
+### Odpověď:
+Například:
+- duplicity,
+- NULL hodnoty,
+- chybné formáty,
+- nekonzistentní názvy,
+- chybějící data.
+
+---
+
+## 5. Proč je plánování sběru dat důležité?
+
+### Odpověď:
+Pomáhá:
+- určit správné zdroje dat,
+- snížit chyby,
+- zlepšit kompatibilitu systémů,
+- zjednodušit následnou analýzu.
+
+---
+
+## 6. Jaké jsou tradiční metody sběru dat?
+
+### Odpověď:
+Například:
+- dotazníky,
+- rozhovory,
+- ankety,
+- pozorování.
+
+---
+
+## 7. Jaké jsou výhody automatizovaného sběru dat?
+
+### Odpověď:
+- rychlost,
+- menší chybovost,
+- pravidelný sběr dat,
+- práce s velkým objemem dat.
+
+---
+
+## 8. Co jsou interní zdroje dat?
+
+### Odpověď:
+Data vznikající uvnitř firmy.
+
+Například:
+- CRM,
+- ERP,
+- databáze objednávek,
+- logy,
+- zákaznická data.
+
+---
+
+## 9. Co jsou externí zdroje dat?
+
+### Odpověď:
+Data pocházející mimo organizaci.
+
+Například:
+- open data,
+- veřejné statistiky,
+- externí API,
+- komerční datasety.
+
+---
+
+## 10. Co je API?
+
+### Odpověď:
+API je rozhraní umožňující komunikaci mezi systémy a automatický přístup k datům.
+
+---
+
+## 11. K čemu se používá API?
+
+### Odpověď:
+Například:
+- získávání kurzů měn,
+- počasí,
+- propojení aplikací,
+- přístup k e-shop datům.
+
+---
+
+## 12. Co je web scraping?
+
+### Odpověď:
+Automatizovaný sběr dat z webových stránek.
+
+---
+
+## 13. Jaké nástroje se používají pro web scraping?
+
+### Odpověď:
+Například:
+- Beautiful Soup,
+- Selenium,
+- Scrapy.
+
+---
+
+## 14. Co znamená IoT?
+
+### Odpověď:
+IoT znamená Internet of Things — síť chytrých zařízení a senzorů sbírajících data.
+
+---
+
+## 15. Jaké veličiny mohou IoT senzory měřit?
+
+### Odpověď:
+Například:
+- teplotu,
+- tlak,
+- vlhkost,
+- polohu,
+- pohyb.
+
+---
+
+## 16. Jaké jsou hlavní výzvy IoT dat?
+
+### Odpověď:
+- velké objemy dat,
+- výpadky připojení,
+- potřeba real-time zpracování,
+- přesnost měření.
+
+---
+
+## 17. Proč je kvalita dat důležitá?
+
+### Odpověď:
+Protože špatná data vedou ke špatným analýzám a chybným rozhodnutím.
+
+---
+
+## 18. Co bychom měli kontrolovat u externích datových zdrojů?
+
+### Odpověď:
+- strukturu,
+- formát,
+- aktuálnost,
+- přesnost,
+- metodiku sběru,
+- licenční podmínky.
+
+---
+
+## 19. Co řeší GDPR?
+
+### Odpověď:
+GDPR chrání osobní údaje fyzických osob a upravuje pravidla práce s daty.
+
+---
+
+## 20. Jaké povinnosti má analytik vůči osobním údajům?
+
+### Odpověď:
+- chránit data,
+- sbírat jen potřebná data,
+- zabránit zneužití,
+- dodržovat legislativu.
+
+---
+
+## 21. Co znamená anonymizace dat?
+
+### Odpověď:
+Odstranění informací umožňujících identifikaci konkrétní osoby.
+
+---
+
+## 22. Proč je důležitá etika práce s daty?
+
+### Odpověď:
+Protože analytik pracuje s citlivými informacemi a musí zabránit jejich zneužití.
+
+---
+
+## 23. Co je hlavní rozdíl mezi interními a externími daty?
+
+### Odpověď:
+Interní data vznikají uvnitř firmy, externí data pochází z externích zdrojů.
+
+---
+
+## 24. Jaký je hlavní cíl datové analýzy v rámci Data Lifecycle?
+
+### Odpověď:
+Získat relevantní insighty a podpořit správné business rozhodování.
+
+---
+
+## 25. Co je hlavní takeaway této lekce?
+
+### Odpověď:
+Kvalita sběru a správy dat zásadně ovlivňuje kvalitu celé analýzy a následného rozhodování.
