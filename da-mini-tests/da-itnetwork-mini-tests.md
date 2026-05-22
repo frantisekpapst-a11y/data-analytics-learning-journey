@@ -1762,3 +1762,239 @@ Pomáhají:
 - interpretovat data,
 - nacházet odchylky,
 - podporovat business rozhodování.
+
+---
+
+# Lekce 11 — Úvod do statistiky: Míry variability
+
+---
+
+# Otázky a odpovědi
+
+## 1. Co je míra variability?
+
+### Odpověď:
+Statistický ukazatel popisující, jak moc jsou hodnoty v datech rozptýlené nebo proměnlivé.
+
+---
+
+## 2. Proč nestačí znát pouze průměr?
+
+### Odpověď:
+Protože průměr neukazuje, jak moc se hodnoty liší nebo jak jsou rozptýlené.
+
+---
+
+## 3. Jaké základní míry variability známe?
+
+### Odpověď:
+- rozptyl,
+- směrodatná odchylka,
+- variační rozpětí,
+- interkvartilní rozpětí.
+
+---
+
+## 4. Co je rozptyl?
+
+### Odpověď:
+Ukazatel popisující, jak moc se jednotlivé hodnoty liší od průměru.
+
+---
+
+## 5. Co znamená malý rozptyl?
+
+### Odpověď:
+Hodnoty jsou blízko průměru.
+
+---
+
+## 6. Co znamená velký rozptyl?
+
+### Odpověď:
+Hodnoty jsou více rozptýlené a liší se od průměru.
+
+---
+
+## 7. Proč se při výpočtu rozptylu odchylky umocňují?
+
+### Odpověď:
+Aby se odstranily záporné hodnoty a zvýraznily větší odchylky.
+
+---
+
+## 8. Jaký je rozdíl mezi rozptylem populace a rozptylem vzorku?
+
+### Odpověď:
+- populace dělí počtem hodnot `n`,
+- vzorek dělí `n - 1`.
+
+---
+
+## 9. Jaká Excel funkce počítá rozptyl populace?
+
+### Odpověď:
+
+```excel
+=VAR.P()
+```
+
+---
+
+## 10. Jaká Excel funkce počítá rozptyl vzorku?
+
+### Odpověď:
+
+```excel
+=VAR.S()
+```
+
+---
+
+## 11. Co je směrodatná odchylka?
+
+### Odpověď:
+Druhá odmocnina z rozptylu.
+
+---
+
+## 12. Proč je směrodatná odchylka praktičtější než rozptyl?
+
+### Odpověď:
+Protože je ve stejných jednotkách jako původní data a lépe se interpretuje.
+
+---
+
+## 13. Jaká Excel funkce počítá směrodatnou odchylku populace?
+
+### Odpověď:
+
+```excel
+=SMODCH.P()
+```
+
+---
+
+## 14. Jaká Excel funkce počítá směrodatnou odchylku vzorku?
+
+### Odpověď:
+
+```excel
+=SMODCH.VÝBĚR()
+```
+
+---
+
+## 15. Co je variační rozpětí?
+
+### Odpověď:
+Rozdíl mezi nejvyšší a nejnižší hodnotou v datech.
+
+---
+
+## 16. Jak vypočítáme variační rozpětí?
+
+### Odpověď:
+
+```text
+maximum - minimum
+```
+
+---
+
+## 17. Jaká je hlavní nevýhoda variačního rozpětí?
+
+### Odpověď:
+Bere v úvahu pouze minimum a maximum a ignoruje ostatní hodnoty.
+
+---
+
+## 18. Co je kvartil?
+
+### Odpověď:
+Hodnota rozdělující data na čtvrtiny.
+
+---
+
+## 19. Co znamená Q1?
+
+### Odpověď:
+Hranice, pod kterou leží 25 % hodnot.
+
+---
+
+## 20. Co znamená Q2?
+
+### Odpověď:
+Medián — prostřední hodnota dat.
+
+---
+
+## 21. Co znamená Q3?
+
+### Odpověď:
+Hranice, pod kterou leží 75 % hodnot.
+
+---
+
+## 22. Co je interkvartilní rozpětí (IQR)?
+
+### Odpověď:
+Rozdíl mezi třetím a prvním kvartilem.
+
+---
+
+## 23. Jaký je vzorec pro IQR?
+
+### Odpověď:
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+## 24. Proč je IQR odolnější vůči extrémním hodnotám?
+
+### Odpověď:
+Protože pracuje pouze se středními 50 % dat.
+
+---
+
+## 25. Kdy je vhodné použít medián a IQR?
+
+### Odpověď:
+Když dataset obsahuje extrémní hodnoty nebo skewed data.
+
+---
+
+## 26. Co znamená, že jsou data rozptýlená?
+
+### Odpověď:
+Hodnoty se mezi sebou výrazně liší.
+
+---
+
+## 27. Jaký vztah má rozptyl ke směrodatné odchylce?
+
+### Odpověď:
+Směrodatná odchylka je druhá odmocnina z rozptylu.
+
+---
+
+## 28. Co znamená vysoká směrodatná odchylka?
+
+### Odpověď:
+Data jsou výrazně rozptýlená.
+
+---
+
+## 29. Co znamená nízká směrodatná odchylka?
+
+### Odpověď:
+Data jsou koncentrovaná kolem průměru.
+
+---
+
+## 30. Jaký je hlavní takeaway této lekce?
+
+### Odpověď:
+Nestačí znát pouze střední hodnotu — důležité je také vědět, jak moc jsou data rozptýlená a jak spolehlivě průměr reprezentuje dataset.
