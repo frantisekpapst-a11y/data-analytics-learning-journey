@@ -2235,3 +2235,218 @@ Například:
 
 ### Odpověď:
 Pro pochopení dat nestačí pouze statistické ukazatele — důležité je chápat také tvar distribuce, symetrii, outliers a celkovou strukturu dat.
+
+---
+
+# Mini testy – Lekce 13
+
+## Mini test 1
+
+### 1.
+Když je průměr výrazně vyšší než medián, znamená to nejčastěji:
+
+a) Data jsou rovnoměrná  
+b) Data obsahují extrémní hodnoty  
+c) Dataset je prázdný  
+d) Medián je špatně spočítaný
+
+**Odpověď:** b
+
+---
+
+### 2.
+Korelace:
+
+```text
+-0,82
+```
+
+znamená:
+
+a) Silná pozitivní souvislost  
+b) Slabá negativní souvislost  
+c) Silná negativní souvislost  
+d) Žádná souvislost
+
+**Odpověď:** c
+
+---
+
+### 3.
+Korelace kolem:
+
+```text
+0
+```
+
+znamená:
+
+a) Perfektní vztah  
+b) Prakticky žádnou souvislost  
+c) Chybu ve vzorci  
+d) Negativní vztah
+
+**Odpověď:** b
+
+---
+
+### 4.
+Která funkce slouží pro výpočet korelace?
+
+a) =AVG()  
+b) =COUNTIF()  
+c) =CORREL()  
+d) =SUMIFS()
+
+**Odpověď:** c
+
+---
+
+### 5.
+Korelace automaticky znamená příčinu?
+
+a) Ano  
+b) Ne
+
+**Odpověď:** b
+
+---
+
+# Mini test 2
+
+### 1.
+p-hodnota:
+
+```text
+0,03
+```
+
+znamená:
+
+a) Rozdíl je statisticky významný  
+b) Rozdíl je náhodný  
+c) Test nefunguje  
+d) Data jsou špatně
+
+**Odpověď:** a
+
+---
+
+### 2.
+p-hodnota:
+
+```text
+0,49
+```
+
+znamená:
+
+a) Rozdíl je významný  
+b) Rozdíl může být náhodný  
+c) Kampaň funguje  
+d) Korelace je silná
+
+**Odpověď:** b
+
+---
+
+### 3.
+K čemu slouží t-test?
+
+a) K tvorbě grafů  
+b) K ověření rozdílu mezi skupinami  
+c) K filtrování dat  
+d) K hledání duplicit
+
+**Odpověď:** b
+
+---
+
+### 4.
+Co je cílem explorativní analýzy?
+
+a) Mazání dat  
+b) Hledání vztahů a vzorů  
+c) Tvorba databáze  
+d) Export do PDF
+
+**Odpověď:** b
+
+---
+
+### 5.
+Které tvrzení je správně?
+
+a) Korelace ukazuje sílu vztahu mezi proměnnými  
+b) Korelace dokazuje příčinu  
+c) Korelace funguje jen v Excelu  
+d) Korelace je vždy kladná
+
+**Odpověď:** a
+
+---
+
+# Mini test 3 – Praktická interpretace
+
+### 1.
+Firma zjistila:
+
+- korelace mezi reklamou a prodejem = 0,01
+- p-hodnota = 0,52
+
+Jaký je správný závěr?
+
+a) Reklama určitě funguje  
+b) Reklama určitě nefunguje  
+c) Data neprokazují významný vztah mezi reklamou a prodejem  
+d) Korelace je silná
+
+**Odpověď:** c
+
+---
+
+### 2.
+Směrodatná odchylka je velmi vysoká. Co to znamená?
+
+a) Hodnoty jsou si podobné  
+b) Data mají velkou variabilitu  
+c) Dataset obsahuje jen malé hodnoty  
+d) Medián je nulový
+
+**Odpověď:** b
+
+---
+
+### 3.
+Co znamená Q1?
+
+a) Nejvyšší hodnota datasetu  
+b) Průměr datasetu  
+c) Hodnota, pod kterou leží 25 % dat  
+d) Prostřední hodnota
+
+**Odpověď:** c
+
+---
+
+### 4.
+Co znamená Q3?
+
+a) Hodnota, pod kterou leží 75 % dat  
+b) Nejnižší hodnota datasetu  
+c) Rozptyl  
+d) Počet řádků
+
+**Odpověď:** a
+
+---
+
+### 5.
+Který analytický postup je správný?
+
+a) Nejprve závěr, potom data  
+b) Nejprve graf, potom import dat  
+c) Popis dat → hledání vztahů → ověření hypotéz  
+d) Nejprve dashboard, potom statistika
+
+**Odpověď:** c
