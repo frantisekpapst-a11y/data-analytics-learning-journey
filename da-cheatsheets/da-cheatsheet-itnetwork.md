@@ -1190,3 +1190,329 @@ Každý formát je vhodný pro jiný typ práce:
 | JSON | API a aplikace |
 | XML | enterprise systémy |
 | SQL | databáze |
+
+---
+
+# Lekce 7 — Databáze a tabulky
+
+---
+
+# Co je databáze
+
+Databáze je systém pro ukládání, správu a práci s daty.
+
+Na rozdíl od obyčejného souboru umožňuje:
+- efektivně vyhledávat data,
+- upravovat data,
+- kontrolovat správnost dat,
+- minimalizovat duplicity,
+- pracovat s více uživateli,
+- řídit přístup pomocí oprávnění.
+
+---
+
+# Databáze vs soubor
+
+## Soubor
+
+Například CSV nebo Excel:
+- ukládá data,
+- má omezenou kontrolu nad strukturou,
+- hůře řeší vztahy mezi daty,
+- není ideální pro více uživatelů současně.
+
+## Databáze
+
+Databáze:
+- ukládá data strukturovaně,
+- podporuje dotazy,
+- hlídá datové typy,
+- umožňuje vztahy mezi tabulkami,
+- podporuje bezpečnost a integritu dat.
+
+---
+
+# Relační databáze
+
+Relační databáze ukládá data do tabulek.
+
+Typické relační databáze:
+- MySQL
+- PostgreSQL
+- Microsoft SQL Server
+- Oracle
+
+Relační databáze jsou důležité pro:
+- SQL,
+- reporting,
+- Power BI,
+- business intelligence,
+- datovou analytiku.
+
+---
+
+# Tabulka
+
+Tabulka je základní struktura v relační databázi.
+
+Obsahuje:
+- řádky,
+- sloupce.
+
+Příklad tabulky zákazníků:
+
+| id | jmeno | mesto |
+|---|---|---|
+| 1 | Jan | Praha |
+| 2 | Eva | Brno |
+
+---
+
+# Řádek
+
+Řádek představuje jeden konkrétní záznam.
+
+Příklad:
+- jeden zákazník,
+- jedna objednávka,
+- jeden produkt.
+
+---
+
+# Sloupec
+
+Sloupec představuje vlastnost nebo atribut záznamu.
+
+Příklad:
+- jmeno,
+- email,
+- mesto,
+- cena,
+- datum_objednavky.
+
+---
+
+# Datové typy
+
+Datový typ určuje, jaký druh hodnoty může být ve sloupci uložen.
+
+Běžné typy:
+- text,
+- číslo,
+- datum a čas,
+- boolean hodnota.
+
+Správná volba datových typů pomáhá udržet kvalitu a konzistenci dat.
+
+---
+
+# Primární klíč
+
+Primární klíč jednoznačně identifikuje každý řádek v tabulce.
+
+Vlastnosti:
+- musí být unikátní,
+- nesmí být prázdný,
+- často se používá číselné ID.
+
+Příklad:
+- ZakaznikID
+- ProduktID
+- ObjednavkaID
+
+---
+
+# Proč nestačí jméno jako identifikátor
+
+Jméno nemusí být unikátní.
+
+V databázi může existovat více zákazníků se stejným jménem.
+
+Proto se používá unikátní ID.
+
+---
+
+# Cizí klíč
+
+Cizí klíč propojuje jednu tabulku s jinou tabulkou.
+
+Odkazuje na primární klíč v jiné tabulce.
+
+Příklad:
+- tabulka Objednavky obsahuje ZakaznikID,
+- tím víme, kterému zákazníkovi objednávka patří.
+
+---
+
+# Integrita dat
+
+Integrita dat znamená, že data jsou:
+- správná,
+- konzistentní,
+- propojená správným způsobem.
+
+Databáze pomáhá integritu udržovat pomocí:
+- primárních klíčů,
+- cizích klíčů,
+- datových typů,
+- omezení.
+
+---
+
+# Vztahy mezi tabulkami
+
+## Vztah 1:1
+
+Jeden záznam v první tabulce odpovídá jednomu záznamu v druhé tabulce.
+
+Příklad:
+- uživatel a jeho nastavení.
+
+---
+
+## Vztah 1:N
+
+Jeden záznam v první tabulce může mít více souvisejících záznamů v druhé tabulce.
+
+Příklad:
+- jeden zákazník může mít více objednávek,
+- jedna objednávka patří jednomu zákazníkovi.
+
+Tento vztah je v databázích velmi častý.
+
+---
+
+## Vztah M:N
+
+Více záznamů v jedné tabulce může souviset s více záznamy v jiné tabulce.
+
+Příklad:
+- jedna objednávka může obsahovat více produktů,
+- jeden produkt může být ve více objednávkách.
+
+Tento vztah se řeší pomocí spojovací tabulky.
+
+---
+
+# Spojovací tabulka
+
+Spojovací tabulka řeší vztah M:N.
+
+Příklad:
+- Objednavky
+- Produkty
+- ProduktyObjednavky
+
+Tabulka ProduktyObjednavky obsahuje:
+- ObjednavkaID,
+- ProduktID,
+- množství,
+- cenu v době objednávky.
+
+---
+
+# E-shop databázový model
+
+Jednoduchý e-shop může obsahovat tabulky:
+
+- Zakaznici
+- Produkty
+- Objednavky
+- ProduktyObjednavky
+
+---
+
+# Tabulka Zakaznici
+
+Může obsahovat:
+- ZakaznikID,
+- Jmeno,
+- Prijmeni,
+- Email,
+- Telefon,
+- Adresa.
+
+---
+
+# Tabulka Produkty
+
+Může obsahovat:
+- ProduktID,
+- Nazev,
+- Popis,
+- Cena,
+- SkladovaZasoba.
+
+---
+
+# Tabulka Objednavky
+
+Může obsahovat:
+- ObjednavkaID,
+- ZakaznikID,
+- DatumObjednavky,
+- Stav.
+
+ZakaznikID je zde cizí klíč.
+
+---
+
+# Tabulka ProduktyObjednavky
+
+Může obsahovat:
+- ProduktyObjednavkyID,
+- ObjednavkaID,
+- ProduktID,
+- Mnozstvi,
+- Cena.
+
+Tato tabulka propojuje objednávky a produkty.
+
+---
+
+# Proč jsou databáze důležité pro analytiku
+
+Databáze jsou důležité, protože:
+- firmy v nich ukládají provozní data,
+- analytici z nich získávají data pomocí SQL,
+- Power BI se na databáze často napojuje,
+- databáze umožňují efektivní reporting,
+- data lze filtrovat, spojovat a agregovat.
+
+---
+
+# Power BI a databáze
+
+Power BI může čerpat data z relačních databází.
+
+Typický analytický workflow:
+- data vznikají v databázi,
+- analytik je načte pomocí SQL nebo Power Query,
+- data se transformují,
+- vytvoří se report nebo dashboard.
+
+---
+
+# Typické chyby junior analytiků
+
+- zaměňují databázi za obyčejný soubor,
+- nepoužívají primární klíče,
+- nerozumí vztahům mezi tabulkami,
+- ignorují datové typy,
+- nerozlišují 1:N a M:N vztahy,
+- neřeší integritu dat.
+
+---
+
+# Hlavní takeaway
+
+Databáze nejsou jen místo pro uložení dat.
+
+Databáze umožňují:
+- organizovat data,
+- propojovat data,
+- chránit data,
+- kontrolovat kvalitu dat,
+- efektivně je analyzovat.
+
+Pro datového analytika jsou relační databáze a SQL jeden ze základních pilířů.
