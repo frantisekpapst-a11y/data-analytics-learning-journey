@@ -1266,3 +1266,240 @@ Získat relevantní insighty a podpořit správné business rozhodování.
 
 ### Odpověď:
 Kvalita sběru a správy dat zásadně ovlivňuje kvalitu celé analýzy a následného rozhodování.
+
+---
+
+# Lekce 9 — Ukládání a archivace dat
+
+---
+
+# Otázky a odpovědi
+
+## 1. Jaký je rozdíl mezi lokálním a cloudovým úložištěm?
+
+### Odpověď:
+Lokální úložiště je uložené fyzicky na zařízení uživatele, cloudové úložiště funguje přes internet na vzdálených serverech.
+
+---
+
+## 2. Jaké jsou hlavní výhody cloudového úložiště?
+
+### Odpověď:
+- přístup odkudkoli,
+- automatické zálohování,
+- snadné sdílení,
+- lepší spolupráce.
+
+---
+
+## 3. Co znamená hybridní přístup k ukládání dat?
+
+### Odpověď:
+Kombinace lokálního a cloudového úložiště.
+
+---
+
+## 4. Proč je důležité mít přehlednou strukturu složek?
+
+### Odpověď:
+Kvůli lepší orientaci, organizaci dat a jednodušší spolupráci.
+
+---
+
+## 5. Jaké složky bývají běžně v datově analytickém projektu?
+
+### Odpověď:
+Například:
+- data,
+- raw,
+- processed,
+- outputs,
+- docs,
+- notebooks,
+- reports.
+
+---
+
+## 6. Co znamená složka `raw`?
+
+### Odpověď:
+Obsahuje původní neupravená data.
+
+---
+
+## 7. Co znamená složka `processed`?
+
+### Odpověď:
+Obsahuje očištěná a upravená data připravená pro analýzu.
+
+---
+
+## 8. Proč je důležité správné pojmenování souborů?
+
+### Odpověď:
+Usnadňuje orientaci, verzování a správu projektů.
+
+---
+
+## 9. Jak by měl vypadat správný název souboru?
+
+### Odpověď:
+- malá písmena,
+- bez mezer,
+- podtržítka,
+- datum,
+- výstižný popis.
+
+Například:
+```text
+sales_data_2024_05.csv
+```
+
+---
+
+## 10. Proč je dobré používat datum v názvu souboru?
+
+### Odpověď:
+Kvůli verzování a snadnější orientaci v čase.
+
+---
+
+## 11. Co je archivace dat?
+
+### Odpověď:
+Přesun dat mimo aktivní pracovní prostředí při zachování možnosti budoucího použití.
+
+---
+
+## 12. Proč archivujeme data?
+
+### Odpověď:
+- historické porovnání,
+- audit,
+- reporting,
+- právní požadavky,
+- budoucí analýzy.
+
+---
+
+## 13. Jaké formáty jsou vhodné pro dlouhodobou archivaci?
+
+### Odpověď:
+- CSV,
+- TXT,
+- MD,
+- PDF/A,
+- JSON,
+- XML.
+
+---
+
+## 14. Proč jsou otevřené formáty důležité?
+
+### Odpověď:
+Protože zajišťují dlouhodobou čitelnost a kompatibilitu.
+
+---
+
+## 15. Co znamená pravidlo 3–2–1 při zálohování?
+
+### Odpověď:
+- 3 kopie dat,
+- 2 různé typy úložišť,
+- 1 kopie mimo hlavní zařízení.
+
+---
+
+## 16. Proč je pravidelné zálohování důležité?
+
+### Odpověď:
+Chrání před ztrátou dat při:
+- selhání disku,
+- smazání,
+- poškození systému,
+- lidské chybě.
+
+---
+
+## 17. Jaká data považujeme za citlivá?
+
+### Odpověď:
+Například:
+- osobní údaje,
+- finanční data,
+- zákaznické databáze,
+- interní reporty.
+
+---
+
+## 18. Jak lze zabezpečit citlivé soubory?
+
+### Odpověď:
+- šifrování,
+- hesla,
+- BitLocker,
+- VeraCrypt,
+- omezení přístupů,
+- MFA/2FA.
+
+---
+
+## 19. Proč není bezpečné posílat citlivá data běžným e-mailem?
+
+### Odpověď:
+Kvůli riziku:
+- úniku dat,
+- phishingu,
+- přeposlání,
+- hacknutí příloh.
+
+---
+
+## 20. Jaké formáty doporučujeme pro tabulky?
+
+### Odpověď:
+CSV.
+
+---
+
+## 21. Jaké formáty doporučujeme pro textové poznámky?
+
+### Odpověď:
+TXT a MD.
+
+---
+
+## 22. Jaký formát je vhodný pro archivaci dokumentů?
+
+### Odpověď:
+PDF/A.
+
+---
+
+## 23. Jaké formáty doporučujeme pro metadata nebo konfigurace?
+
+### Odpověď:
+JSON a XML.
+
+---
+
+## 24. Jaká rizika vznikají při špatné organizaci dat?
+
+### Odpověď:
+- ztráta přehledu,
+- chyby v analýze,
+- špatné verzování,
+- ztráta dat,
+- chaos v projektu.
+
+---
+
+## 25. Co je hlavní takeaway této lekce?
+
+### Odpověď:
+Datový analytik musí řešit nejen analýzu, ale i:
+- organizaci dat,
+- archivaci,
+- zálohování,
+- bezpečnost,
+- správu dat.
