@@ -1,4 +1,4 @@
-# Bank Database Design — první návrh databáze
+# Bank Database Design
 
 ## Cíl
 
