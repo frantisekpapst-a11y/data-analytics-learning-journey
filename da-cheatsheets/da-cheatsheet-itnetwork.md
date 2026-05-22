@@ -2111,3 +2111,354 @@ Dobrá správa dat šetří:
 - peníze,
 - stres,
 - riziko ztráty práce.
+
+---
+
+# Lekce 10 — Úvod do statistiky: Střední hodnota
+
+---
+
+# Statistika
+
+Statistika je věda o:
+- sběru dat,
+- zpracování dat,
+- analýze dat,
+- interpretaci dat.
+
+Pomáhá:
+- odhalovat trendy,
+- nacházet souvislosti,
+- identifikovat odchylky,
+- podporovat rozhodování.
+
+---
+
+# Základní statistické pojmy
+
+## Populace
+
+Soubor všech prvků, které nás zajímají.
+
+Příklad:
+- všichni zákazníci firmy,
+- všichni obyvatelé ČR.
+
+---
+
+## Vzorek
+
+Část populace vybraná ke zkoumání.
+
+Příklad:
+- 1000 zákazníků,
+- respondenti dotazníku.
+
+---
+
+## Proměnná
+
+Vlastnost, kterou sledujeme.
+
+Příklady:
+- věk,
+- příjem,
+- výška,
+- počet objednávek.
+
+---
+
+## Frekvence
+
+Počet výskytů určité hodnoty v datech.
+
+---
+
+## Distribuce
+
+Rozložení hodnot v datech.
+
+Například:
+- normální rozdělení,
+- rovnoměrné rozdělení,
+- zešikmené rozdělení.
+
+---
+
+# Střední hodnota
+
+Hodnota reprezentující typickou úroveň dat.
+
+Základní ukazatele:
+- průměr,
+- vážený průměr,
+- medián,
+- modus.
+
+---
+
+# Aritmetický průměr
+
+## Definice
+
+Součet všech hodnot dělený počtem hodnot.
+
+---
+
+## Vzorec
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+## Příklad
+
+Data:
+```text
+3, 5, 7, 100
+```
+
+Výpočet:
+```text
+(3 + 5 + 7 + 100) / 4 = 28,75
+```
+
+---
+
+# Výhody průměru
+
+- jednoduchý,
+- snadno pochopitelný,
+- široce používaný.
+
+---
+
+# Nevýhoda průměru
+
+Je citlivý na:
+- extrémní hodnoty,
+- outliers.
+
+---
+
+# Outlier
+
+Odlehlá hodnota výrazně vybočující ze zbytku dat.
+
+Příklad:
+```text
+30k, 32k, 35k, 36k, 250k
+```
+
+250k je outlier.
+
+---
+
+# Medián
+
+## Definice
+
+Střední hodnota seřazeného souboru dat.
+
+---
+
+## Výpočet
+
+1. Seřadíme data.
+2. Najdeme prostřední hodnotu.
+3. U sudého počtu hodnot zprůměrujeme dvě prostřední hodnoty.
+
+---
+
+## Příklad
+
+Data:
+```text
+3, 5, 7, 100
+```
+
+Seřazeno:
+```text
+3, 5, 7, 100
+```
+
+Medián:
+```text
+(5 + 7) / 2 = 6
+```
+
+---
+
+# Výhoda mediánu
+
+Medián je:
+- odolnější vůči extrémům,
+- vhodnější pro skewed data.
+
+---
+
+# Kdy používat medián
+
+Například:
+- mzdy,
+- ceny nemovitostí,
+- příjmy,
+- spending.
+
+---
+
+# Průměr vs medián
+
+## Průměr
+- citlivý na extrémy,
+- vhodný pro rovnoměrná data.
+
+---
+
+## Medián
+- stabilnější,
+- vhodný při výskytu outliers.
+
+---
+
+# Vážený průměr
+
+## Definice
+
+Průměr, kde některé hodnoty mají vyšší důležitost.
+
+---
+
+## Příklad
+
+Známky:
+```text
+2 (váha 3)
+1 (váha 1)
+```
+
+Výpočet:
+```text
+(2×3 + 1×1) / (3+1) = 1,75
+```
+
+---
+
+# Kdy používat vážený průměr
+
+Například:
+- školní známky,
+- marže produktů,
+- KPI,
+- důležitost zákazníků.
+
+---
+
+# Modus
+
+## Definice
+
+Nejčastěji se vyskytující hodnota.
+
+---
+
+## Příklad
+
+Data:
+```text
+3, 5, 5, 7, 8
+```
+
+Modus:
+```text
+5
+```
+
+---
+
+# Kdy používat modus
+
+Například:
+- nejčastější velikost bot,
+- nejprodávanější produkt,
+- nejčastější odpověď v dotazníku.
+
+---
+
+# Situace bez modu
+
+Pokud:
+- se žádná hodnota neopakuje,
+- nebo existuje více stejně častých hodnot.
+
+---
+
+# Excel funkce
+
+## Průměr
+
+```excel
+=PRŮMĚR(A1:A10)
+```
+
+---
+
+## Medián
+
+```excel
+=MEDIAN(A1:A10)
+```
+
+---
+
+## Modus
+
+```excel
+=MODE.SNGL(A1:A10)
+```
+
+---
+
+# Vážený průměr v Excelu
+
+```excel
+=SOUČIN.SKALÁRNÍ(A1:A5;B1:B5)/SUMA(B1:B5)
+```
+
+---
+
+# Business interpretace
+
+## Průměr
+Ukazuje obecný trend.
+
+---
+
+## Medián
+Ukazuje typickou hodnotu.
+
+---
+
+## Modus
+Ukazuje nejběžnější hodnotu.
+
+---
+
+# Typické chyby junior analytiků
+
+- slepé používání průměru,
+- ignorování outliers,
+- nepochopení distribuce dat,
+- špatná interpretace statistik.
+
+---
+
+# Hlavní takeaway
+
+Správný statistický ukazatel závisí na:
+- typu dat,
+- distribuci dat,
+- přítomnosti extrémních hodnot,
+- business kontextu.
+
+Medián často lépe reprezentuje realitu než průměr.
