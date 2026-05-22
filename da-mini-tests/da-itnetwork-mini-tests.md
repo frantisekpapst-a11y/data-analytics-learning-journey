@@ -2450,3 +2450,188 @@ c) Popis dat → hledání vztahů → ověření hypotéz
 d) Nejprve dashboard, potom statistika
 
 **Odpověď:** c
+
+---
+
+# Mini testy – Lekce 14
+
+## Mini test
+
+### 1.
+Co je hlavním cílem preskriptivní analýzy?
+
+a) Popsat minulost  
+b) Najít nejlepší možné rozhodnutí  
+c) Vizualizovat data  
+d) Vyčistit dataset
+
+**Odpověď:** b
+
+---
+
+### 2.
+Co je v optimalizační úloze „constraint“?
+
+a) Graf  
+b) Omezení  
+c) Databáze  
+d) Korelace
+
+**Odpověď:** b
+
+---
+
+### 3.
+Co je objective function?
+
+a) Cílová funkce, kterou chceme optimalizovat  
+b) Funkce pro filtrování dat  
+c) Funkce pro tvorbu grafů  
+d) Funkce pro export dat
+
+**Odpověď:** a
+
+---
+
+### 4.
+Který nástroj v Excelu slouží pro optimalizaci?
+
+a) Power Query  
+b) Kontingenční tabulka  
+c) Solver (Řešitel)  
+d) Podmíněné formátování
+
+**Odpověď:** c
+
+---
+
+### 5.
+Co jsou decision variables?
+
+a) Proměnné, které může Solver měnit  
+b) Filtry v Excelu  
+c) Typy grafů  
+d) Sloupce databáze
+
+**Odpověď:** a
+
+---
+
+### 6.
+Co znamená trade-off?
+
+a) Automatické zálohování dat  
+b) Kompromis mezi více cíli nebo omezeními  
+c) Chyba v datasetu  
+d) Typ korelace
+
+**Odpověď:** b
+
+---
+
+### 7.
+Co je data mining?
+
+a) Mazání dat  
+b) Hledání vzorů a souvislostí v datech  
+c) Export do Power BI  
+d) Převod CSV do Excelu
+
+**Odpověď:** b
+
+---
+
+### 8.
+K čemu slouží kontingenční tabulka?
+
+a) K optimalizaci výroby  
+b) K agregaci a analýze dat  
+c) K programování  
+d) K tvorbě databáze
+
+**Odpověď:** b
+
+---
+
+### 9.
+K čemu slouží podmíněné formátování?
+
+a) K vizuálnímu zvýraznění důležitých hodnot  
+b) K mazání duplicit  
+c) K tvorbě SQL dotazů  
+d) K exportu dat
+
+**Odpověď:** a
+
+---
+
+### 10.
+Co znamená binning / segmentation?
+
+a) Mazání dat  
+b) Rozdělení dat do skupin podle hodnot  
+c) Šifrování dat  
+d) Import databáze
+
+**Odpověď:** b
+
+---
+
+### 11.
+Která funkce je vhodná pro více podmínek místo dlouhého vnořeného KDYŽ?
+
+a) SUMA  
+b) COUNTIFS  
+c) IFS  
+d) PRŮMĚR
+
+**Odpověď:** c
+
+---
+
+### 12.
+Který nástroj je nejvhodnější pro práci s velkými relačními databázemi?
+
+a) Malování  
+b) SQL  
+c) Word  
+d) PowerPoint
+
+**Odpověď:** b
+
+---
+
+### 13.
+K čemu slouží BI nástroje jako Power BI nebo Tableau?
+
+a) K programování backendu  
+b) K tvorbě dashboardů a reportů  
+c) K editaci videa  
+d) K instalaci databází
+
+**Odpověď:** b
+
+---
+
+### 14.
+Který Python balíček se často používá pro práci s daty?
+
+a) pandas  
+b) Photoshop  
+c) Docker  
+d) React
+
+**Odpověď:** a
+
+---
+
+### 15.
+Firma má:
+- omezený rozpočet,
+- omezenou výrobní kapacitu,
+- více produktů.
+
+Jaký typ analytického přístupu je vhodný pro hledání nejlepší kombinace výroby a proč?
+
+**Odpověď:**  
+Preskriptivní analýza, protože hledá optimální řešení při omezených zdrojích a navrhuje nejlepší možné rozhodnutí.
