@@ -564,3 +564,264 @@ CSV = tabulka
 JSON = datová struktura
 
 Moderní analytik musí rozumět oběma přístupům.
+
+---
+
+# 🧪 Mini Test — Datové formáty XML a SQL (Otázky a odpovědi)
+
+---
+
+## 1.
+### Otázka:
+Co znamená zkratka XML?
+
+### Odpověď:
+Extensible Markup Language.
+
+---
+
+## 2.
+### Otázka:
+K čemu se XML používá?
+
+### Odpověď:
+K ukládání a přenosu strukturovaných dat.
+
+---
+
+## 3.
+### Otázka:
+Jak XML ukládá data?
+
+### Odpověď:
+Pomocí tagů, atributů a hierarchické struktury.
+
+---
+
+## 4.
+### Otázka:
+Co je tag v XML?
+
+### Odpověď:
+Značka označující element dat.
+
+Příklad:
+
+```xml
+<jmeno>Jan</jmeno>
+```
+
+---
+
+## 5.
+### Otázka:
+Jak poznáš otevírací a zavírací tag?
+
+### Odpověď:
+Zavírací tag obsahuje lomítko `/`.
+
+Příklad:
+
+```xml
+<jmeno>
+</jmeno>
+```
+
+---
+
+## 6.
+### Otázka:
+Co je kořenový element XML dokumentu?
+
+### Odpověď:
+Hlavní nejvyšší element obsahující všechny ostatní elementy.
+
+---
+
+## 7.
+### Otázka:
+Co je atribut v XML?
+
+### Odpověď:
+Vlastnost elementu.
+
+Příklad:
+
+```xml
+<mesto hlavni="ano">
+```
+
+---
+
+## 8.
+### Otázka:
+Proč je XML vhodné pro hierarchická data?
+
+### Odpověď:
+Protože umožňuje zanořování elementů do sebe.
+
+---
+
+## 9.
+### Otázka:
+Jaký je hlavní rozdíl mezi XML a CSV?
+
+### Odpověď:
+XML podporuje hierarchii dat, CSV ukládá pouze tabulková data.
+
+---
+
+## 10.
+### Otázka:
+Proč je XML označováno jako „ukecané“?
+
+### Odpověď:
+Protože obsahuje velké množství tagů a textu.
+
+---
+
+## 11.
+### Otázka:
+Co jsou XML entity?
+
+### Odpověď:
+Zástupné zápisy speciálních znaků používaných v XML.
+
+---
+
+## 12.
+### Otázka:
+Jak se zapisuje znak `<` jako XML entita?
+
+### Odpověď:
+
+```xml
+&lt;
+```
+
+---
+
+## 13.
+### Otázka:
+Proč nelze některé znaky zapisovat v XML přímo?
+
+### Odpověď:
+Protože jsou součástí XML syntaxe.
+
+---
+
+## 14.
+### Otázka:
+Jaký je rozdíl mezi JSON a XML?
+
+### Odpověď:
+JSON je kratší a modernější, XML je robustnější a více používané v enterprise systémech.
+
+---
+
+## 15.
+### Otázka:
+Co znamená zkratka SQL?
+
+### Odpověď:
+Structured Query Language.
+
+---
+
+## 16.
+### Otázka:
+K čemu slouží SQL?
+
+### Odpověď:
+K práci s databázemi a daty.
+
+---
+
+## 17.
+### Otázka:
+Co je databázová tabulka?
+
+### Odpověď:
+Struktura řádků a sloupců pro ukládání dat.
+
+---
+
+## 18.
+### Otázka:
+Co dělá SQL příkaz `INSERT INTO`?
+
+### Odpověď:
+Vkládá data do databázové tabulky.
+
+---
+
+## 19.
+### Otázka:
+Co znamená datový typ `VARCHAR(50)`?
+
+### Odpověď:
+Textový datový typ s maximální délkou 50 znaků.
+
+---
+
+## 20.
+### Otázka:
+Co znamená datový typ `INTEGER`?
+
+### Odpověď:
+Celé číslo.
+
+---
+
+## 21.
+### Otázka:
+K čemu slouží příkaz `CREATE TABLE`?
+
+### Odpověď:
+K vytvoření databázové tabulky.
+
+---
+
+## 22.
+### Otázka:
+Jaký je rozdíl mezi CSV souborem a SQL databází?
+
+### Odpověď:
+CSV je obyčejný datový soubor, SQL databáze umožňuje aktivní práci s daty pomocí dotazů.
+
+---
+
+## 23.
+### Otázka:
+Proč jsou databáze důležité v datové analytice?
+
+### Odpověď:
+Umožňují efektivní ukládání, filtrování a analýzu velkých objemů dat.
+
+---
+
+## 24.
+### Otázka:
+Kdy je vhodnější použít XML než CSV?
+
+### Odpověď:
+Při práci se složitými nebo hierarchickými daty.
+
+---
+
+## 25.
+### Otázka:
+Přiřaď vhodný formát:
+
+- API:
+- jednoduchá tabulková data:
+- databáze:
+- enterprise systémy:
+
+### Odpověď:
+- API: JSON
+- jednoduchá tabulková data: CSV
+- databáze: SQL
+- enterprise systémy: XML
+
+---
