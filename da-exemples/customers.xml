@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zakaznici>
+    <zakaznik premium="ano">
+        <jmeno>Jan</jmeno>
+        <mesto>Praha</mesto>
+    </zakaznik>
+
+    <zakaznik premium="ne">
+        <jmeno>Eva</jmeno>
+        <mesto>Brno</mesto>
+    </zakaznik>
+</zakaznici>
