@@ -4767,3 +4767,254 @@ Správný analytik:
 - pak vytvoří hypotézu,
 - následně ji statisticky ověří,
 - a až potom doporučuje business rozhodnutí.
+
+---
+
+# 📘 Minitesty – Lekce 23 (EDA vs SDA)
+
+### 1.
+Co znamená zkratka EDA?
+
+a) Exploratory Data Analysis  
+b) Excel Data Analytics  
+c) External Database Access  
+
+✅ Správná odpověď: a)
+
+---
+
+### 2.
+Jaký je hlavní cíl EDA?
+
+a) Ověřit hypotézu  
+b) Pochopit data a najít vzorce  
+c) Mazat datasety  
+
+✅ Správná odpověď: b)
+
+---
+
+### 3.
+Která činnost typicky patří do EDA?
+
+a) Histogram  
+b) Kontingenční tabulka  
+c) Analýza průměrů  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 4.
+Co je hlavním cílem SDA?
+
+a) Tvorba dashboardu  
+b) Statistické ověření hypotéz  
+c) Export CSV  
+
+✅ Správná odpověď: b)
+
+---
+
+### 5.
+Co znamená zkratka SDA?
+
+a) Statistical Data Analysis  
+b) Structured Database Access  
+c) Standard Data Architecture  
+
+✅ Správná odpověď: a)
+
+---
+
+### 6.
+Který nástroj typicky patří do SDA?
+
+a) T-test  
+b) p-hodnota  
+c) Regrese  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 7.
+Jaký je hlavní rozdíl mezi EDA a SDA?
+
+a) EDA hledá zajímavosti, SDA ověřuje hypotézy  
+b) EDA pracuje pouze v SQL  
+c) SDA nepoužívá statistiku  
+
+✅ Správná odpověď: a)
+
+---
+
+### 8.
+Co znamená statistická významnost?
+
+a) Výsledek pravděpodobně není způsoben náhodou  
+b) Dataset je velký  
+c) Graf má správné barvy  
+
+✅ Správná odpověď: a)
+
+---
+
+### 9.
+Jak se obvykle interpretuje p-hodnota menší než 0,05?
+
+a) Rozdíl je statisticky významný  
+b) Rozdíl je určitě náhodný  
+c) Data jsou chybná  
+
+✅ Správná odpověď: a)
+
+---
+
+### 10.
+Co znamená p-hodnota větší než 0,05?
+
+a) Rozdíl může být způsoben náhodou  
+b) Rozdíl je automaticky významný  
+c) Dataset je příliš malý  
+
+✅ Správná odpověď: a)
+
+---
+
+### 11.
+K čemu slouží t-test?
+
+a) K porovnání průměrů dvou skupin  
+b) K odstranění NULL hodnot  
+c) K exportu dashboardu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+Který příklad je správný analytický workflow?
+
+a)
+
+```text
+Dashboard → export → konec
+```
+
+b)
+
+```text
+EDA → hypotéza → SDA → interpretace
+```
+
+c)
+
+```text
+CSV → email → PowerPoint
+```
+
+✅ Správná odpověď: b)
+
+---
+
+### 13.
+Co znamená hypotéza v analytice?
+
+a) Tvrzení, které chceme ověřit  
+b) Typ grafu  
+c) Chyba v datasetu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 14.
+Proč nestačí pouze nízký průměr?
+
+a) Je potřeba ověřit statistickou významnost  
+b) Protože Excel neumí průměr  
+c) Protože dashboard musí být barevný  
+
+✅ Správná odpověď: a)
+
+---
+
+### 15.
+Co může ovlivnit kvalitu statistického závěru?
+
+a) Velikost vzorku  
+b) Rozptyl dat  
+c) Kvalita dat  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 16.
+Co je bimodální rozložení?
+
+a) Rozložení se dvěma vrcholy  
+b) Rozložení bez průměru  
+c) Typ SQL databáze  
+
+✅ Správná odpověď: a)
+
+---
+
+### 17.
+Co může znamenat bimodální rozložení v businessu?
+
+a) Dvě různé skupiny zákazníků  
+b) Chybu v Excelu  
+c) Automatický úspěch produktu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 18.
+Proč mohou grafy zkreslovat realitu?
+
+a) Kvůli špatnému měřítku nebo nevhodné vizualizaci  
+b) Protože grafy nefungují  
+c) Protože statistika není důležitá  
+
+✅ Správná odpověď: a)
+
+---
+
+### 19.
+Které tvrzení je správné?
+
+a) EDA často slouží jako základ pro další statistické ověření  
+b) SDA nahrazuje EDA  
+c) p-hodnota není důležitá  
+
+✅ Správná odpověď: a)
+
+---
+
+### 20.
+Vysvětli vlastními slovy:
+- rozdíl mezi EDA a SDA,
+- a proč je důležité kombinovat oba přístupy.
+
+✅ Vzorová odpověď:
+
+EDA (Exploratory Data Analysis) slouží k průzkumu dat. Pomáhá hledat:
+- vzorce,
+- vztahy,
+- trendy,
+- odchylky,
+- outliery.
+
+SDA (Statistical Data Analysis) slouží ke statistickému ověření hypotéz a zjištění, zda výsledky nejsou způsobeny náhodou.
+
+EDA pomáhá pochopit data a formulovat otázky, zatímco SDA poskytuje statistický důkaz. Kombinace obou přístupů umožňuje dělat kvalitnější a spolehlivější business rozhodnutí.
