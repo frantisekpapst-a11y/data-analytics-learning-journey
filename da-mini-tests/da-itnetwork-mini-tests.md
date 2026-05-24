@@ -4482,3 +4482,288 @@ Důležitou součástí etické analytiky je:
 
 ---
 
+# 📘 Data Analysis Basics – Cheat Sheet (Lekce 23)
+
+# 🧠 1. EDA – Exploratory Data Analysis
+
+EDA = průzkumná analýza dat.
+
+Cíl:
+- pochopit data,
+- najít vzorce,
+- najít odchylky,
+- odhalit podezřelé hodnoty,
+- připravit otázky pro další analýzu.
+
+---
+
+# 📊 2. Co se dělá při EDA
+
+Typické kroky:
+- počet záznamů,
+- průměr,
+- medián,
+- rozptyl,
+- četnosti,
+- grafy,
+- kontingenční tabulky,
+- histogramy,
+- korelace.
+
+---
+
+# 📈 3. Význam EDA
+
+EDA odpovídá na otázku:
+
+```text
+Co v datech vidíme?
+```
+
+Příklad:
+```text
+Smartwatch Pro má nižší průměrné hodnocení než ostatní produkty.
+```
+
+---
+
+# ⚠️ 4. EDA není důkaz
+
+Výsledky EDA jsou:
+- první orientace,
+- podezření,
+- náznak,
+- hypotéza pro další ověření.
+
+EDA neříká:
+```text
+„tohle určitě platí“
+```
+
+Ale spíš:
+```text
+„tohle vypadá zajímavě a stojí za ověření“
+```
+
+---
+
+# 📊 5. SDA – Statistical Data Analysis
+
+SDA = statistická analýza dat.
+
+Cíl:
+- ověřit hypotézy,
+- zjistit, zda rozdíl není náhodný,
+- potvrdit nebo vyvrátit předpoklad pomocí statistických testů.
+
+---
+
+# 📈 6. Co se dělá při SDA
+
+Typické nástroje:
+- t-test,
+- p-hodnota,
+- hypotézy,
+- korelace,
+- regrese,
+- statistická významnost.
+
+---
+
+# 🧪 7. Význam SDA
+
+SDA odpovídá na otázku:
+
+```text
+Je to, co vidíme v datech, statisticky významné?
+```
+
+Příklad:
+```text
+Smartwatch Pro má statisticky významně horší hodnocení než ostatní produkty.
+```
+
+---
+
+# 📊 8. Rozdíl mezi EDA a SDA
+
+| Oblast | EDA | SDA |
+|---|---|---|
+| Cíl | najít zajímavosti | ověřit hypotézy |
+| Fáze | začátek analýzy | po průzkumu dat |
+| Výstup | podezření / otázka | statistický důkaz |
+| Nástroje | grafy, průměry, kontingenčky | t-test, p-hodnota |
+| Hypotéza | není nutná | je nutná |
+
+---
+
+# 🔁 9. Doporučený analytický workflow
+
+```text
+EDA
+→ formulace otázky
+→ hypotéza
+→ SDA
+→ interpretace
+→ business rozhodnutí
+```
+
+---
+
+# 📈 10. Typický příklad
+
+## EDA
+
+```text
+Produkt Smartwatch Pro má nižší průměrné hodnocení.
+```
+
+## Hypotéza
+
+```text
+Smartwatch Pro má horší hodnocení než ostatní produkty.
+```
+
+## SDA
+
+```text
+Pomocí t-testu ověříme, zda rozdíl není způsoben náhodou.
+```
+
+## Business rozhodnutí
+
+```text
+Pokud je rozdíl statisticky významný, produkt je vhodné dále prozkoumat nebo zlepšit.
+```
+
+---
+
+# 🧪 11. T-test
+
+T-test slouží k porovnání průměrů dvou skupin.
+
+Použití:
+- hodnocení produktu A vs ostatní produkty,
+- kampaň A vs kampaň B,
+- skupina zákazníků A vs skupina B.
+
+---
+
+# 📉 12. p-hodnota
+
+p-hodnota pomáhá rozhodnout, zda rozdíl může být náhodný.
+
+| p-hodnota | Interpretace |
+|---|---|
+| p < 0,05 | rozdíl je statisticky významný |
+| p >= 0,05 | rozdíl může být náhodný |
+
+---
+
+# 📊 13. Vzorec v Excelu
+
+```excel
+=T.TEST(A:A;B:B;2;2)
+```
+
+Použití:
+- A:A = první skupina,
+- B:B = druhá skupina,
+- první 2 = oboustranný test,
+- druhá 2 = dvouvýběrový test se stejným rozptylem.
+
+---
+
+# 📈 14. Velikost vzorku
+
+Nízký průměr nestačí.
+
+Je potřeba zkontrolovat:
+- počet záznamů,
+- rozptyl,
+- stabilitu výsledku,
+- statistickou významnost.
+
+---
+
+# 📊 15. Vizualizace v EDA
+
+Grafy pomáhají najít:
+- rozložení hodnot,
+- outliery,
+- vzorce,
+- trendy,
+- odlišné skupiny.
+
+Pozor:
+```text
+graf může zkreslit realitu
+```
+
+Například:
+- špatné měřítko,
+- nevhodný typ grafu,
+- práce s neúplnými daty.
+
+---
+
+# 📈 16. Bimodální rozložení
+
+Bimodální rozložení = rozložení se dvěma vrcholy.
+
+Může znamenat:
+- dvě skupiny zákazníků,
+- polarizované hodnocení,
+- rozdílné zkušenosti s produktem.
+
+---
+
+# 📊 17. Business interpretace
+
+Analytik nehledá jen číslo.
+
+Důležité je:
+- co výsledek znamená,
+- jaké rozhodnutí podporuje,
+- jaké jsou limity dat,
+- co by se mělo ověřit dál.
+
+---
+
+# 📈 18. Typické analytické formulace
+
+Nevhodné:
+```text
+Produkt je určitě špatný.
+```
+
+Vhodné:
+```text
+Data naznačují nižší hodnocení produktu. Statistický test ukazuje, že rozdíl je významný.
+```
+
+---
+
+# 🚀 19. Praktický mindset
+
+EDA:
+```text
+„Tady něco vypadá zajímavě.“
+```
+
+SDA:
+```text
+„Ověřili jsme, že rozdíl pravděpodobně není náhodný.“
+```
+
+---
+
+# 🧠 20. Shrnutí
+
+EDA a SDA se doplňují.
+
+Správný analytik:
+- nejdřív data prozkoumá,
+- pak vytvoří hypotézu,
+- následně ji statisticky ověří,
+- a až potom doporučuje business rozhodnutí.
