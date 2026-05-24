@@ -4614,3 +4614,280 @@ Ale hlavně:
 - validovat kvalitu dat,
 - systematicky data opravit,
 - připravit data pro další analytiku.
+
+---
+
+# 📘 Data Analysis Basics – Cheat Sheet (Lekce 20)
+
+# 🧠 1. GDPR
+
+GDPR = General Data Protection Regulation
+
+Evropské nařízení pro:
+- ochranu osobních údajů,
+- bezpečnost dat,
+- ochranu soukromí jednotlivců.
+
+---
+
+# 📊 2. Osobní údaj
+
+Osobní údaj = jakákoli informace umožňující identifikaci osoby.
+
+Příklady:
+- jméno,
+- příjmení,
+- email,
+- telefon,
+- adresa,
+- IP adresa,
+- rodné číslo.
+
+---
+
+# 📈 3. Kombinace údajů
+
+Někdy:
+```text
+jednotlivý údaj nestačí
+```
+
+Ale:
+```text
+kombinace údajů už osobu identifikuje
+```
+
+Příklad:
+
+```text
+"Paní Kadrnožková z Dolní Bělé"
+```
+
+---
+
+# 📊 4. Proč chránit osobní údaje
+
+Důvody:
+- ochrana soukromí,
+- ochrana majetku,
+- prevence zneužití dat,
+- bezpečnost uživatelů,
+- důvěra zákazníků.
+
+---
+
+# 📈 5. Rizika úniku dat
+
+Únik dat může způsobit:
+- zneužití osobních údajů,
+- reputační škody,
+- bezpečnostní incident,
+- vysoké pokuty,
+- právní problémy.
+
+---
+
+# 📌 6. Základní principy GDPR
+
+| Princip | Význam |
+|---|---|
+| zákonnost | data lze zpracovávat pouze legálně |
+| transparentnost | uživatel musí vědět, jak se data používají |
+| minimalizace | sbírat jen nezbytná data |
+| správnost | data musí být aktuální |
+| omezená doba uložení | data neuchovávat déle než je nutné |
+
+---
+
+# 📊 7. Minimalizace dat
+
+Princip:
+```text
+sbírat pouze data, která skutečně potřebujeme
+```
+
+Ne:
+```text
+„pro jistotu“
+```
+
+---
+
+# 📈 8. Anonymizace
+
+Anonymizace = odstranění možnosti identifikace osoby.
+
+---
+
+## Příklad anonymizace
+
+Místo:
+
+| Jméno | Email |
+|---|---|
+| Jan Novák | jan@email.cz |
+
+Použijeme:
+
+| Customer_ID |
+|---|
+| CUST_1045 |
+
+---
+
+# 📊 9. Oprávněný zájem
+
+Omezené použití dat související s původním účelem.
+
+Příklad:
+```text
+zákazník koupí lednici
+→ nabídka mikrovlnky
+```
+
+---
+
+# 📈 10. Profilování
+
+Automatické zařazování lidí do kategorií podle dat.
+
+Příklad:
+- scoring zákazníků,
+- segmentace,
+- doporučovací algoritmy,
+- automatické rozhodování.
+
+---
+
+# 📊 11. Práva subjektů údajů
+
+Uživatel má právo:
+- na informace,
+- na přístup k datům,
+- na opravu dat,
+- na výmaz dat,
+- na přenositelnost dat,
+- vznést námitku,
+- nebýt profilován.
+
+---
+
+# 📈 12. Právo být zapomenut
+
+Uživatel může požadovat:
+```text
+výmaz osobních údajů
+```
+
+Pokud:
+- už nejsou potřebné,
+- neexistuje právní důvod pro jejich uchování.
+
+---
+
+# 📊 13. Správce vs Zpracovatel
+
+| Role | Význam |
+|---|---|
+| správce | určuje účel a způsob zpracování dat |
+| zpracovatel | pracuje s daty podle pokynů správce |
+
+---
+
+# 📈 14. Povinnosti správce
+
+Správce musí:
+- mít právní důvod pro zpracování dat,
+- informovat uživatele,
+- chránit data,
+- uzavírat smlouvy se zpracovateli.
+
+---
+
+# 📊 15. Povinnosti zpracovatele
+
+Zpracovatel musí:
+- pracovat podle pokynů správce,
+- chránit data,
+- hlásit incidenty,
+- spolupracovat při výkonu práv subjektů.
+
+---
+
+# 📈 16. Cookie lišty
+
+Použití:
+- analytické cookies,
+- tracking,
+- marketingové nástroje.
+
+Vyžadují:
+```text
+souhlas uživatele
+```
+
+---
+
+# 📊 17. Kybernetická bezpečnost
+
+Důležité oblasti:
+- ochrana přístupů,
+- silná hesla,
+- šifrování,
+- VPN,
+- omezení přístupů,
+- zabezpečení databází.
+
+---
+
+# 📈 18. Únik dat – správný postup
+
+Workflow:
+```text
+izolace systému
+→ zabezpečení logů
+→ nahlášení incidentu
+→ analýza problému
+→ náprava
+→ prevence opakování
+```
+
+---
+
+# 📊 19. GDPR a analytika
+
+Datový analytik musí:
+- chránit osobní údaje,
+- anonymizovat datasety,
+- bezpečně sdílet data,
+- kontrolovat přístupy,
+- nepublikovat reálná osobní data.
+
+---
+
+# 📈 20. GitHub a osobní data
+
+Na veřejný GitHub:
+```text
+nikdy nepatří reálná osobní data
+```
+
+Používat:
+- anonymizované datasety,
+- fiktivní data,
+- testovací data.
+
+---
+
+# 🚀 21. Analytické myšlení
+
+Důležité není jen:
+- umět analyzovat data,
+- vytvářet dashboardy,
+- psát SQL.
+
+Ale také:
+- chápat bezpečnost dat,
+- chránit soukromí uživatelů,
+- dodržovat pravidla GDPR,
+- pracovat s daty odpovědně.
