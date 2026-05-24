@@ -4326,3 +4326,291 @@ Ale hlavně:
 - ověřit kvalitu dat,
 - systematicky data opravit,
 - chápat dopad nekvalitních dat na business.
+
+---
+
+# 📘 Data Analysis Basics – Cheat Sheet (Lekce 18)
+
+# 🧠 1. Čištění dat (Data Cleaning)
+
+Data cleaning = praktický proces opravy a úpravy datasetu.
+
+Cíl:
+- odstranit chyby,
+- sjednotit data,
+- připravit dataset pro analýzu,
+- zvýšit kvalitu reportingu a KPI.
+
+---
+
+# 📊 2. Typické problémy v datasetu
+
+## Chybějící hodnoty
+Například:
+```text
+NULL
+prázdné buňky
+```
+
+---
+
+## Duplicity
+Stejný záznam vícekrát.
+
+Příklad:
+```text
+duplicitní zákazník
+duplicitní objednávka
+```
+
+---
+
+## Nekonzistentní zápis
+Příklad:
+```text
+Brno
+brno
+BRNO
+```
+
+---
+
+## Špatné datové typy
+Například:
+- text místo čísla,
+- datum jako text.
+
+---
+
+## Extrémní hodnoty
+Nerealistické hodnoty.
+
+Příklad:
+```text
+věk = 150
+```
+
+---
+
+# 📈 3. Správný cleaning workflow
+
+```text
+diagnostika
+→ odstranění duplicit
+→ oprava datových typů
+→ odstranění extrémů
+→ doplnění chybějících hodnot
+→ sjednocení formátu
+→ validace dat
+```
+
+---
+
+# 📊 4. Diagnostika chyb
+
+Nejdřív:
+```text
+najít problém
+```
+
+Až potom:
+```text
+opravovat data
+```
+
+---
+
+# 📌 5. Nejdůležitější Excel funkce z lekce
+
+| Funkce | Použití |
+|---|---|
+| JE.ČISLO | kontrola datového typu |
+| KDYŽ | podmínky |
+| NEBO | více podmínek |
+| PRŮMĚR | doplnění chybějících hodnot |
+| VELKÁ2 | sjednocení textu |
+| OŘÍZNOUT | odstranění mezer |
+| PROČISTIT | odstranění neviditelných znaků |
+
+---
+
+# 📈 6. Kontrola datového typu
+
+## JE.ČISLO()
+
+Kontrola:
+```text
+je hodnota číslo?
+```
+
+Příklad:
+
+```excel
+=JE.ČISLO(C2)
+```
+
+---
+
+# 📊 7. Odstranění duplicit
+
+Použití:
+```text
+Data → Odebrat duplicity
+```
+
+Důležité:
+- duplicity zkreslují KPI,
+- zvyšují revenue,
+- zvyšují počty zákazníků,
+- zkreslují reporting.
+
+---
+
+# 📈 8. Business pravidla
+
+Příklad:
+
+```excel
+=C2<0
+=C2>110
+```
+
+Použití:
+- validace realistických hodnot,
+- kontrola kvality dat.
+
+---
+
+# 📊 9. Oprava extrémních hodnot
+
+Příklad:
+
+```excel
+=KDYŽ(NEBO(NE(JE.ČISLO(C2));C2<0;C2>110);"";C2)
+```
+
+Logika:
+- pokud hodnota není validní,
+- vrátí prázdnou hodnotu,
+- jinak zachová původní data.
+
+---
+
+# 📈 10. Imputace chybějících hodnot
+
+Imputace = doplnění chybějících hodnot.
+
+---
+
+## Doplnění pomocí průměru
+
+```excel
+=PRŮMĚR(G2:G6)
+```
+
+---
+
+## Nahrazení prázdných buněk
+
+```excel
+=KDYŽ(G2="";$H$1;G2)
+```
+
+---
+
+# 📊 11. Standardizace textu
+
+Cíl:
+- sjednotit zápis hodnot,
+- zabránit rozbití pivotů a dashboardů.
+
+---
+
+## VELKÁ2()
+
+```excel
+=VELKÁ2(D2)
+```
+
+Příklad:
+```text
+brno → Brno
+```
+
+---
+
+# 📈 12. Podmíněné formátování
+
+Použití:
+- zvýraznění duplicit,
+- zvýraznění chyb,
+- kontrola nekonzistentních hodnot,
+- vizualizace problémových dat.
+
+---
+
+# 📊 13. Copy → Paste Values
+
+Použití:
+- odstranění vzorců,
+- ponechání finálních hodnot.
+
+Postup:
+```text
+Kopírovat → Vložit jinak → Hodnoty
+```
+
+---
+
+# 📈 14. Pracovní kopie datasetu
+
+Doporučený workflow:
+
+```text
+01_Duplicitni
+02_Typy_Extremy
+03_Chybejici_Hodnoty
+04_Formaty
+```
+
+Výhody:
+- možnost rollbacku,
+- kontrola změn,
+- bezpečnější práce s daty.
+
+---
+
+# 📊 15. Validace dat
+
+Analytik musí ověřovat:
+- správnost dat,
+- realistické hodnoty,
+- konzistenci datasetu,
+- kvalitu vstupních dat.
+
+---
+
+# 📈 16. Garbage In → Garbage Out
+
+Špatná data vedou k:
+- chybným KPI,
+- špatným dashboardům,
+- nepřesným analýzám,
+- chybným business rozhodnutím,
+- problémům v BI a automatizaci.
+
+---
+
+# 🚀 17. Analytické myšlení
+
+Důležité není jen:
+- umět Excel,
+- umět SQL,
+- umět dashboardy.
+
+Ale hlavně:
+- rozpoznat problém v datech,
+- chápat business logiku,
+- validovat kvalitu dat,
+- systematicky data opravit,
+- připravit data pro další analytiku.
