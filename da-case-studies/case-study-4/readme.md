@@ -29,6 +29,9 @@ case-study-4/
 ├── analysis/
 │   └── sales_marketing_analysis.xlsx
 │
+├── screenshots/
+│   └── sales_marketing_analysis.xlsx
+│
 └── README.md
 ```
 
