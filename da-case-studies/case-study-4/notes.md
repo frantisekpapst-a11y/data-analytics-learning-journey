@@ -11,7 +11,7 @@
 - sezónnost tržeb
 - správné čtení KPI
 
-## Co chci zlepšit
+## Co chci zlepšit/na co se dál nebo znovu zaměřit
 - Power Query
 - vizualizace
 - SQL analýzy
