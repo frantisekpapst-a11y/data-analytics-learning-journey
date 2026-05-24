@@ -3230,3 +3230,241 @@ To může vést k:
 - nesprávným business rozhodnutím,
 - nepřesným analytickým výsledkům,
 - problémům v BI dashboardech a automatizaci.
+
+---
+
+# 📘 Minitesty – Lekce 18 (Čištění dat)
+
+### 1.
+Jaký je hlavní cíl data cleaning procesu?
+
+a) Zvýšit počet grafů  
+b) Připravit kvalitní data pro analýzu  
+c) Zvýšit velikost datasetu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 2.
+Co je správný první krok při čištění dat?
+
+a) Mazání řádků  
+b) Diagnostika problémů  
+c) Tvorba dashboardu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 3.
+Který problém představuje nekonzistentní zápis?
+
+a) Praha / praha / PRAHA  
+b) Věk 30  
+c) Správný formát data  
+
+✅ Správná odpověď: a)
+
+---
+
+### 4.
+Co může způsobit duplicita v datasetu?
+
+a) Přesnější KPI  
+b) Zkreslení výsledků analýzy  
+c) Vyšší výkon Excelu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 5.
+K čemu slouží funkce JE.ČISLO()?
+
+a) Kontrola, zda je hodnota číslo  
+b) Výpočet průměru  
+c) Odstranění duplicit  
+
+✅ Správná odpověď: a)
+
+---
+
+### 6.
+Co dělá funkce VELKÁ2()?
+
+a) Převádí text na číslo  
+b) Sjednocuje formát textu  
+c) Počítá medián  
+
+✅ Správná odpověď: b)
+
+---
+
+### 7.
+Co je příkladem extrémní hodnoty?
+
+a) Věk 35  
+b) Revenue 1000  
+c) Věk 150  
+
+✅ Správná odpověď: c)
+
+---
+
+### 8.
+Proč se vytváří pracovní kopie datasetu?
+
+a) Aby bylo možné vrátit změny zpět  
+b) Kvůli rychlejšímu internetu  
+c) Kvůli grafům  
+
+✅ Správná odpověď: a)
+
+---
+
+### 9.
+K čemu slouží podmíněné formátování?
+
+a) K vizuálnímu zvýraznění problémových hodnot  
+b) K odstranění SQL databáze  
+c) K exportu CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+### 10.
+Co znamená imputace dat?
+
+a) Mazání dat  
+b) Doplňování chybějících hodnot  
+c) Tvorba grafů  
+
+✅ Správná odpověď: b)
+
+---
+
+### 11.
+Jak lze často doplnit chybějící numerické hodnoty?
+
+a) Pomocí průměru  
+b) Pomocí dashboardu  
+c) Pomocí grafu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+Co dělá tento vzorec?
+
+```excel
+=KDYŽ(G2="";$H$1;G2)
+```
+
+a) Odstraňuje duplicity  
+b) Nahrazuje prázdné hodnoty průměrem  
+c) Počítá korelaci  
+
+✅ Správná odpověď: b)
+
+---
+
+### 13.
+Proč jsou špatné datové typy problém?
+
+a) Mohou rozbít výpočty a analýzu  
+b) Zlepšují dashboard  
+c) Nemají žádný vliv  
+
+✅ Správná odpověď: a)
+
+---
+
+### 14.
+K čemu slouží „Vložit jinak → Hodnoty“?
+
+a) K odstranění vzorců a ponechání hodnot  
+b) K vytvoření grafu  
+c) K odstranění SQL tabulky  
+
+✅ Správná odpověď: a)
+
+---
+
+### 15.
+Co znamená princip:
+
+```text
+Garbage In → Garbage Out
+```
+
+a) Nekvalitní data vedou ke špatným výsledkům  
+b) Data je vždy nutné mazat  
+c) Excel neumí pracovat s CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+### 16.
+Co je hlavním cílem standardizace textu?
+
+a) Zvýšit počet sloupců  
+b) Sjednotit zápis hodnot  
+c) Zvětšit velikost datasetu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 17.
+Který postup je správný?
+
+a) Nejprve dashboard, potom cleaning  
+b) Nejprve cleaning, potom analýza  
+c) Nejprve AI model, potom validace dat  
+
+✅ Správná odpověď: b)
+
+---
+
+### 18.
+Co je validace dat?
+
+a) Kontrola správnosti a kvality dat  
+b) Tvorba grafů  
+c) Export do PDF  
+
+✅ Správná odpověď: a)
+
+---
+
+### 19.
+Které tvrzení je správné?
+
+a) Outliery je vždy nutné odstranit  
+b) Data cleaning je klíčová část analytiky  
+c) Nekonzistentní text nevadí  
+
+✅ Správná odpověď: b)
+
+---
+
+### 20.
+Vysvětli vlastními slovy:
+- proč je důležité nejdřív data diagnostikovat,
+- a až potom opravovat.
+
+✅ Vzorová odpověď:
+
+Nejdřív je potřeba zjistit, jaké problémy dataset obsahuje a kde se nacházejí. Teprve potom lze navrhnout správný cleaning workflow a rozhodnout, jak data bezpečně opravit.
+
+Systematická diagnostika pomáhá:
+- zabránit chybným zásahům do dat,
+- zachovat konzistenci datasetu,
+- lépe pochopit business problémy v datech,
+- připravit kvalitní data pro další analýzu.
+
+---
