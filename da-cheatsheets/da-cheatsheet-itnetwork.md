@@ -4891,3 +4891,310 @@ Ale také:
 - chránit soukromí uživatelů,
 - dodržovat pravidla GDPR,
 - pracovat s daty odpovědně.
+
+---
+
+# 📘 Data Analysis Basics – Cheat Sheet (Lekce 21)
+
+# 🧠 1. Bezpečnost dat
+
+Bezpečnost dat = ochrana dat před:
+- ztrátou,
+- únikem,
+- zneužitím,
+- neoprávněným přístupem,
+- ransomwarem,
+- phishingem.
+
+---
+
+# 📊 2. Citlivá data
+
+Citlivá data mohou být:
+
+| Typ dat | Příklad |
+|---|---|
+| osobní údaje | jméno, email, telefon |
+| finanční data | číslo účtu, faktury |
+| zdravotní data | diagnózy |
+| obchodní data | interní reporty, KPI |
+
+---
+
+# 📈 3. Security mindset
+
+Datový analytik:
+- pracuje s daty,
+- sdílí reporty,
+- exportuje datasety,
+- používá cloud,
+- pracuje remote.
+
+Proto:
+```text
+bezpečnost dat není jen úkol IT oddělení
+```
+
+---
+
+# 📊 4. Silná hesla
+
+Bezpečné heslo:
+- minimálně 12 znaků,
+- velká a malá písmena,
+- čísla,
+- speciální znaky,
+- unikátní pro každou službu.
+
+---
+
+# 📈 5. Password manager
+
+Použití:
+- generování hesel,
+- bezpečné ukládání hesel,
+- správa unikátních hesel.
+
+Příklady:
+- KeePass,
+- Bitwarden,
+- 1Password.
+
+---
+
+# 📊 6. Master password
+
+Hlavní heslo do password manageru.
+
+Doporučení:
+```text
+dlouhá zapamatovatelná fráze
+```
+
+Příklad:
+```text
+kdyzmibylo8ukradljsemsousedummic!
+```
+
+---
+
+# 📈 7. Unikátní hesla
+
+Princip:
+```text
+každá služba = jiné heslo
+```
+
+Důvod:
+- kompromitace jednoho účtu neohrozí ostatní služby.
+
+---
+
+# 📊 8. 2FA (dvoufaktorové ověřování)
+
+Princip:
+```text
+heslo + druhý faktor
+```
+
+Příklady:
+- SMS kód,
+- Google Authenticator,
+- hardwarový klíč.
+
+---
+
+# 📈 9. Význam 2FA
+
+I při úniku hesla:
+```text
+útočník stále nemusí získat přístup
+```
+
+---
+
+# 📊 10. Bezpečné sdílení dat
+
+Správný postup:
+- cloudové úložiště,
+- omezené přístupy,
+- konkrétní uživatelé,
+- audit přístupů.
+
+---
+
+# 📈 11. Špatná praxe
+
+Nevhodné:
+- posílání citlivých Excelů emailem,
+- veřejné odkazy,
+- „Anyone with link“,
+- sdílení hesel.
+
+---
+
+# 📊 12. Šifrování
+
+Šifrování = ochrana dat zakódováním.
+
+Použití:
+- při přenosu,
+- při ukládání.
+
+---
+
+# 📈 13. Bezpečné technologie
+
+| Technologie | Použití |
+|---|---|
+| HTTPS | zabezpečený web |
+| VPN | bezpečné připojení |
+| SFTP | bezpečný přenos souborů |
+| BitLocker | šifrování disku |
+
+---
+
+# 📊 14. VPN
+
+VPN = Virtual Private Network
+
+Použití:
+- práce na dálku,
+- veřejné Wi-Fi,
+- ochrana připojení,
+- šifrování komunikace.
+
+---
+
+# 📈 15. Aktualizace softwaru
+
+Aktualizace:
+- opravují bezpečnostní chyby,
+- chrání před malwarem,
+- snižují riziko útoků.
+
+---
+
+# 📊 16. Firewall a antivirus
+
+## Firewall
+Chrání zařízení před neoprávněným přístupem.
+
+## Antivirus
+Detekuje a odstraňuje malware.
+
+---
+
+# 📈 17. Phishing
+
+Phishing = podvodný pokus získat:
+- hesla,
+- přístupy,
+- citlivé údaje.
+
+---
+
+# 📊 18. Typické znaky phishingu
+
+Podezřelé:
+- neznámý odesílatel,
+- podivná URL,
+- urgentní tón,
+- podezřelé přílohy,
+- žádost o heslo.
+
+---
+
+# 📈 19. Sociální inženýrství
+
+Psychologická manipulace za účelem získání informací.
+
+Útočník:
+- vytváří stres,
+- autoritu,
+- urgentnost,
+- tlak na rychlou reakci.
+
+---
+
+# 📊 20. Správná reakce
+
+Nikdy:
+- neotevírat podezřelé přílohy,
+- nezadávat hesla po telefonu,
+- neklikat bez ověření.
+
+Správně:
+```text
+ověřit identitu jiným kanálem
+```
+
+---
+
+# 📈 21. Zálohování dat
+
+Zálohy chrání před:
+- ztrátou dat,
+- havárií,
+- ransomwarem,
+- lidskou chybou.
+
+---
+
+# 📊 22. Ransomware
+
+Ransomware:
+- zašifruje data,
+- požaduje výkupné.
+
+Prevence:
+- zálohy,
+- aktualizace,
+- bezpečnostní návyky.
+
+---
+
+# 📈 23. Doporučený bezpečnostní workflow
+
+```text
+silná hesla
+→ password manager
+→ 2FA
+→ zabezpečené sdílení
+→ VPN
+→ aktualizace
+→ zálohy
+→ opatrnost proti phishingu
+```
+
+---
+
+# 📊 24. GitHub a bezpečnost
+
+Na veřejný GitHub:
+```text
+nikdy nepatří:
+- reálná hesla,
+- API klíče,
+- osobní údaje,
+- interní firemní data
+```
+
+Používat:
+- anonymizovaná data,
+- testovací datasety,
+- environment variables.
+
+---
+
+# 🚀 25. Analytické myšlení
+
+Datový analytik musí:
+- chápat bezpečnost dat,
+- chránit citlivé informace,
+- bezpečně sdílet data,
+- předcházet únikům dat,
+- pracovat odpovědně s přístupy a daty.
+
+---
+
