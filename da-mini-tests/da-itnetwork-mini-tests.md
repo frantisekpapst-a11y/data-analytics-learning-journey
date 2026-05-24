@@ -3973,3 +3973,266 @@ Datový analytik proto musí dbát na:
 - bezpečné sdílení datasetů,
 - omezení přístupů,
 - správnou práci s citlivými informacemi.
+
+---
+
+# 📘 Minitesty – Lekce 21 (Bezpečnost dat)
+
+### 1.
+Proč je bezpečnost dat důležitá pro datového analytika?
+
+a) Protože analytik pracuje s citlivými daty  
+b) Kvůli větším dashboardům  
+c) Kvůli rychlosti Excelu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 2.
+Která data mohou být citlivá?
+
+a) Osobní údaje  
+b) Finanční data  
+c) Obchodní informace  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 3.
+Jaké heslo je bezpečnější?
+
+a)
+
+```text
+David123
+```
+
+b)
+
+```text
+kdyzmibylo8ukradljsemsousedummic!
+```
+
+c)
+
+```text
+123456
+```
+
+✅ Správná odpověď: b)
+
+---
+
+### 4.
+Proč je důležité používat unikátní hesla?
+
+a) Kvůli designu aplikace  
+b) Aby kompromitace jednoho účtu neohrozila další služby  
+c) Kvůli rychlosti internetu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 5.
+K čemu slouží password manager?
+
+a) K bezpečnému ukládání a generování hesel  
+b) K tvorbě dashboardů  
+c) K exportu CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+### 6.
+Co je 2FA (dvoufaktorové ověřování)?
+
+a) Druhá databáze  
+b) Přihlášení pomocí hesla a dalšího ověřovacího faktoru  
+c) Typ SQL dotazu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 7.
+Který příklad je 2FA?
+
+a) Heslo + Google Authenticator  
+b) Pouze heslo  
+c) Pouze email  
+
+✅ Správná odpověď: a)
+
+---
+
+### 8.
+Proč je důležité používat zabezpečená úložiště?
+
+a) Kvůli ochraně dat před neoprávněným přístupem  
+b) Kvůli větším grafům  
+c) Kvůli výkonu Power BI  
+
+✅ Správná odpověď: a)
+
+---
+
+### 9.
+Co je šifrování?
+
+a) Ochrana dat pomocí zakódování  
+b) Mazání databáze  
+c) Komprese obrázků  
+
+✅ Správná odpověď: a)
+
+---
+
+### 10.
+Co je špatná praxe při sdílení dat?
+
+a) Sdílení přes zabezpečené cloudové úložiště  
+b) Posílání nechráněných Excel souborů emailem  
+c) Omezení přístupových práv  
+
+✅ Správná odpověď: b)
+
+---
+
+### 11.
+Proč je problém „Anyone with link“?
+
+a) Odkaz může získat kdokoli  
+b) Zvyšuje výkon internetu  
+c) Zlepšuje dashboardy  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+K čemu slouží VPN?
+
+a) K šifrování připojení a bezpečné práci na dálku  
+b) K tvorbě SQL databáze  
+c) K mazání dat  
+
+✅ Správná odpověď: a)
+
+---
+
+### 13.
+Proč jsou důležité aktualizace softwaru?
+
+a) Obsahují opravy bezpečnostních chyb  
+b) Zvyšují počet grafů  
+c) Nahrazují antivir  
+
+✅ Správná odpověď: a)
+
+---
+
+### 14.
+Co je phishing?
+
+a) Pokus získat citlivé údaje podvodem  
+b) Typ databáze  
+c) SQL funkce  
+
+✅ Správná odpověď: a)
+
+---
+
+### 15.
+Co je sociální inženýrství?
+
+a) Psychologická manipulace za účelem získání informací  
+b) Vizualizace dat  
+c) Export dashboardu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 16.
+Jaká je správná reakce na podezřelý email?
+
+a) Okamžitě kliknout na přílohu  
+b) Ověřit odesílatele jiným kanálem  
+c) Poslat heslo emailem  
+
+✅ Správná odpověď: b)
+
+---
+
+### 17.
+Proč jsou důležité zálohy?
+
+a) Chrání data před ztrátou a ransomwarem  
+b) Zvyšují výkon Excelu  
+c) Nahrazují antivirus  
+
+✅ Správná odpověď: a)
+
+---
+
+### 18.
+Co je ransomware?
+
+a) Malware šifrující data za účelem výkupného  
+b) Dashboard v Power BI  
+c) SQL databáze  
+
+✅ Správná odpověď: a)
+
+---
+
+### 19.
+Které tvrzení je správné?
+
+a) Veřejná Wi-Fi bez VPN může být riziková  
+b) Hesla lze bezpečně ukládat do TXT souboru  
+c) 2FA není důležité  
+
+✅ Správná odpověď: a)
+
+---
+
+### 20.
+Vysvětli vlastními slovy:
+- proč je bezpečnost dat důležitá,
+- a jaká rizika vznikají při špatném zabezpečení dat.
+
+✅ Vzorová odpověď:
+
+Bezpečnost dat je důležitá, protože chrání:
+- uživatele,
+- zaměstnance,
+- zákazníky,
+- obchodní partnery,
+- firmu i další stakeholdery.
+
+Špatné zabezpečení dat může vést například k:
+- úniku citlivých informací,
+- zneužití dat,
+- ransomware útokům,
+- finančním škodám,
+- poškození reputace firmy,
+- právním problémům a pokutám.
+
+Datový analytik proto musí dbát na:
+- silná hesla,
+- 2FA,
+- bezpečné sdílení dat,
+- šifrování,
+- VPN,
+- zálohování,
+- správnou práci s citlivými daty.
+
+---
+
