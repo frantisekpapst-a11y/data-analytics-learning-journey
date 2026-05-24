@@ -3468,3 +3468,255 @@ Systematická diagnostika pomáhá:
 - připravit kvalitní data pro další analýzu.
 
 ---
+
+# 📘 Minitesty – Lekce 19 (Normalizace a standardizace)
+
+### 1.
+Proč se data transformují?
+
+a) Aby byla lépe porovnatelná  
+b) Aby měla více řádků  
+c) Aby Excel běžel rychleji  
+
+✅ Správná odpověď: a)
+
+---
+
+### 2.
+Co je cílem normalizace?
+
+a) Převést data na text  
+b) Převést hodnoty do stejného rozsahu  
+c) Odstranit duplicity  
+
+✅ Správná odpověď: b)
+
+---
+
+### 3.
+Jaký rozsah má typicky min-max normalizace?
+
+a) -1 až 1  
+b) 0 až 1  
+c) 1 až 100  
+
+✅ Správná odpověď: b)
+
+---
+
+### 4.
+Co se při min-max normalizaci stane s minimální hodnotou?
+
+a) Bude mít hodnotu 0  
+b) Bude mít hodnotu 1  
+c) Zůstane stejná  
+
+✅ Správná odpověď: a)
+
+---
+
+### 5.
+Co se při min-max normalizaci stane s maximální hodnotou?
+
+a) Bude mít hodnotu -1  
+b) Bude mít hodnotu 0  
+c) Bude mít hodnotu 1  
+
+✅ Správná odpověď: c)
+
+---
+
+### 6.
+Který vzorec odpovídá min-max normalizaci?
+
+a)
+
+```text
+z = (x - μ) / σ
+```
+
+b)
+
+```text
+x_norm = (x - min(x)) / (max(x) - min(x))
+```
+
+c)
+
+```text
+IQR = Q3 - Q1
+```
+
+✅ Správná odpověď: b)
+
+---
+
+### 7.
+Jaká je hlavní nevýhoda normalizace?
+
+a) Citlivost na outliery  
+b) Pomalý výpočet  
+c) Nemožnost použití v Excelu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 8.
+Co je cílem standardizace?
+
+a) Převést data do rozsahu 0–1  
+b) Posunout data kolem průměru 0  
+c) Odstranit NULL hodnoty  
+
+✅ Správná odpověď: b)
+
+---
+
+### 9.
+Co představuje Z-score?
+
+a) Relativní vzdálenost od průměru  
+b) Počet řádků datasetu  
+c) Maximum datasetu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 10.
+Co znamená Z-score = 0?
+
+a) Hodnota je maximální  
+b) Hodnota je přesně na průměru  
+c) Hodnota je outlier  
+
+✅ Správná odpověď: b)
+
+---
+
+### 11.
+Co znamená Z-score = +2?
+
+a) Hodnota je dvě směrodatné odchylky nad průměrem  
+b) Hodnota je minimum datasetu  
+c) Hodnota je podprůměrná  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+Který vzorec odpovídá standardizaci?
+
+a)
+
+```text
+z = (x - μ) / σ
+```
+
+b)
+
+```text
+IQR = Q3 - Q1
+```
+
+c)
+
+```text
+x_norm = (x - min(x)) / (max(x) - min(x))
+```
+
+✅ Správná odpověď: a)
+
+---
+
+### 13.
+K čemu se používá boxplot?
+
+a) K vizualizaci rozložení dat a outlierů  
+b) K odstranění SQL databáze  
+c) K exportu CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+### 14.
+Co představuje box v boxplotu?
+
+a) Rozmezí mezi Q1 a Q3  
+b) Maximum datasetu  
+c) Pouze medián  
+
+✅ Správná odpověď: a)
+
+---
+
+### 15.
+Co představují tečky mimo vousy boxplotu?
+
+a) Chybějící hodnoty  
+b) Outliery  
+c) Duplicitní data  
+
+✅ Správná odpověď: b)
+
+---
+
+### 16.
+Co znamená IQR?
+
+a) Rozdíl mezi Q3 a Q1  
+b) Průměr datasetu  
+c) Maximum minus minimum  
+
+✅ Správná odpověď: a)
+
+---
+
+### 17.
+K čemu slouží standardizace v praxi?
+
+a) K porovnávání dat v různých jednotkách  
+b) K mazání dat  
+c) K vytváření dashboardů  
+
+✅ Správná odpověď: a)
+
+---
+
+### 18.
+Které tvrzení je správné?
+
+a) Standardizace je obvykle robustnější vůči outlierům než normalizace  
+b) Normalizace vždy odstraní outliery  
+c) Boxplot neumí zobrazit medián  
+
+✅ Správná odpověď: a)
+
+---
+
+### 19.
+Co je hlavním cílem transformace dat?
+
+a) Zvětšit dataset  
+b) Připravit data pro analýzu a modelování  
+c) Odstranit všechny grafy  
+
+✅ Správná odpověď: b)
+
+---
+
+### 20.
+Vysvětli vlastními slovy:
+- rozdíl mezi normalizací a standardizací,
+- a kdy bys použil kterou metodu.
+
+✅ Vzorová odpověď:
+
+Normalizace převádí hodnoty do rozsahu 0–1, kde minimum datasetu odpovídá 0 a maximum 1. Používá se hlavně tehdy, když potřebujeme sjednotit různé škály dat.
+
+Standardizace posouvá data tak, aby průměr byl 0 a směrodatná odchylka 1. Výsledné Z-skóre ukazuje, o kolik směrodatných odchylek se hodnota liší od průměru.
+
+Normalizace je vhodná například pro scoring nebo některé machine learning modely. Standardizace se často používá ve statistice, regresi a analytických modelech pracujících s rozložením dat.
