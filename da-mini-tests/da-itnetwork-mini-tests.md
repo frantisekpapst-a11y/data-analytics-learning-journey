@@ -3001,3 +3001,232 @@ V business analytice je důležitá například při:
 - rozhodování založeném na datech.
 
 Pomáhá firmám dělat rozhodnutí na základě dat místo dojmů.
+
+---
+
+# 📘 Minitesty – Lekce 17 (Nástroje pro čištění dat)
+
+### 1.
+Proč je čištění dat důležité?
+
+a) Aby grafy byly barevnější  
+b) Aby analýza pracovala s kvalitními a konzistentními daty  
+c) Aby Excel fungoval rychleji  
+
+✅ Správná odpověď: b)
+
+---
+
+### 2.
+Který problém je v datech velmi častý?
+
+a) Duplicity  
+b) Přebytek grafů  
+c) Nedostatek dashboardů  
+
+✅ Správná odpověď: a)
+
+---
+
+### 3.
+Co dělá funkce OŘÍZNOUT() / TRIM()?
+
+a) Převádí datum na číslo  
+b) Odstraňuje nadbytečné mezery  
+c) Maže duplicity  
+
+✅ Správná odpověď: b)
+
+---
+
+### 4.
+K čemu slouží funkce VELKÁ2() / PROPER()?
+
+a) Změní všechna písmena na malá  
+b) Nastaví první písmeno slov na velké  
+c) Převádí text na číslo  
+
+✅ Správná odpověď: b)
+
+---
+
+### 5.
+Co dělá funkce DOSADIT() / SUBSTITUTE()?
+
+a) Nahrazuje část textu jiným textem  
+b) Odstraňuje řádky  
+c) Počítá průměr  
+
+✅ Správná odpověď: a)
+
+---
+
+### 6.
+K čemu slouží funkce UNIQUE()?
+
+a) K filtrování dat  
+b) K vrácení unikátních hodnot  
+c) K tvorbě grafů  
+
+✅ Správná odpověď: b)
+
+---
+
+### 7.
+Jaký problém mohou způsobit duplicity?
+
+a) Zpomalení monitoru  
+b) Zkreslení KPI a analytických výsledků  
+c) Barevné chyby v Excelu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 8.
+Co znamená nekonzistentní formát dat?
+
+a) Data jsou příliš krátká  
+b) Stejná informace je zapsaná různými způsoby  
+c) Data obsahují pouze čísla  
+
+✅ Správná odpověď: b)
+
+---
+
+### 9.
+K čemu slouží podmíněné formátování?
+
+a) K vizuálnímu zvýraznění problémových hodnot nebo důležitých patternů  
+b) K odstranění SQL databáze  
+c) K exportu CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+### 10.
+Co umožňuje filtrování dat?
+
+a) Rychleji identifikovat chyby a nesrovnalosti  
+b) Zvýšit revenue  
+c) Automaticky vytvořit dashboard  
+
+✅ Správná odpověď: a)
+
+---
+
+### 11.
+K čemu slouží OpenRefine?
+
+a) K čištění a transformaci dat  
+b) K tvorbě her  
+c) K instalaci SQL serveru  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+Co je GREL v OpenRefine?
+
+a) Typ databáze  
+b) Jazyk pro transformaci dat  
+c) Grafický editor  
+
+✅ Správná odpověď: b)
+
+---
+
+### 13.
+Co umožňuje faceted filtering?
+
+a) Mazání monitoru  
+b) Analýzu a filtrování hodnot podle kategorií  
+c) Převod SQL na Python  
+
+✅ Správná odpověď: b)
+
+---
+
+### 14.
+Která SQL funkce slouží k odstranění mezer?
+
+a) DISTINCT()  
+b) TRIM()  
+c) COUNT()  
+
+✅ Správná odpověď: b)
+
+---
+
+### 15.
+K čemu slouží DISTINCT v SQL?
+
+a) Vrací unikátní hodnoty  
+b) Převádí text na datum  
+c) Počítá korelaci  
+
+✅ Správná odpověď: a)
+
+---
+
+### 16.
+Co dělá COALESCE() v SQL?
+
+a) Maže tabulku  
+b) Nahrazuje NULL hodnoty alternativní hodnotou  
+c) Třídí data  
+
+✅ Správná odpověď: b)
+
+---
+
+### 17.
+Proč je důležité zálohovat data před mazacími operacemi?
+
+a) Kvůli grafům  
+b) Aby bylo možné obnovit původní data při chybě  
+c) Aby Excel běžel rychleji  
+
+✅ Správná odpověď: b)
+
+---
+
+### 18.
+Co je hlavním cílem data cleaning procesu?
+
+a) Zvětšit velikost datasetu  
+b) Připravit kvalitní a konzistentní data pro analýzu  
+c) Zvýšit počet dashboardů  
+
+✅ Správná odpověď: b)
+
+---
+
+### 19.
+Které tvrzení je správné?
+
+a) Špatná data mohou vést ke špatným business rozhodnutím  
+b) Cleaning dat není v analytice důležitý  
+c) Outliery je vždy nutné odstranit  
+
+✅ Správná odpověď: a)
+
+---
+
+### 20.
+Vysvětli vlastními slovy:
+- proč je data cleaning důležitý,
+- a jaké problémy může způsobit nekvalitní dataset.
+
+✅ Vzorová odpověď:
+
+Data cleaning je důležitý, protože analytika potřebuje kvalitní a konzistentní data. Nekvalitní dataset může obsahovat duplicity, překlepy, chybějící hodnoty nebo nekonzistentní formáty.
+
+To může vést k:
+- chybným KPI,
+- špatným reportům,
+- nesprávným business rozhodnutím,
+- nepřesným analytickým výsledkům,
+- problémům v BI dashboardech a automatizaci.
