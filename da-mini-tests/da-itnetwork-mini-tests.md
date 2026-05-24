@@ -4236,3 +4236,249 @@ Datový analytik proto musí dbát na:
 
 ---
 
+# 📘 Minitesty – Lekce 22 (Etika v datové analýze)
+
+### 1.
+Co je hlavním cílem etiky v datové analýze?
+
+a) Zvýšit počet dashboardů  
+b) Odpovědná a spravedlivá práce s daty  
+c) Zrychlit SQL databáze  
+
+✅ Správná odpověď: b)
+
+---
+
+### 2.
+Který princip patří mezi základní etické principy?
+
+a) Transparentnost  
+b) Odpovědnost  
+c) Spravedlnost  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 3.
+Co znamená transparentnost v analytice?
+
+a) Skrývání zdrojů dat  
+b) Otevřené vysvětlení práce s daty a metod analýzy  
+c) Automatické mazání datasetů  
+
+✅ Správná odpověď: b)
+
+---
+
+### 4.
+Co znamená odpovědnost analytika?
+
+a) Nést důsledky své práce s daty a interpretace výsledků  
+b) Pouze vytvářet grafy  
+c) Ignorovat bias v datech  
+
+✅ Správná odpověď: a)
+
+---
+
+### 5.
+Co znamená spravedlnost v datové analytice?
+
+a) Zabránit diskriminaci určitých skupin  
+b) Zvýšit výkon databáze  
+c) Používat pouze Excel  
+
+✅ Správná odpověď: a)
+
+---
+
+### 6.
+Co je bias?
+
+a) Typ dashboardu  
+b) Systematické zkreslení dat nebo modelu  
+c) Šifrování dat  
+
+✅ Správná odpověď: b)
+
+---
+
+### 7.
+Který příklad může být bias?
+
+a) Nerovnoměrné zastoupení skupin v datech  
+b) Použití filtru v Excelu  
+c) Export CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+### 8.
+Co znamená fairness mindset?
+
+a) Model musí být pouze rychlý  
+b) Model musí fungovat spravedlivě  
+c) Model musí být barevný  
+
+✅ Správná odpověď: b)
+
+---
+
+### 9.
+Která data mohou být citlivá?
+
+a) Geolokační data  
+b) Historie online chování  
+c) Finanční údaje  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 10.
+Proč mohou být kombinace dat rizikové?
+
+a) Mohou umožnit identifikaci osoby  
+b) Zvyšují výkon Power BI  
+c) Zlepšují dashboardy  
+
+✅ Správná odpověď: a)
+
+---
+
+### 11.
+Co znamená informovaný souhlas?
+
+a) Uživatel ví, jak budou jeho data používána  
+b) Automatické sdílení dat  
+c) Povinné zveřejnění dat  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+Jaký musí být informovaný souhlas?
+
+a) Dobrovolný  
+b) Jasný a srozumitelný  
+c) Odvolatelný  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 13.
+Co je anonymizace?
+
+a) Odstranění možnosti identifikace osoby  
+b) Přidání dalších dat  
+c) Tvorba dashboardu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 14.
+Co je pseudonymizace?
+
+a) Nahrazení identifikátorů pseudonymy  
+b) Mazání databáze  
+c) Komprese dat  
+
+✅ Správná odpověď: a)
+
+---
+
+### 15.
+Co znamená minimalizace dat?
+
+a) Sbírat pouze nezbytná data  
+b) Ukládat všechna dostupná data  
+c) Mazat všechny datasety  
+
+✅ Správná odpověď: a)
+
+---
+
+### 16.
+Proč je důležité řízení přístupu k datům?
+
+a) Aby s daty pracovaly pouze oprávněné osoby  
+b) Kvůli větším grafům  
+c) Kvůli výkonu internetu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 17.
+Co může být důsledkem neetické práce s daty?
+
+a) Ztráta důvěry zákazníků  
+b) Diskriminace  
+c) GDPR pokuty  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 18.
+Co znamená explainability mindset?
+
+a) Schopnost vysvětlit analýzu nebo model  
+b) Automatické mazání dat  
+c) Šifrování dashboardů  
+
+✅ Správná odpověď: a)
+
+---
+
+### 19.
+Které tvrzení je správné?
+
+a) Etika je důležitá i nad rámec zákona  
+b) Pokud je něco legální, je to vždy etické  
+c) Bias v datech není problém  
+
+✅ Správná odpověď: a)
+
+---
+
+### 20.
+Vysvětli vlastními slovy:
+- proč je etika důležitá v datové analytice,
+- a jaká rizika vznikají při neetické práci s daty.
+
+✅ Vzorová odpověď:
+
+Etika představuje zodpovědný přístup k práci s daty a jejich interpretaci. Datový analytik musí dbát nejen na technickou správnost analýzy, ale také na její dopady na uživatele, zákazníky a organizace.
+
+Neetická práce s daty může vést například k:
+- diskriminaci,
+- porušení soukromí,
+- ztrátě důvěry zákazníků,
+- reputačním škodám,
+- právním problémům,
+- GDPR pokutám a sankcím.
+
+Důležitou součástí etické analytiky je:
+- transparentnost,
+- odpovědnost,
+- spravedlnost,
+- ochrana soukromí,
+- bezpečné zpracování dat,
+- minimalizace biasu v analýzách a modelech.
+
+---
+
