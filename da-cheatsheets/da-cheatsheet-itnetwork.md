@@ -4027,3 +4027,302 @@ Analytik:
 - interpretuje statistiku,
 - hledá vztahy mezi proměnnými,
 - podporuje business rozhodování pomocí dat.
+
+---
+
+# 📘 Data Analysis Basics – Cheat Sheet (Lekce 17)
+
+# 🧠 1. Data Cleaning
+
+Data cleaning = proces čištění a úpravy dat před analýzou.
+
+Cíl:
+- zvýšit kvalitu dat,
+- odstranit chyby,
+- sjednotit formáty,
+- připravit data pro analýzu a reporting.
+
+---
+
+# 📊 2. Typické problémy v datech
+
+## Duplicity
+Stejný záznam vícekrát.
+
+Příklad:
+```text
+stejný zákazník nebo objednávka 2×
+```
+
+---
+
+## Chybějící hodnoty
+Například:
+```text
+NULL
+prázdné buňky
+```
+
+---
+
+## Nekonzistentní formáty
+Příklad:
+```text
+Praha
+praha
+PRAHA
+Praha 10
+```
+
+---
+
+## Nadbytečné mezery
+Příklad:
+```text
+" Praha "
+```
+
+---
+
+## Špatné datové typy
+Například:
+- číslo uložené jako text,
+- datum uložené jako text.
+
+---
+
+# 📈 3. Garbage In → Garbage Out
+
+Nekvalitní data vedou k:
+- chybným KPI,
+- špatným dashboardům,
+- nepřesným analýzám,
+- chybným business rozhodnutím,
+- problémům v BI a automatizaci.
+
+---
+
+# 📊 4. Nejčastější cleaning funkce v Excelu
+
+## OŘÍZNOUT()
+
+Odstraňuje nadbytečné mezery.
+
+```excel
+=OŘÍZNOUT(A1)
+```
+
+---
+
+## PROČISTIT()
+
+Odstraňuje neviditelné znaky.
+
+```excel
+=PROČISTIT(A1)
+```
+
+---
+
+## VELKÁ2()
+
+Nastaví první písmena slov na velká.
+
+```excel
+=VELKÁ2(A1)
+```
+
+---
+
+## DOSADIT()
+
+Nahrazuje část textu.
+
+```excel
+=DOSADIT(A1;"Praha 10";"Praha")
+```
+
+---
+
+## HODNOTA()
+
+Převádí text na číslo.
+
+```excel
+=HODNOTA(A1)
+```
+
+---
+
+## DATUMHODN()
+
+Převádí text na datum.
+
+```excel
+=DATUMHODN(A1)
+```
+
+---
+
+## IFERROR()
+
+Ošetření chyb ve vzorcích.
+
+```excel
+=IFERROR(A1/B1;0)
+```
+
+---
+
+## UNIQUE()
+
+Vrací unikátní hodnoty.
+
+```excel
+=UNIQUE(A1:A100)
+```
+
+---
+
+## FILTER()
+
+Filtruje data podle podmínky.
+
+```excel
+=FILTER(A1:C100;C1:C100="Praha")
+```
+
+---
+
+## SORT()
+
+Řazení dat.
+
+```excel
+=SORT(A1:C100;2;-1)
+```
+
+---
+
+# 📌 5. Nejdůležitější funkce z lekce
+
+| Funkce | Použití |
+|---|---|
+| OŘÍZNOUT | odstranění mezer |
+| PROČISTIT | odstranění neviditelných znaků |
+| DOSADIT | nahrazení textu |
+| VELKÁ2 | sjednocení formátu textu |
+| UNIQUE | odstranění duplicit |
+| FILTER | filtrování problémových dat |
+| IFERROR | ošetření chyb |
+| HODNOTA | převod textu na číslo |
+
+---
+
+# 📈 6. Zanořování funkcí
+
+Funkce lze kombinovat.
+
+Příklad:
+
+```excel
+=VELKÁ2(OŘÍZNOUT(A1))
+```
+
+Postup:
+1. odstranění mezer,
+2. oprava velikosti písmen.
+
+---
+
+# 📊 7. Podmíněné formátování
+
+Použití:
+- zvýraznění problémových hodnot,
+- hledání duplicit,
+- zvýraznění KPI,
+- vizualizace trendů.
+
+---
+
+# 📈 8. Filtrování dat
+
+Pomáhá:
+- hledat chyby,
+- kontrolovat kvalitu dat,
+- analyzovat konkrétní skupiny hodnot.
+
+---
+
+# 📊 9. SQL a data cleaning
+
+## TRIM()
+
+Odstranění mezer.
+
+```sql
+TRIM(column_name)
+```
+
+---
+
+## DISTINCT
+
+Vrací unikátní hodnoty.
+
+```sql
+SELECT DISTINCT region
+FROM sales_data;
+```
+
+---
+
+## COALESCE()
+
+Nahrazuje NULL hodnoty.
+
+```sql
+COALESCE(phone, 'Neznámé')
+```
+
+---
+
+# 📈 10. OpenRefine
+
+Nástroj pro:
+- čištění dat,
+- transformaci dat,
+- standardizaci textu,
+- práci s velkými datasety.
+
+---
+
+# 📊 11. Faceted Filtering
+
+Použití:
+- seskupování podobných hodnot,
+- hledání nekonzistentních zápisů,
+- kontrola kategorií.
+
+---
+
+# 📈 12. Praktický cleaning workflow
+
+```text
+CSV → kontrola dat → cleaning → validace → analýza → reporting
+```
+
+---
+
+# 🚀 13. Analytické myšlení
+
+Důležité není jen:
+- umět Excel,
+- umět SQL,
+- umět dashboardy.
+
+Ale hlavně:
+- rozpoznat problém v datech,
+- ověřit kvalitu dat,
+- systematicky data opravit,
+- chápat dopad nekvalitních dat na business.
