@@ -5198,3 +5198,297 @@ Datový analytik musí:
 
 ---
 
+# 📘 Data Analysis Basics – Cheat Sheet (Lekce 22)
+
+# 🧠 1. Etika v datové analýze
+
+Etika v datové analýze = odpovědný a spravedlivý přístup k práci s daty.
+
+Nejde jen o:
+- zákony,
+- GDPR,
+- compliance.
+
+Ale také o:
+- odpovědnost,
+- férovost,
+- ochranu soukromí,
+- transparentnost.
+
+---
+
+# 📊 2. Hlavní etické principy
+
+| Princip | Význam |
+|---|---|
+| transparentnost | vysvětlit práci s daty |
+| odpovědnost | nést důsledky analýzy |
+| spravedlnost | zabránit diskriminaci |
+| ohleduplnost | chránit soukromí uživatelů |
+
+---
+
+# 📈 3. Transparentnost
+
+Analytik by měl:
+- uvádět zdroje dat,
+- vysvětlovat metody,
+- popsat omezení analýzy,
+- komunikovat možné biasy.
+
+---
+
+# 📊 4. Odpovědnost
+
+Analytik odpovídá za:
+- správnou interpretaci dat,
+- kvalitu analýzy,
+- ověření výsledků,
+- dopady analytických rozhodnutí.
+
+---
+
+# 📈 5. Spravedlnost
+
+Analýzy a modely:
+```text
+nesmí diskriminovat skupiny lidí
+```
+
+Nutné:
+- kontrolovat bias v datech,
+- testovat modely,
+- monitorovat výsledky.
+
+---
+
+# 📊 6. Bias (zkreslení)
+
+Bias = systematické zkreslení dat nebo modelu.
+
+Příklady:
+- neúplná data,
+- diskriminační historická data,
+- špatný sampling,
+- nerovnoměrné zastoupení skupin.
+
+---
+
+# 📈 7. Fairness mindset
+
+Nestačí:
+```text
+„model funguje“
+```
+
+Důležité:
+```text
+„funguje spravedlivě?“
+```
+
+---
+
+# 📊 8. Citlivá data
+
+Citlivá data mohou být:
+
+| Typ dat | Příklad |
+|---|---|
+| osobní údaje | jméno, email |
+| finanční data | účty, platby |
+| zdravotní data | diagnózy |
+| geolokace | poloha, trasy |
+| online chování | historie prohlížení |
+
+---
+
+# 📈 9. Kombinace dat
+
+I běžná data mohou být citlivá:
+```text
+pokud jejich kombinace umožní identifikaci osoby
+```
+
+---
+
+# 📊 10. Ohleduplnost
+
+Při práci s daty:
+- respektujeme soukromí,
+- chráníme osobní údaje,
+- minimalizujeme riziko zneužití.
+
+---
+
+# 📈 11. Informovaný souhlas
+
+Uživatel musí vědět:
+- jaká data sbíráme,
+- proč je používáme,
+- jak dlouho je uchováváme,
+- kdo k nim má přístup.
+
+---
+
+# 📊 12. Vlastnosti informovaného souhlasu
+
+Souhlas musí být:
+
+| Vlastnost | Význam |
+|---|---|
+| jasný | jednoduchý jazyk |
+| dobrovolný | bez nátlaku |
+| specifický | pro konkrétní účel |
+| odvolatelný | lze jej zrušit |
+
+---
+
+# 📈 13. Anonymizace
+
+Anonymizace:
+```text
+odstranění možnosti identifikace osoby
+```
+
+Příklad:
+```text
+Jan Novák → Customer_1045
+```
+
+---
+
+# 📊 14. Pseudonymizace
+
+Nahrazení identifikátorů pseudonymy.
+
+Cíl:
+- snížit riziko identifikace,
+- zachovat možnost analýzy.
+
+---
+
+# 📈 15. Minimalizace dat
+
+Princip:
+```text
+sbírat pouze nezbytně nutná data
+```
+
+Ne:
+```text
+„pro jistotu“
+```
+
+---
+
+# 📊 16. Bezpečné zpracování dat
+
+Správný workflow:
+- anonymizace,
+- šifrování,
+- omezení přístupů,
+- bezpečné ukládání,
+- bezpečný přenos dat.
+
+---
+
+# 📈 17. Řízení přístupu
+
+Přístup k datům:
+```text
+pouze pro oprávněné osoby
+```
+
+---
+
+# 📊 18. Důsledky neetické práce s daty
+
+Rizika:
+- diskriminace,
+- porušení soukromí,
+- reputační škoda,
+- ztráta důvěry,
+- právní problémy,
+- GDPR pokuty.
+
+---
+
+# 📈 19. Explainability mindset
+
+Analytik by měl být schopen:
+- vysvětlit model,
+- vysvětlit analýzu,
+- obhájit výsledky,
+- popsat limity dat.
+
+---
+
+# 📊 20. Responsible AI / Responsible Analytics
+
+Moderní analytika:
+- není jen o přesnosti modelu,
+- ale i o:
+  - férovosti,
+  - transparentnosti,
+  - bezpečnosti,
+  - odpovědnosti.
+
+---
+
+# 📈 21. GDPR a etika
+
+GDPR:
+- stanovuje právní pravidla.
+
+Etika:
+- řeší odpovědné chování i nad rámec zákona.
+
+---
+
+# 📊 22. Praktický etický workflow
+
+```text
+sběr dat
+→ kontrola citlivosti
+→ minimalizace dat
+→ anonymizace
+→ bezpečné zpracování
+→ kontrola bias
+→ transparentní interpretace
+```
+
+---
+
+# 📈 23. GitHub a etika
+
+Na veřejný GitHub:
+```text
+nikdy nepatří:
+- reálné osobní údaje,
+- citlivá firemní data,
+- interní exporty,
+- neveřejné datasety
+```
+
+Používat:
+- anonymizovaná data,
+- syntetické datasety,
+- demo data.
+
+---
+
+# 🚀 24. Analytické myšlení
+
+Dobrý analytik:
+- neřeší jen techniku,
+- ale i dopady své práce.
+
+Musí:
+- chápat etiku dat,
+- přemýšlet o biasu,
+- chránit soukromí,
+- pracovat transparentně,
+- nést odpovědnost za výsledky analýz.
+
+---
+
