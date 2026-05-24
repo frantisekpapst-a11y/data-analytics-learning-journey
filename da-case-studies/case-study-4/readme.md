@@ -30,7 +30,11 @@ case-study-4/
 │   └── sales_marketing_analysis.xlsx
 │
 ├── screenshots/
-│   └── sales_marketing_analysis.xlsx
+│   └── marketing.png
+│   └── outlier_analysis.png
+│   └── revenue_products.png
+│   └── revenue_profit_regions.png
+│   └── revenue_time.png
 │
 └── README.md
 ```
