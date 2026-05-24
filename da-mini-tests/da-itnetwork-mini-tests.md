@@ -3720,3 +3720,256 @@ Normalizace převádí hodnoty do rozsahu 0–1, kde minimum datasetu odpovídá
 Standardizace posouvá data tak, aby průměr byl 0 a směrodatná odchylka 1. Výsledné Z-skóre ukazuje, o kolik směrodatných odchylek se hodnota liší od průměru.
 
 Normalizace je vhodná například pro scoring nebo některé machine learning modely. Standardizace se často používá ve statistice, regresi a analytických modelech pracujících s rozložením dat.
+
+---
+
+# 📘 Minitesty – Lekce 20 (GDPR a ochrana osobních údajů)
+
+### 1.
+Co je hlavním cílem GDPR?
+
+a) Zvýšit počet dashboardů  
+b) Chránit osobní údaje a soukromí lidí  
+c) Zrychlit SQL databáze  
+
+✅ Správná odpověď: b)
+
+---
+
+### 2.
+Co je osobní údaj?
+
+a) Pouze rodné číslo  
+b) Jakákoli informace umožňující identifikaci osoby  
+c) Pouze emailová adresa  
+
+✅ Správná odpověď: b)
+
+---
+
+### 3.
+Který údaj může být osobním údajem?
+
+a) IP adresa  
+b) Jméno a příjmení  
+c) Telefonní číslo  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 4.
+Proč je ochrana osobních údajů důležitá?
+
+a) Kvůli ochraně soukromí a bezpečnosti lidí  
+b) Kvůli větším grafům  
+c) Kvůli rychlosti Excelu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 5.
+Co znamená princip minimalizace dat?
+
+a) Sbírat pouze nezbytné údaje  
+b) Mazat všechny datasety  
+c) Používat pouze malé tabulky  
+
+✅ Správná odpověď: a)
+
+---
+
+### 6.
+Co je anonymizace?
+
+a) Přidání dalších osobních údajů  
+b) Odstranění možnosti identifikace osoby  
+c) Export CSV  
+
+✅ Správná odpověď: b)
+
+---
+
+### 7.
+Který příklad je správnou anonymizací?
+
+a)
+
+```text
+Jan Novák → jan@email.cz
+```
+
+b)
+
+```text
+Jan Novák → Customer_1045
+```
+
+c)
+
+```text
+Jan Novák → 777 123 456
+```
+
+✅ Správná odpověď: b)
+
+---
+
+### 8.
+Co znamená zákonnost a transparentnost?
+
+a) Data lze používat bez pravidel  
+b) Uživatel musí vědět, jak a proč jsou data zpracovávána  
+c) Data není nutné chránit  
+
+✅ Správná odpověď: b)
+
+---
+
+### 9.
+Co je oprávněný zájem?
+
+a) Libovolné použití dat  
+b) Omezené použití dat související s původním účelem  
+c) Automatické mazání dat  
+
+✅ Správná odpověď: b)
+
+---
+
+### 10.
+Který příklad může být oprávněný zájem?
+
+a) Nabídka mikrovlnky po nákupu lednice  
+b) Prodej databáze zákazníků  
+c) Sdílení hesel zaměstnanců  
+
+✅ Správná odpověď: a)
+
+---
+
+### 11.
+Co je profilování?
+
+a) Automatické zařazování lidí do kategorií podle dat  
+b) Mazání SQL databází  
+c) Komprese datasetů  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+Které právo dává GDPR subjektům údajů?
+
+a) Právo na přístup k vlastním datům  
+b) Právo na opravu dat  
+c) Právo na výmaz dat  
+
+d) Všechny uvedené možnosti  
+
+✅ Správná odpověď: d)
+
+---
+
+### 13.
+Co znamená „právo být zapomenut“?
+
+a) Právo na výmaz osobních údajů  
+b) Právo na nový email  
+c) Právo na export dashboardu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 14.
+Kdo je správce osobních údajů?
+
+a) Subjekt určující účel a způsob zpracování dat  
+b) Každý zákazník  
+c) Pouze programátor  
+
+✅ Správná odpověď: a)
+
+---
+
+### 15.
+Kdo je zpracovatel osobních údajů?
+
+a) Subjekt zpracovávající data podle pokynů správce  
+b) Pouze zákazník  
+c) Poskytovatel internetu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 16.
+Proč jsou cookie lišty důležité?
+
+a) Kvůli souhlasu se sběrem analytických dat  
+b) Kvůli rychlosti webu  
+c) Kvůli grafům v Excelu  
+
+✅ Správná odpověď: a)
+
+---
+
+### 17.
+Co je důležité při práci analytika s daty?
+
+a) Bezpečnost dat a omezení přístupů  
+b) Sdílení hesel  
+c) Ukládání dat bez ochrany  
+
+✅ Správná odpověď: a)
+
+---
+
+### 18.
+Co může způsobit únik dat?
+
+a) Porušení soukromí a bezpečnostní incident  
+b) Lepší dashboard  
+c) Vyšší výkon Power BI  
+
+✅ Správná odpověď: a)
+
+---
+
+### 19.
+Které tvrzení je správné?
+
+a) Reálná osobní data by se neměla nahrávat na veřejný GitHub  
+b) GDPR se analytiků netýká  
+c) Osobní údaje není nutné chránit  
+
+✅ Správná odpověď: a)
+
+---
+
+### 20.
+Vysvětli vlastními slovy:
+- proč je GDPR důležité pro datového analytika,
+- a jaká rizika vznikají při špatné práci s osobními údaji.
+
+✅ Vzorová odpověď:
+
+GDPR je důležité, protože lidé mají právo na ochranu svých osobních údajů a firmy nesou odpovědnost za bezpečné nakládání s daty.
+
+Špatná práce s osobními údaji může vést například k:
+- úniku dat,
+- zneužití osobních údajů,
+- poškození reputace firmy,
+- vysokým pokutám,
+- bezpečnostním incidentům.
+
+Datový analytik proto musí dbát na:
+- anonymizaci dat,
+- bezpečné sdílení datasetů,
+- omezení přístupů,
+- správnou práci s citlivými informacemi.
