@@ -2822,3 +2822,182 @@ Jaké tři analytické koncepty se v tomto příkladu objevují?
 - analýza sezónnosti prodejů,
 - segmentace zákazníků,
 - A/B testování.
+
+---
+
+# 📘 Minitesty – Lekce 16 (Hypotézy a regrese)
+
+### 1.
+K čemu slouží testování hypotéz?
+
+a) K vizualizaci dashboardů  
+b) K ověření, zda rozdíl mezi skupinami není náhodný  
+c) K vytváření databází  
+
+✅ Správná odpověď: b)
+
+---
+
+### 2.
+Co předpokládá nulová hypotéza (H0)?
+
+a) Že existuje rozdíl mezi skupinami  
+b) Že mezi skupinami není rozdíl  
+c) Že data obsahují outliery  
+
+✅ Správná odpověď: b)
+
+---
+
+### 3.
+K čemu se používá t-test?
+
+a) K porovnání průměrů mezi skupinami  
+b) K tvorbě kontingenčních tabulek  
+c) K odstranění duplicit  
+
+✅ Správná odpověď: a)
+
+---
+
+### 4.
+Co znamená p-hodnota menší než 0,05?
+
+a) Rozdíl je pravděpodobně statisticky významný  
+b) Data jsou chybná  
+c) Model je perfektní  
+
+✅ Správná odpověď: a)
+
+---
+
+### 5.
+Co znamená vysoká p-hodnota?
+
+a) Výsledek je určitě správný  
+b) Rozdíl může být způsoben náhodou  
+c) Kampaň byla úspěšná  
+
+✅ Správná odpověď: b)
+
+---
+
+### 6.
+K čemu slouží regresní analýza?
+
+a) K archivaci dat  
+b) K modelování vztahu mezi proměnnými  
+c) K filtrování tabulek  
+
+✅ Správná odpověď: b)
+
+---
+
+### 7.
+Co vyjadřuje rovnice:
+
+```text
+y = ax + b
+```
+
+a) Kontingenční tabulku  
+b) Lineární regresi  
+c) Histogram  
+
+✅ Správná odpověď: b)
+
+---
+
+### 8.
+Co určuje směrnice v regresi?
+
+a) Barvu grafu  
+b) O kolik se změní y při změně x  
+c) Počet řádků v datasetu  
+
+✅ Správná odpověď: b)
+
+---
+
+### 9.
+Co znamená vysoké R²?
+
+a) Model dobře vysvětluje data  
+b) Dataset obsahuje chyby  
+c) Regrese není použitelná  
+
+✅ Správná odpověď: a)
+
+---
+
+### 10.
+Jaký je rozdíl mezi korelací a regresí?
+
+a) Neexistuje žádný rozdíl  
+b) Korelace měří vztah, regrese umožňuje predikci  
+c) Regrese měří pouze průměr  
+
+✅ Správná odpověď: b)
+
+---
+
+### 11.
+Co je overfitting?
+
+a) Model příliš přesně odpovídá historickým datům  
+b) Dataset obsahuje outliery  
+c) Nízký počet řádků v tabulce  
+
+✅ Správná odpověď: a)
+
+---
+
+### 12.
+Která situace je vhodná pro použití regresní analýzy?
+
+a) Predikce revenue podle marketing spendu  
+b) Tvorba ikon v dashboardu  
+c) Mazání duplicit  
+
+✅ Správná odpověď: a)
+
+---
+
+### 13.
+Co je hlavním cílem A/B testování?
+
+a) Najít statisticky významný rozdíl mezi variantami  
+b) Zvýšit počet sloupců v datasetu  
+c) Vytvořit pivot tabulku  
+
+✅ Správná odpověď: a)
+
+---
+
+### 14.
+Které tvrzení je správné?
+
+a) Vyšší R² obvykle znamená lepší model  
+b) p-hodnota musí být vždy přesně 0  
+c) Regrese slouží pouze k vizualizaci  
+
+✅ Správná odpověď: a)
+
+---
+
+### 15.
+Vysvětli vlastními slovy:
+- co znamená statistická významnost,
+- a proč je důležitá v business analytice.
+
+✅ Vzorová odpověď:
+
+Statistická významnost znamená, že rozdíl mezi skupinami pravděpodobně není způsoben náhodou.
+
+V business analytice je důležitá například při:
+- A/B testování,
+- vyhodnocování marketingových kampaní,
+- porovnávání výkonu produktů,
+- rozhodování založeném na datech.
+
+Pomáhá firmám dělat rozhodnutí na základě dat místo dojmů.
