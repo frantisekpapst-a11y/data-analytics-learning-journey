@@ -3764,3 +3764,266 @@ Analytik:
 | High Value Customer | Vysoce hodnotný zákazník |
 | Trend | Vývoj v čase |
 | Insight | Analytický poznatek |
+
+---
+
+# Data Analysis Basics – Cheat Sheet (Lekce 16)
+
+# 1. Testování hypotéz
+
+Testování hypotéz slouží k ověření, zda rozdíl mezi skupinami není způsoben náhodou.
+
+Použití:
+- A/B testing,
+- marketing,
+- business analytika,
+- porovnání výkonu kampaní,
+- produktové testování.
+
+---
+
+# 2. Nulová a alternativní hypotéza
+
+## H0 — nulová hypotéza
+
+Předpokládá:
+```text
+mezi skupinami není rozdíl
+```
+
+Příklad:
+- kampaň A a B mají stejný výkon.
+
+---
+
+## H1 — alternativní hypotéza
+
+Předpokládá:
+```text
+mezi skupinami existuje rozdíl
+```
+
+Příklad:
+- kampaň B funguje lépe než A.
+
+---
+
+# 3. T-test
+
+Používá se pro:
+- porovnání průměrů,
+- ověření statistické významnosti rozdílů.
+
+---
+
+## Cíl t-testu
+
+Zjistit:
+```text
+zda rozdíl mezi skupinami není pouze náhoda
+```
+
+---
+
+# 4. p-hodnota
+
+Nejdůležitější výstup t-testu.
+
+---
+
+## Interpretace
+
+| p-hodnota | Význam |
+|---|---|
+| < 0,05 | statisticky významný rozdíl |
+| >= 0,05 | rozdíl může být náhodný |
+
+---
+
+# Důležité
+
+p-hodnota:
+- neříká, která varianta je lepší,
+- pouze říká, zda je rozdíl pravděpodobně skutečný.
+
+---
+
+# 5. Statistická významnost
+
+Pokud:
+```text
+p < 0,05
+```
+
+můžeme říct:
+```text
+rozdíl je statisticky významný
+```
+
+---
+
+# Důležité analytické formulace
+
+Nevhodné:
+```text
+Kampaň B určitě funguje.
+```
+
+Vhodné:
+```text
+Data ukazují statisticky významný rozdíl.
+```
+
+---
+
+# 6. Regresní analýza
+
+Regrese slouží k:
+- modelování vztahu mezi proměnnými,
+- predikci budoucích hodnot.
+
+---
+
+## Příklad
+
+```text
+marketing spend → revenue
+```
+
+Otázka:
+```text
+Jak moc investice ovlivňují tržby?
+```
+
+---
+
+# 7. Rovnice lineární regrese
+
+Obecný tvar:
+
+```text
+y = ax + b
+```
+
+---
+
+## Význam symbolů
+
+| Symbol | Význam |
+|---|---|
+| y | závislá proměnná |
+| x | nezávislá proměnná |
+| a | směrnice |
+| b | konstanta |
+
+---
+
+# 8. Směrnice regrese
+
+Směrnice určuje:
+```text
+o kolik se změní y při změně x
+```
+
+---
+
+## Příklad
+
+```text
+y = 2x + 7,5
+```
+
+Interpretace:
+```text
+zvýšení x o 1 zvýší y přibližně o 2
+```
+
+---
+
+# 9. Korelace vs Regrese
+
+## Korelace
+
+Měří:
+- sílu vztahu mezi proměnnými.
+
+---
+
+## Regrese
+
+Umožňuje:
+- modelování vztahu,
+- predikci,
+- odhad budoucích hodnot.
+
+---
+
+# 10. R² (koeficient determinace)
+
+R² říká:
+```text
+jak dobře model vysvětluje data
+```
+
+---
+
+## Interpretace
+
+| R² | Význam |
+|---|---|
+| 0 | model skoro nic nevysvětluje |
+| 0,5 | model vysvětluje cca 50 % variability |
+| 1 | perfektní model |
+
+---
+
+# Důležité
+
+Vyšší R²:
+- znamená lepší fit modelu,
+- ale neznamená automaticky správný model.
+
+---
+
+# 11. Overfitting
+
+Overfitting:
+```text
+model příliš přesně odpovídá historickým datům
+```
+
+Riziko:
+- model funguje špatně na nových datech.
+
+---
+
+# 12. Praktické použití regrese
+
+Použití:
+- forecasting,
+- revenue prediction,
+- marketing analytics,
+- sales analytics,
+- business planning.
+
+---
+
+# 13. Typické analytické otázky
+
+- Je rozdíl mezi kampaněmi statisticky významný?
+- Funguje nová reklama lépe?
+- Jak silně marketing ovlivňuje revenue?
+- Jak kvalitní je regresní model?
+- Existuje vztah mezi spend a revenue?
+
+---
+
+# 14. Analytické myšlení
+
+Analytik:
+- nepracuje s dojmy,
+- pracuje s daty,
+- ověřuje hypotézy,
+- interpretuje statistiku,
+- hledá vztahy mezi proměnnými,
+- podporuje business rozhodování pomocí dat.
