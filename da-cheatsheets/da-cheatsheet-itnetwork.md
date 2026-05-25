@@ -6383,3 +6383,323 @@ Tato lekce ukázala, že moderní analytik:
 
 ---
 
+# 📘 ChatGPT – Dotazování na data (Cheat Sheet)
+
+---
+
+# 🧠 Co je dotazování na data
+
+Dotazování na data =
+```text
+schopnost položit správnou otázku nad daty
+a získat smysluplnou odpověď
+```
+
+Cílem analytiky není jen:
+- vytvořit graf,
+- napsat SQL,
+- spočítat čísla,
+
+ale:
+```text
+odpovědět na business otázku
+```
+
+---
+
+# ⚠️ Klíčový princip
+
+```text
+Špatně položená otázka
+→ špatná analýza
+→ špatné rozhodnutí
+```
+
+---
+
+# 📊 Základní pojmy
+
+| Pojem | Význam |
+|---|---|
+| dotaz | otázka na data |
+| metrika | sledovaná číselná hodnota |
+| report | výstup z analýzy |
+| vizualizace | grafické zobrazení dat |
+| export | uložení výstupu |
+
+---
+
+# 📈 Metriky
+
+Metrika =
+```text
+číslo, které sledujeme
+```
+
+Např.:
+- revenue
+- profit
+- marže
+- počet objednávek
+- počet zákazníků
+- retention
+- conversion rate
+
+---
+
+# ⚠️ Důležité
+
+```text
+„Nejlepší produkt“
+není jednoznačný pojem.
+```
+
+Může znamenat:
+- nejvyšší revenue,
+- nejvyšší profit,
+- nejvyšší marži,
+- nejvíce objednávek,
+- nejrychlejší růst.
+
+---
+
+# 🧩 Analytický follow-up mindset
+
+Analytik se často musí doptávat:
+
+## Typické follow-up otázky
+
+- Za jaké období?
+- V jakém regionu?
+- Pro jaký segment zákazníků?
+- Jakou metriku sledujeme?
+- Revenue nebo profit?
+- Počet objednávek nebo marži?
+- Celkové hodnoty nebo trend?
+
+---
+
+# 📊 Report
+
+Report obsahuje:
+- shrnutí otázky,
+- analýzu,
+- závěr,
+- doporučení.
+
+---
+
+# 📈 Vizualizace
+
+Vizualizace =
+```text
+grafické zobrazení dat
+```
+
+Typické grafy:
+- sloupcový graf
+- line chart
+- pie chart
+- histogram
+- scatter plot
+
+---
+
+# 🤖 ChatGPT v analytice
+
+ChatGPT pomáhá:
+- formulovat otázky,
+- navrhovat metriky,
+- doporučit graf,
+- navrhnout filtr,
+- interpretovat výsledky,
+- shrnout report,
+- vysvětlit business význam.
+
+---
+
+# ⚠️ Co ChatGPT neumí samo
+
+ChatGPT:
+```text
+nezná business priority firmy
+```
+
+Např.:
+- růst,
+- profit,
+- cashflow,
+- retence,
+- nové zákazníky.
+
+To musí dodat:
+- business,
+- analytik,
+- management.
+
+---
+
+# 📊 Power BI
+
+Power BI =
+```text
+Business Intelligence nástroj
+```
+
+Použití:
+- dashboardy,
+- KPI,
+- management reporting,
+- interaktivní filtry,
+- automatické aktualizace dat.
+
+---
+
+# 📌 KPI
+
+KPI =
+```text
+Key Performance Indicator
+```
+
+Tedy:
+```text
+klíčová sledovaná metrika
+```
+
+Např.:
+- revenue growth
+- conversion rate
+- retention
+- CAC
+- profit margin
+
+---
+
+# 🔄 Export
+
+Export =
+```text
+uložení výstupu pro další použití
+```
+
+Např.:
+- PDF
+- PNG
+- Excel
+- CSV
+
+---
+
+# 📈 Business Intelligence (BI)
+
+BI =
+```text
+Business Intelligence
+```
+
+Cíl:
+```text
+podpora rozhodování pomocí dat
+```
+
+---
+
+# 🧠 Data ≠ rozhodnutí
+
+```text
+Data sama o sobě nejsou rozhodnutí.
+```
+
+Analytik převádí:
+```text
+data
+→ insight
+→ doporučení
+→ rozhodnutí
+```
+
+---
+
+# 📌 Reálná role analytika
+
+Analytik:
+- neřeší jen čísla,
+- ale:
+  - business kontext,
+  - KPI,
+  - interpretaci,
+  - storytelling,
+  - doporučení managementu.
+
+---
+
+# 📊 Storytelling nad daty
+
+Dobrý report:
+- neukazuje jen graf,
+- ale vysvětluje:
+  - co se děje,
+  - proč,
+  - jaké je riziko,
+  - co doporučit.
+
+---
+
+# 🤝 ChatGPT + Power BI
+
+## ChatGPT může:
+- vysvětlit graf,
+- interpretovat trendy,
+- navrhnout dashboard,
+- pomoci s KPI,
+- doporučit vizualizaci,
+- shrnout management report.
+
+---
+
+# ⚠️ Důležité omezení
+
+```text
+ChatGPT nenahrazuje analytika.
+```
+
+AI:
+- pomáhá,
+- zrychluje práci,
+- navrhuje postup.
+
+Ale:
+- analytické rozhodnutí
+- a business interpretace
+stále zůstává na člověku.
+
+---
+
+# 🏢 Typický analytický workflow
+
+```text
+SQL
+→ Power Query
+→ Power BI
+→ ChatGPT interpretace
+→ management report
+```
+
+---
+
+# 🧠 Analytický mindset
+
+Začátečník:
+```text
+tvoří graf
+```
+
+Silnější analytik:
+```text
+řeší:
+- proč graf vzniká,
+- jakou otázku řeší,
+- jaká metrika dává smysl,
+- co z výsledku plyne pro business
+```
