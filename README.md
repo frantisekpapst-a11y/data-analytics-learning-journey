@@ -118,18 +118,11 @@ Repozitář slouží zároveň jako:
 ## Data Analytics & BI
 - Excel
 - Power Query
-- Power BI
 - SQL
-
-## Programming
-- Python
-- pandas
-- numpy
 
 ## Development & Workflow
 - GitHub
 - VS Code
-- Jupyter Notebook
 
 ## AI Tools
 - ChatGPT
@@ -141,7 +134,7 @@ Repozitář slouží zároveň jako:
 
 # 🚀 Learning roadmap
 
-## Phase 1 — Data Foundations
+## Data Foundations
 - data analysis mindset
 - statistika
 - variability
@@ -150,16 +143,11 @@ Repozitář slouží zároveň jako:
 - korelace
 - diagnostická analýza
 - GDPR & data ethics
+- Opakování + závěrečný test (100 %)
 
-## Phase 2 — SQL & Databases
-- SQL foundations
-- JOINy
-- agregace
-- databázové myšlení
-- relational design
-- business querying
+Další plánovaný směr:
 
-## Phase 3 — Business Intelligence
+## Business Intelligence
 - Power Query
 - Power BI
 - DAX
@@ -167,7 +155,7 @@ Repozitář slouží zároveň jako:
 - dashboarding
 - business storytelling
 
-## Phase 4 — Python Analytics
+## Python Analytics
 - pandas
 - numpy
 - matplotlib / seaborn
@@ -189,24 +177,6 @@ Learning by doing:
 
 Cílem není pouze naučit se nástroje, ale chápat:
 > jak data podporují business rozhodování.
-
----
-
-# 📈 Aktuální zaměření
-
-Momentálně se zaměřuji zejména na:
-- datovou analytiku,
-- SQL,
-- statistické základy,
-- business interpretaci dat,
-- reporting mindset,
-- přípravu na junior data analyst roli.
-
-Další plánovaný směr:
-- Power BI,
-- Python analytics,
-- automatizace analytických workflow,
-- portfolio case studies.
 
 ---
 
