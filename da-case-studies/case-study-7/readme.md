@@ -11,7 +11,7 @@ Cílem projektu bylo ověřit, jak může AI pomoci při:
 - interpretaci trendů,
 - tvorbě management reportu.
 
-Součástí projektu bylo také kritické vyhodnocení AI výstupů a jejich následná validace člověkem.
+Součástí projektu bylo také kritické vyhodnocení AI výstupů a jejich následná validace.
 
 ---
 
