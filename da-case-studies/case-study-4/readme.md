@@ -1,4 +1,4 @@
-# Retail Sales & Marketing Analysis 2025
+# Case Study 4 - Retail Sales & Marketing Analysis
 
 ## 📌 Přehled projektu
 
