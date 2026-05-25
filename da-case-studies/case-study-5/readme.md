@@ -1,4 +1,4 @@
-# E-commerce Data Cleaning & Analysis Case Study
+# E-commerce Data Cleaning & Analysis
 
 ## Popis projektu
 Mini case study zaměřená na:
