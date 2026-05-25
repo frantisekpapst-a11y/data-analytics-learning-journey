@@ -1,4 +1,4 @@
-# Case Study 1 - Bank Database Design
+# Case Study 1 - Bank Database Design 
 
 ## Cíl
 
