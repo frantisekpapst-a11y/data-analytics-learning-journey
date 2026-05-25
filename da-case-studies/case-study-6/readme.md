@@ -1,4 +1,4 @@
-# Case Study 6 – EDA a SDA analýza ecommerce datasetu
+# Case Study 6 – Ecommerce EDA a SDA Analysis
 
 ## Popis projektu
 
