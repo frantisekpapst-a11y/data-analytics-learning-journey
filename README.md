@@ -198,7 +198,8 @@ Data cleaning workflow:
 - validace dat,
 - cleaning workflow,
 - GDPR mindset,
-- anonymizace dat.
+- anonymizace dat,
+- v rámci case study byla následně vytvořena i SQL analytická vrstva nad vyčištěnými daty, přičemž součástí byla i business interpretace a provnání různých SQL přístupů (JOIN vs IN VS EXISTS vs CTE).
 
 ---
 
