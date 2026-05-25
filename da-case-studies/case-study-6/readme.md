@@ -139,7 +139,7 @@ Stejně důležité jako samotný výpočet je:
 data-analytics-workspace/
 │
 ├── excel/
-│   ├── ecommerce_sales_EDA_SDA_2025.xlsx
+│   ├── ecommerce_sales_EDA_SDA_2025_output.xlsx
 │
 ├── screenshots/
 │   ├── eda_analysis.png
