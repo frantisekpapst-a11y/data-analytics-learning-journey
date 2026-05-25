@@ -37,6 +37,10 @@ data-analytics-workspace/
 ├── processed/
 │   └── ecommerce_sales_customers_2025_processed.xlsx
 │
+├── sql/
+│   └── ecommerce_analysis.sql
+│   └── sql_notes.md
+│
 ├── README.md
 └── notes.md
 ```
@@ -194,14 +198,40 @@ Statistika potvrzuje suspicious objednávku notebooku.
 
 ---
 
-# Další krok
-Další plánované části learning path:
-- SQL analytika nad stejnými daty
-- Power BI dashboard
-- Python / pandas workflow
-- AI a business case studies
+## SQL analytická část projektu
+
+V rámci case study byla následně vytvořena i SQL analytická vrstva nad vyčištěnými daty.
+
+Procvičené oblasti:
+
+- GROUP BY a agregace
+- HAVING
+- CASE
+- JOIN
+- LEFT JOIN
+- FULL OUTER JOIN logika
+- subquery
+- CTE (Common Table Expressions)
+- EXISTS
+- IN
+- ROW_NUMBER()
+- ranking a TOP per group logika
+
+Praktické analytické úlohy:
+
+- revenue per product
+- margin analysis
+- suspicious orders detection
+- problematic customers detection
+- revenue ranking produktů
+- business filtering pomocí HAVING
+- práce s NULL hodnotami
+- propojení zákazníků a objednávek
+
+Součástí projektu byla také business interpretace výsledků a porovnání různých SQL přístupů (JOIN vs IN vs EXISTS vs CTE).
 
 ---
 
 # Poznámka
 Projekt slouží jako studijní case study v rámci learning path datové analytiky.
+
