@@ -5,6 +5,7 @@ Tento repozitář dokumentuje moji learning journey v oblasti datové analytiky,
 Cílem je postupně vybudovat praktické analytické myšlení a přejít od základů datové analýzy přes SQL, statistiku a reporting až po Power BI, Python a business analytics.
 
 Repozitář slouží zároveň jako:
+
 - knowledge base,
 - dokumentace studia,
 - sbírka poznámek,
@@ -30,6 +31,7 @@ Repozitář slouží zároveň jako:
 # 🧠 Co se v repozitáři učím
 
 ## 📊 Data Analytics
+
 - exploratory data analysis (EDA)
 - interpretace dat
 - business insighty
@@ -37,7 +39,10 @@ Repozitář slouží zároveň jako:
 - decision making na základě dat
 - preskriptivní a diagnostická analýza
 
+---
+
 ## 📈 Statistics Foundations
+
 - průměr vs medián
 - variabilita dat
 - rozptyl
@@ -50,7 +55,10 @@ Repozitář slouží zároveň jako:
 - t-test
 - p-hodnota
 
+---
+
 ## 🧹 Data Cleaning
+
 - missing values
 - duplicate records
 - nekonzistentní data
@@ -58,11 +66,19 @@ Repozitář slouží zároveň jako:
 - cleaning workflow
 - validace dat
 
+---
+
 ## 🗄 SQL & Databases
+
 - databázové myšlení
 - relační modelování
+- práce s relačními databázemi
+- analytické SQL myšlení
+
+---
 
 ## 📋 Business Reporting
+
 - KPI mindset
 - reporting logika
 - dashboard thinking
@@ -70,26 +86,40 @@ Repozitář slouží zároveň jako:
 - business interpretace
 - analytické formulace
 
+---
+
 ## 🤖 AI-Assisted Analytics
+
 - AI-assisted EDA
 - AI prompting pro analytiku
 - AI workflow
 - automatizace analytických úloh
 - využití AI při learning workflow
+- validace AI výstupů
+- AI risk review
 
 ---
 
 # 📁 Struktura repozitáře
 
 ```text
+data-analytics-learning-journey/
+│
 ├── README.md
+├── da-certificates.pdf
+│
 ├── da-case-studies/
 │   ├── case-study-1.md
 │   ├── case-study-2.md
-│   └── case-study-3/
+│   ├── case-study-3/
+│   ├── case-study-4/
+│   ├── case-study-5/
+│   ├── case-study-6/
+│   └── case-study-7/
 │
 ├── da-cheatsheets/
-│   └── da-cheatsheet-itnetwork.md
+│   ├── da-cheatsheet-itnetwork.md
+│   └── da-cheatsheets-tahák-itnetwork.pdf
 │
 ├── da-examples/
 │   ├── customers.json
@@ -100,35 +130,227 @@ Repozitář slouží zároveň jako:
 │   └── electric-cars-dataset-first-look.md
 │
 ├── da-mini-tests/
+│   ├── da-certification-mini-tests.md
+│   └── da-cheatsheet-mini-tests.md
 │
-├── da-notes/
-│
+└── da-notes/
 ```
+
+---
+
+# 📂 Přehled case studies
+
+## 📌 Case Study 1 — Bank Database Design
+
+Základy relačního databázového myšlení:
+
+- návrh tabulek,
+- entity a vztahy,
+- primary key,
+- databázová logika,
+- strukturovaná data.
+
+---
+
+## 📌 Case Study 2 — Abandoned Cart Analysis
+
+Analýza opuštěných košíků a strategie sběru dat:
+
+- customer behavior,
+- data collection,
+- analytické otázky,
+- business interpretace,
+- návrh datového procesu.
+
+---
+
+## 📌 Case Study 3 — Orders Analysis
+
+První práce s business daty:
+
+- revenue analýza,
+- agregace,
+- KPI thinking,
+- interpretace objednávek,
+- základní business reporting.
+
+---
+
+## 📌 Case Study 4 — Retail Sales & Marketing Analysis
+
+Retail a marketing analytika:
+
+- trendy prodejů,
+- segmentace,
+- marketingový pohled,
+- business insighty,
+- interpretace výkonu produktů.
+
+---
+
+## 📌 Case Study 5 — E-commerce Data Cleaning & Analysis
+
+Data cleaning workflow:
+
+- nekonzistentní data,
+- standardizace hodnot,
+- datové typy,
+- validace dat,
+- cleaning workflow,
+- GDPR mindset,
+- anonymizace dat.
+
+---
+
+## 📌 Case Study 6 — Ecommerce EDA & SDA Analysis
+
+Exploratory a Statistical Data Analysis:
+
+- EDA workflow,
+- SDA mindset,
+- outliers,
+- statistická významnost,
+- limity malého datasetu,
+- business interpretace,
+- práce s hypotézami.
+
+---
+
+## 📌 Case Study 7 — AI Assisted Analytics
+
+Praktické využití AI v analytice:
+
+- AI-assisted EDA,
+- sentiment analysis,
+- AI business reporting,
+- trend analysis,
+- forecasting,
+- AI validation,
+- AI risk review,
+- kritické vyhodnocování AI výstupů.
+
+---
+
+# 📂 Přehled examples
+
+## 📌 customers.json / customers.xml / customers.sql
+
+Ukázky různých datových formátů:
+
+- JSON,
+- XML,
+- SQL databázová struktura.
+
+Cíl:
+- pochopení rozdílů mezi datovými formáty,
+- strukturovaná data,
+- databázové myšlení.
+
+---
+
+## 📌 customers-json-notes.md
+
+Poznámky k práci s JSON:
+
+- struktura JSON,
+- key-value logika,
+- nested data,
+- praktické využití.
+
+---
+
+## 📌 customers-sql-notes.md
+
+SQL poznámky:
+
+- SELECT,
+- WHERE,
+- GROUP BY,
+- JOIN,
+- agregace,
+- databázové myšlení.
+
+---
+
+## 📌 electric-cars-dataset-first-look.md
+
+První exploratory data analysis nad datasetem elektromobilů:
+
+- první pohled na dataset,
+- exploratory mindset,
+- hledání trendů,
+- interpretace dat.
+
+---
+
+# 📂 Cheatsheets
+
+Repozitář obsahuje vlastní cheatsheety a taháky:
+
+- statistika,
+- EDA,
+- SDA,
+- data cleaning,
+- SQL,
+- AI-assisted analytics,
+- business reporting mindset.
+
+---
+
+# 📂 Mini Tests
+
+Průběžné opakovací testy:
+
+- teorie datové analytiky,
+- statistika,
+- GDPR,
+- EDA,
+- SDA,
+- AI v analytice,
+- business interpretace,
+- data cleaning.
+
+Součástí jsou:
+- otázky,
+- varianty odpovědí,
+- správná řešení,
+- závěrečný certifikační test.
 
 ---
 
 # 🛠 Používané nástroje
 
-## Data Analytics & BI
+## 📊 Data Analytics & BI
+
 - Excel
 - Power Query
 - SQL
 
-## Development & Workflow
+---
+
+## 💻 Development & Workflow
+
 - GitHub
 - VS Code
 
-## AI Tools
+---
+
+## 🤖 AI Tools
+
 - ChatGPT
-- Claude
 - Perplexity
 - Google AI Studio
+- Copilot
 
 ---
 
 # 🚀 Learning roadmap
 
-## Data Foundations
+## ✅ Dokončeno
+
+### Excel a SQL
+### Data Foundations
+
 - data analysis mindset
 - statistika
 - variability
@@ -137,11 +359,16 @@ Repozitář slouží zároveň jako:
 - korelace
 - diagnostická analýza
 - GDPR & data ethics
+- SQL foundations
+- AI-assisted analytics
 - Opakování + závěrečný test (100 %)
 
-Další plánovaný směr:
+---
 
-## Business Intelligence
+## 🔜 Další plánovaný směr
+
+### Business Intelligence
+
 - Power Query
 - Power BI
 - DAX
@@ -149,7 +376,10 @@ Další plánovaný směr:
 - dashboarding
 - business storytelling
 
-## Python Analytics
+---
+
+### Python Analytics
+
 - pandas
 - numpy
 - matplotlib / seaborn
@@ -162,6 +392,7 @@ Další plánovaný směr:
 # 📌 Přístup k učení
 
 Learning by doing:
+
 - mini testy,
 - cheatsheety,
 - case studies,
@@ -170,7 +401,10 @@ Learning by doing:
 - AI-assisted workflow.
 
 Cílem není pouze naučit se nástroje, ale chápat:
-> jak data podporují business rozhodování.
+
+```text
+jak data podporují business rozhodování
+```
 
 ---
 
