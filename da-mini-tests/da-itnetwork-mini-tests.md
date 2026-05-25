@@ -5550,3 +5550,268 @@ d) nepoužívat Excel
 - human review je nezbytný
 - enterprise firmy řeší AI governance a data security
 - moderní analytik musí chápat nejen data, ale i bezpečnost a compliance
+
+---
+
+# Minitest – Lekce 26 (ChatGPT – Dotazování na data)
+
+## 1.
+Co je hlavním cílem dotazování na data?
+
+a) instalace Power BI  
+b) získání odpovědi na business otázku  
+c) vytvoření antiviru  
+d) export PDF  
+
+✅ Správná odpověď: b)
+
+---
+
+## 2.
+Co je „dotaz“ v datové analytice?
+
+a) typ grafu  
+b) otázka na data  
+c) databáze  
+d) dashboard  
+
+✅ Správná odpověď: b)
+
+---
+
+## 3.
+Co je metrika?
+
+a) číselná hodnota, kterou sledujeme  
+b) typ monitoru  
+c) SQL server  
+d) email  
+
+✅ Správná odpověď: a)
+
+---
+
+## 4.
+Který příklad je metrika?
+
+a) region  
+b) součet tržeb  
+c) název firmy  
+d) PDF report  
+
+✅ Správná odpověď: b)
+
+---
+
+## 5.
+Co je report?
+
+a) exportovaný antivir  
+b) výstup z analýzy dat  
+c) typ SQL dotazu  
+d) databázový server  
+
+✅ Správná odpověď: b)
+
+---
+
+## 6.
+Co je vizualizace?
+
+a) grafické zobrazení dat  
+b) SQL databáze  
+c) email klient  
+d) CSV soubor  
+
+✅ Správná odpověď: a)
+
+---
+
+## 7.
+Proč je důležité správně formulovat otázku?
+
+a) kvůli rychlosti internetu  
+b) špatná otázka vede ke špatné analýze  
+c) Excel jinak nejde spustit  
+d) Power BI bez otázky nefunguje  
+
+✅ Správná odpověď: b)
+
+---
+
+## 8.
+Co znamená „nejlepší produkt“?
+
+a) vždy nejvyšší revenue  
+b) vždy nejnižší cena  
+c) záleží na metrice a business cíli  
+d) vždy nejvíce objednávek  
+
+✅ Správná odpověď: c)
+
+---
+
+## 9.
+Která otázka je správný analytický follow-up?
+
+a) „Jakou máš barvu monitoru?“  
+b) „Za jaké období?“  
+c) „Kolik RAM má notebook?“  
+d) „Jaký používáš prohlížeč?“  
+
+✅ Správná odpověď: b)
+
+---
+
+## 10.
+Co může ChatGPT pomoci navrhnout?
+
+a) metriku  
+b) typ grafu  
+c) filtr  
+d) všechny odpovědi jsou správně  
+
+✅ Správná odpověď: d)
+
+---
+
+## 11.
+Co ChatGPT neumí samo určit?
+
+a) business priority firmy  
+b) základní graf  
+c) jednoduchý report  
+d) shrnutí textu  
+
+✅ Správná odpověď: a)
+
+---
+
+## 12.
+Co je hlavní role analytika?
+
+a) jen exportovat grafy  
+b) správně formulovat business otázky  
+c) instalovat Windows  
+d) opravovat hardware  
+
+✅ Správná odpověď: b)
+
+---
+
+## 13.
+Co je KPI?
+
+a) klíčová sledovaná metrika  
+b) typ databáze  
+c) export CSV  
+d) programovací jazyk  
+
+✅ Správná odpověď: a)
+
+---
+
+## 14.
+Který nástroj je primárně určen pro business intelligence?
+
+a) Power BI  
+b) Malování  
+c) VLC  
+d) Outlook  
+
+✅ Správná odpověď: a)
+
+---
+
+## 15.
+Co je export?
+
+a) vytvoření SQL tabulky  
+b) uložení výstupu pro další použití  
+c) mazání dat  
+d) tvorba API  
+
+✅ Správná odpověď: b)
+
+---
+
+## 16.
+Co je typický výstup pro management?
+
+a) report  
+b) BIOS  
+c) TXT log  
+d) driver  
+
+✅ Správná odpověď: a)
+
+---
+
+## 17.
+Co je důležité při interpretaci grafu?
+
+a) business kontext  
+b) pouze barvy grafu  
+c) velikost monitoru  
+d) typ myši  
+
+✅ Správná odpověď: a)
+
+---
+
+## 18.
+Co znamená BI?
+
+a) Binary Integration  
+b) Business Intelligence  
+c) Basic Internet  
+d) Browser Interface  
+
+✅ Správná odpověď: b)
+
+---
+
+## 19.
+Co může ChatGPT dělat s obrázkem grafu?
+
+a) interpretovat trendy  
+b) analyzovat vývoj  
+c) pomoci formulovat závěr  
+d) všechny odpovědi jsou správně  
+
+✅ Správná odpověď: d)
+
+---
+
+## 20.
+Doplň:
+
+„Data sama o sobě nejsou rozhodnutí. Analytik převádí data na ____________.“
+
+a) screenshoty  
+b) insight a doporučení  
+c) antiviry  
+d) hardware  
+
+✅ Správná odpověď: b)
+
+---
+
+# Výsledek testu
+
+```text
+20 / 20
+```
+
+---
+
+# Klíčové poznatky
+
+- Správná business otázka je základ kvalitní analýzy.
+- Nejasný dotaz vede k nejasnému nebo zavádějícímu výsledku.
+- „Nejlepší produkt“ musí být vždy definovaný konkrétní metrikou.
+- ChatGPT může pomoci navrhnout metriku, filtr, typ grafu nebo interpretaci.
+- ChatGPT nezná automaticky business priority firmy.
+- Analytik převádí data na insight a doporučení.
+- BI znamená Business Intelligence.
+- Power BI je nástroj pro business reporting, KPI a vizualizace.
