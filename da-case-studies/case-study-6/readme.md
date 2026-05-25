@@ -6,109 +6,73 @@ Tato case study byla zaměřena na praktické použití:
 
 - EDA (Exploratory Data Analysis)
 - SDA (Statistical Data Analysis)
-- práce s Power Query
-- detekce outlierů
-- normalizace a standardizace dat
-- interpretace business dat v Excelu
+- kontingenčních tabulek
+- základní statistické interpretace dat
 
-Dataset obsahoval ecommerce objednávky a zákaznická data.
+V této části byl použit již připravený a vyčištěný dataset z předchozí case study.
 
 ---
 
 # Použité nástroje
 
 - MS Excel
-- Power Query
 - Kontingenční tabulky
-- Základní statistické funkce
-- Podmíněné formátování
+- Statistické funkce
+- T-test
 
 ---
 
 # Obsah projektu
 
-## 1. Čištění dat v Power Query
+## 1. EDA – Exploratory Data Analysis
 
-Byly identifikovány a řešeny následující problémy:
+Byla vytvořena exploratorní analýza ecommerce objednávek pomocí kontingenční tabulky.
 
-- duplicitní zákazníci
-- chybějící emaily
-- podezřelé hodnoty věku
-- NULL hodnoty
-- suspicious flag pro anomálie
+Analyzováno bylo:
 
-Použité techniky:
-
-- Remove Duplicates
-- Replace Values
-- Conditional Columns
-- Merge Queries
-- datové typy
-- práce s NULL
-
----
-
-# 2. EDA – Exploratory Data Analysis
-
-Byla vytvořena základní exploratorní analýza:
-
-- průměrné tržby podle produktu
+- průměrné revenue podle produktu
 - počet objednávek
-- marže a margin %
-- identifikace outlierů
-
-## Závěry EDA
-
-- Notebook generuje výrazně vyšší tržbu než ostatní produkty
-- jedná se však pouze o jednu objednávku
-- nelze dělat silné business závěry bez většího vzorku dat
-- malý vzorek výrazně zvyšuje riziko špatné interpretace
+- rozdíly mezi produkty
+- potenciální outliery
 
 ---
 
-# 3. Normalizace dat
+# EDA výsledky
 
-Byla použita Min-Max normalizace:
-
-```excel
-=([@revenue]-MIN([revenue]))/(MAX([revenue])-MIN([revenue]))
-```
-
-## Závěry
-
-- Notebook dosáhl hodnoty 1,0
-- Headphones dosáhly hodnoty 0,0
-- ostatní produkty se nacházely mezi těmito extrémy
-
-Normalizace pomohla převést data na společnou škálu 0–1.
+| Produkt | Průměrné revenue | Počet objednávek |
+|---|---:|---:|
+| Headphones | 2 990 | 2 |
+| Notebook | 125 000 | 1 |
+| Smartwatch | 8 990 | 3 |
+| TV | 49 990 | 1 |
 
 ---
 
-# 4. Standardizace dat (z-skóre)
+# Závěry EDA
 
-Byla použita standardizace pomocí z-score:
-
-```excel
-=([@revenue]-PRŮMĚR([revenue]))/SMODCH.VÝBĚR([revenue])
-```
-
-## Závěry
-
-- Notebook měl z-score cca 2,1
-- objednávka byla statisticky výrazně odlišná
-- TV bylo mírně nad průměrem
-- Smartwatch a Headphones byly lehce pod průměrem
+- Notebook generuje výrazně vyšší tržbu než ostatní produkty.
+- Jedná se však pouze o jednu objednávku.
+- Nelze dělat silné business závěry bez většího vzorku dat.
+- Malý vzorek výrazně zvyšuje riziko špatné interpretace.
 
 ---
 
-# 5. SDA – Statistical Data Analysis
+# 2. SDA – Statistical Data Analysis
 
 Byl proveden pokus o t-test mezi:
 
 - Notebook revenue
 - ostatní revenue
 
-## Výsledek
+Použit byl:
+
+```text
+Dvouvýběrový t-test s nerovností rozptylů
+```
+
+---
+
+# Výsledek SDA
 
 T-test nebylo možné korektně provést, protože skupina Notebook obsahovala pouze jednu hodnotu.
 
@@ -122,9 +86,9 @@ Pro statistický test je potřeba více pozorování v obou skupinách, aby bylo
 
 # Business interpretace
 
-Objednávka notebooku za 125 000 Kč byla označena jako suspicious order.
+Objednávka notebooku za 125 000 Kč byla statisticky výrazně odlišná od ostatních objednávek.
 
-To však automaticky neznamená chybu.
+To však automaticky neznamená chybu v datech.
 
 Může se jednat například o:
 
@@ -146,16 +110,15 @@ Může se jednat například o:
 
 ## Technické dovednosti
 
-- Power Query
-- merge datasetů
-- čištění dat
-- NULL handling
-- normalizace
-- standardizace
 - kontingenční tabulky
-- základní statistická analýza
+- EDA
+- SDA
+- práce s outliery
+- statistická interpretace dat
 
-## Analytické myšlení
+---
+
+# Analytické myšlení
 
 Tato case study ukázala důležitý princip:
 
