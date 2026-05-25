@@ -5751,3 +5751,369 @@ Velká část práce je:
 - normalization
 - standardization
 - Power Query workflow
+
+---
+
+# 📘 ChatGPT & AI v datové analytice – Cheat Sheet
+
+---
+
+# 🤖 Co je ChatGPT v analytice
+
+ChatGPT je AI nástroj založený na neuronových sítích.
+
+V datové analytice pomáhá:
+- generovat reporty,
+- interpretovat data,
+- třídit texty,
+- čistit data,
+- sjednocovat hodnoty,
+- vysvětlovat pojmy,
+- navrhovat SQL / Python,
+- automatizovat rutinní úkoly.
+
+---
+
+# ⚠️ Důležité pravidlo
+
+```text
+AI výrazně zrychluje analytika.
+Nenahrazuje analytické myšlení.
+```
+
+Výsledky AI je nutné:
+- kontrolovat,
+- ověřovat,
+- interpretovat v business kontextu.
+
+---
+
+# 📊 AI v praxi analytika
+
+## Nejčastější využití
+
+### Generování reportů
+Např.:
+- shrnutí dat,
+- komentáře k dashboardům,
+- weekly reporting.
+
+---
+
+### Sentiment Analysis
+Třídění recenzí:
+- pozitivní,
+- negativní,
+- neutrální.
+
+Použití:
+- zákaznické recenze,
+- support,
+- sociální sítě.
+
+---
+
+### Data Cleaning
+Sjednocování:
+- regionů,
+- názvů firem,
+- kategorií,
+- produktů.
+
+Např.:
+```text
+Praha
+praha
+PHA
+Prague
+```
+
+→ Praha
+
+---
+
+### SQL / Python pomocník
+AI umí:
+- navrhnout SQL,
+- vysvětlit Python,
+- generovat boilerplate code.
+
+---
+
+# 🧠 EDA vs SDA
+
+## EDA
+Exploratory Data Analysis
+
+Cíl:
+```text
+hledání vzorců, trendů a outlierů
+```
+
+Použití:
+- kontingenčky,
+- grafy,
+- průměry,
+- histogramy.
+
+---
+
+## SDA
+Statistical Data Analysis
+
+Cíl:
+```text
+ověření statistické významnosti
+```
+
+Použití:
+- t-test,
+- p-value,
+- korelace,
+- regresní analýza.
+
+---
+
+# 📈 Outlier
+
+Outlier:
+```text
+výrazně odlišná hodnota
+```
+
+Důležité:
+```text
+Outlier ≠ automaticky chyba
+```
+
+Může jít o:
+- VIP zákazníka,
+- B2B objednávku,
+- fraud,
+- chybu dat,
+- validní extrém.
+
+Úkolem analytika je:
+- identifikovat,
+- upozornit,
+- doporučit ověření.
+
+---
+
+# 🔄 ETL
+
+ETL =
+```text
+Extract → Transform → Load
+```
+
+## Extract
+Načtení dat:
+- SQL,
+- API,
+- CSV,
+- JSON.
+
+---
+
+## Transform
+Úprava dat:
+- cleaning,
+- merge,
+- deduplikace,
+- standardizace.
+
+---
+
+## Load
+Nahrání dat:
+- Excel,
+- SQL,
+- Power BI,
+- dashboard.
+
+---
+
+# 🧹 Standardizace dat
+
+Cíl:
+```text
+sjednocení různých variant stejné hodnoty
+```
+
+Např.:
+```text
+Praha / praha / PHA / Prague
+```
+
+→ Praha
+
+---
+
+# 🗂️ Mapping Table
+
+Enterprise best practice.
+
+| raw_value | normalized_value |
+|---|---|
+| PHA | Praha |
+| Prague | Praha |
+
+Výhody:
+- škálovatelnost,
+- jednoduchá údržba,
+- automatizace.
+
+---
+
+# 🛠️ Nástroje pro cleaning dat
+
+| Nástroj | Typické použití |
+|---|---|
+| Excel | malé datasety |
+| Power Query | ETL a cleaning |
+| SQL | databáze a reporting |
+| Python | advanced analytics |
+
+---
+
+# 📌 Excel
+
+## Funkce
+```excel
+KDYŽ()
+NEBO()
+XLOOKUP()
+DOSADIT()
+MALÁ()
+VELKÁ()
+```
+
+---
+
+# 📌 Power Query
+
+## Typické operace
+- Replace Values
+- Merge Queries
+- Trim / Clean
+- datové typy
+- Conditional Columns
+
+Power Query =
+```text
+ETL nástroj
+```
+
+---
+
+# 📌 SQL
+
+## Nejčastější patterny
+
+### CASE WHEN
+```sql
+CASE
+ WHEN region = 'PHA' THEN 'Praha'
+END
+```
+
+### LOWER()
+```sql
+LOWER(region)
+```
+
+### REPLACE()
+```sql
+REPLACE(region,'-město','')
+```
+
+### JOIN na mapping table
+Enterprise standard.
+
+---
+
+# 📌 Python (pandas)
+
+## Typické operace
+
+### replace()
+```python
+df["region"].replace(mapping)
+```
+
+### map()
+```python
+df["region"].map(mapping)
+```
+
+### str.lower()
+```python
+df["region"].str.lower()
+```
+
+### apply()
+```python
+df["region"].apply(function)
+```
+
+---
+
+# ⚠️ Omezení AI
+
+AI:
+- může halucinovat,
+- může být nepřesná,
+- nemusí chápat business kontext,
+- neumí plně pracovat se sarkasmem,
+- neumí garantovat statistickou správnost.
+
+---
+
+# 🚫 Citlivá data
+
+Do AI chatbotů neposílat:
+- osobní údaje,
+- hesla,
+- interní firemní data,
+- citlivé obchodní informace.
+
+Chatboti mohou data:
+```text
+ukládat a používat k trénování modelů
+```
+
+---
+
+# 🏢 Reálný enterprise workflow
+
+Časté pipeline:
+
+```text
+SQL → Power Query → Power BI
+```
+
+nebo:
+
+```text
+SQL → Python → dashboard / reporting
+```
+
+---
+
+# 🧠 Analytický mindset
+
+Začátečník:
+```text
+píše vzorce
+```
+
+Pokročilý analytik:
+```text
+přemýšlí o mapovacích tabulkách
+```
+
+Senior:
+```text
+řeší kvalitu dat už při vstupu do systému
+```
