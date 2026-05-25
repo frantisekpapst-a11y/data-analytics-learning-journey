@@ -5286,3 +5286,267 @@ vytáhnout data
 → upravit data
 → nahrát data dál
 ```
+
+---
+
+# Minitest – Lekce 25 (ChatGPT – Čištění a anonymizace dat)
+
+## 1.
+Co je hlavní téma lekce 25?
+
+a) tvorba databází  
+b) čištění a anonymizace dat pomocí AI  
+c) programování webů  
+d) tvorba her  
+
+✅ Správná odpověď: b)
+
+---
+
+## 2.
+Co AI velmi dobře zvládá při cleaning dat?
+
+a) instalaci SQL serveru  
+b) sjednocování textových variant  
+c) správu hardware  
+d) tvorbu operačního systému  
+
+✅ Správná odpověď: b)
+
+---
+
+## 3.
+Který problém AI dobře řeší?
+
+a) různé varianty stejného názvu  
+b) fyzické poškození disku  
+c) výměnu RAM  
+d) instalaci tiskárny  
+
+✅ Správná odpověď: a)
+
+---
+
+## 4.
+Co je správný příklad standardizace?
+
+a) Praha → Notebook  
+b) PHA → Praha  
+c) Excel → SQL  
+d) JSON → Python  
+
+✅ Správná odpověď: b)
+
+---
+
+## 5.
+Co je důležité při zadávání promptu pro cleaning dat?
+
+a) co nejméně informací  
+b) náhodné instrukce  
+c) jasně definovaný požadovaný výstup  
+d) nepoužívat příklady  
+
+✅ Správná odpověď: c)
+
+---
+
+## 6.
+Proč je lepší používat menší dávky dat?
+
+a) AI neumí text  
+b) snižuje se riziko nepřesností  
+c) Excel neumí CSV  
+d) SQL neumí tabulky  
+
+✅ Správná odpověď: b)
+
+---
+
+## 7.
+Co je PII?
+
+a) typ grafu  
+b) osobně identifikovatelné údaje  
+c) druh databáze  
+d) metoda vizualizace  
+
+✅ Správná odpověď: b)
+
+---
+
+## 8.
+Který údaj je typicky PII?
+
+a) region  
+b) produktová kategorie  
+c) email  
+d) počet objednávek  
+
+✅ Správná odpověď: c)
+
+---
+
+## 9.
+Co je business sensitive data?
+
+a) veřejná data z internetu  
+b) obchodně citlivé informace  
+c) obrázky  
+d) HTML kód  
+
+✅ Správná odpověď: b)
+
+---
+
+## 10.
+Který údaj může být business sensitive?
+
+a) revenue  
+b) barva Excelu  
+c) velikost fontu  
+d) název listu  
+
+✅ Správná odpověď: a)
+
+---
+
+## 11.
+Co znamená anonymizace?
+
+a) zvýšení revenue  
+b) odstranění možnosti identifikace osoby  
+c) export do PDF  
+d) vytvoření dashboardu  
+
+✅ Správná odpověď: b)
+
+---
+
+## 12.
+Co je pseudonymizace?
+
+a) úplné odstranění dat  
+b) nahrazení identity identifikátorem  
+c) šifrování monitoru  
+d) komprese souboru  
+
+✅ Správná odpověď: b)
+
+---
+
+## 13.
+Co je správný přístup před odesláním dat do AI?
+
+a) poslat všechno bez kontroly  
+b) minimalizovat citlivá data  
+c) vypnout Excel  
+d) odstranit všechny tabulky  
+
+✅ Správná odpověď: b)
+
+---
+
+## 14.
+Co je důležité po AI cleaningu?
+
+a) nikdy nic nekontrolovat  
+b) ručně ověřit vzorek výsledků  
+c) smazat dataset  
+d) exportovat do JPG  
+
+✅ Správná odpověď: b)
+
+---
+
+## 15.
+Který údaj by často mohl zůstat po anonymizaci?
+
+a) email  
+b) rodné číslo  
+c) region  
+d) příjmení  
+
+✅ Správná odpověď: c)
+
+---
+
+## 16.
+Co je typický enterprise přístup k AI?
+
+a) veřejný ChatGPT pro všechna interní data  
+b) interní / enterprise AI řešení  
+c) žádná bezpečnost  
+d) ukládání hesel do promptů  
+
+✅ Správná odpověď: b)
+
+---
+
+## 17.
+Co je hlavní riziko AI chatbotů?
+
+a) mohou ukládat data  
+b) neumí text  
+c) neumí SQL  
+d) neumí grafy  
+
+✅ Správná odpověď: a)
+
+---
+
+## 18.
+Který princip je správný?
+
+a) do AI posíláme všechna dostupná data  
+b) AI nepotřebuje žádná data  
+c) AI dostává jen data, která skutečně potřebuje  
+d) citlivá data nejsou problém  
+
+✅ Správná odpověď: c)
+
+---
+
+## 19.
+Co je mapping table?
+
+a) tabulka pro sjednocení hodnot  
+b) dashboard  
+c) antivir  
+d) typ grafu  
+
+✅ Správná odpověď: a)
+
+---
+
+## 20.
+Doplň:
+
+„AI cleaning není 100% spolehlivý, proto je potřeba ____________.“
+
+a) vypnout kontrolu  
+b) lidská kontrola výsledků  
+c) odstranit data  
+d) nepoužívat Excel  
+
+✅ Správná odpověď: b)
+
+---
+
+# Výsledek testu
+
+```text
+20 / 20
+```
+
+---
+
+# Klíčové poznatky
+
+- AI výrazně pomáhá s cleaningem dat
+- standardizace dat je běžná součást analytiky
+- citlivá data je potřeba anonymizovat
+- AI není 100% spolehlivá
+- human review je nezbytný
+- enterprise firmy řeší AI governance a data security
+- moderní analytik musí chápat nejen data, ale i bezpečnost a compliance
