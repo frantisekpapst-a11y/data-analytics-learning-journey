@@ -207,3 +207,9 @@ Další plánovaný směr:
 - Python analytics,
 - automatizace analytických workflow,
 - portfolio case studies.
+
+---
+
+# ⚠️ Poznámka
+
+Repozitář používá pouze anonymizovaná nebo ukázková data určená pro studijní a portfolio účely.
