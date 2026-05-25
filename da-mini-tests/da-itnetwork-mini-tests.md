@@ -5815,3 +5815,269 @@ d) hardware
 - Analytik převádí data na insight a doporučení.
 - BI znamená Business Intelligence.
 - Power BI je nástroj pro business reporting, KPI a vizualizace.
+
+---
+
+# Minitest – Lekce 27 (Prognózy a Copilot v Excelu)
+
+## 1.
+Co je hlavním tématem lekce 27?
+
+a) instalace databází  
+b) forecasting a AI v Excelu  
+c) tvorba webů  
+d) síťová bezpečnost  
+
+✅ Správná odpověď: b)
+
+---
+
+## 2.
+Co dělá List prognózy v Excelu?
+
+a) maže data  
+b) vytváří forecast budoucího vývoje  
+c) instaluje Power BI  
+d) exportuje PDF  
+
+✅ Správná odpověď: b)
+
+---
+
+## 3.
+Jaký je hlavní rozdíl mezi regresí a forecastem?
+
+a) žádný  
+b) regrese pracuje s časem, forecast ne  
+c) regrese hledá vztah mezi dvěma proměnnými, forecast sleduje jednu proměnnou v čase  
+d) forecast neumí pracovat s daty  
+
+✅ Správná odpověď: c)
+
+---
+
+## 4.
+Forecast je:
+
+a) jistá budoucnost  
+b) statistický odhad  
+c) antivirový nástroj  
+d) databázový model  
+
+✅ Správná odpověď: b)
+
+---
+
+## 5.
+Který příklad je forecasting?
+
+a) předpověď budoucích tržeb  
+b) instalace Excelu  
+c) změna fontu  
+d) export CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+## 6.
+Co forecast používá jako základ?
+
+a) historická data  
+b) RAM počítače  
+c) velikost monitoru  
+d) internetové připojení  
+
+✅ Správná odpověď: a)
+
+---
+
+## 7.
+Co je důležité pro kvalitní forecast?
+
+a) rovnoměrná časová data  
+b) barevný graf  
+c) herní notebook  
+d) velký monitor  
+
+✅ Správná odpověď: a)
+
+---
+
+## 8.
+Co může forecast výrazně zkreslit?
+
+a) stabilní data  
+b) outliery a nepravidelnosti  
+c) správné datumy  
+d) kontingenční tabulka  
+
+✅ Správná odpověď: b)
+
+---
+
+## 9.
+Co forecast neumí sám poznat?
+
+a) historický trend  
+b) business důvod změny  
+c) časovou osu  
+d) základní růst  
+
+✅ Správná odpověď: b)
+
+---
+
+## 10.
+Který příklad může forecast rozbít?
+
+a) Black Friday  
+b) covid  
+c) jednorázová marketingová akce  
+d) všechny odpovědi jsou správně  
+
+✅ Správná odpověď: d)
+
+---
+
+## 11.
+Co je Copilot v Excelu?
+
+a) antivir  
+b) AI asistent integrovaný v Excelu  
+c) databáze  
+d) operační systém  
+
+✅ Správná odpověď: b)
+
+---
+
+## 12.
+Kde je Copilot dostupný?
+
+a) pouze v Microsoft 365  
+b) v BIOSu  
+c) ve VLC  
+d) v Chrome  
+
+✅ Správná odpověď: a)
+
+---
+
+## 13.
+Co Copilot umí?
+
+a) navrhnout kontingenční tabulku  
+b) shrnout data  
+c) doporučit vizualizaci  
+d) všechny odpovědi jsou správně  
+
+✅ Správná odpověď: d)
+
+---
+
+## 14.
+Jak Copilot komunikuje s uživatelem?
+
+a) přes přirozený jazyk  
+b) pouze přes SQL  
+c) pouze přes Python  
+d) pouze přes VBA  
+
+✅ Správná odpověď: a)
+
+---
+
+## 15.
+Co je hlavní výhoda Copilotu?
+
+a) automatizace rutinních analytických úkolů  
+b) zvýšení FPS ve hrách  
+c) oprava hardware  
+d) instalace Windows  
+
+✅ Správná odpověď: a)
+
+---
+
+## 16.
+Co stále musí dělat analytik?
+
+a) kontrolovat výsledky AI  
+b) vypnout Excel  
+c) mazat dashboardy  
+d) nepoužívat data  
+
+✅ Správná odpověď: a)
+
+---
+
+## 17.
+Co může Copilot automaticky vytvořit?
+
+a) kontingenční tabulku  
+b) přehledový graf  
+c) shrnutí dat  
+d) všechny odpovědi jsou správně  
+
+✅ Správná odpověď: d)
+
+---
+
+## 18.
+Co je typický příklad promptu pro Copilot?
+
+a) „Shrň tržby podle regionů a produktů.“  
+b) „Nainstaluj RAM.“  
+c) „Zapni BIOS.“  
+d) „Zrychli internet.“  
+
+✅ Správná odpověď: a)
+
+---
+
+## 19.
+Jaký je trend moderní analytiky?
+
+a) více manuální práce  
+b) AI automatizuje rutinní reporting  
+c) úplné zrušení dashboardů  
+d) konec Power BI  
+
+✅ Správná odpověď: b)
+
+---
+
+## 20.
+Doplň:
+
+„AI v Excelu nenahrazuje analytika, ale výrazně ____________ práci.“
+
+a) komplikuje  
+b) zpomaluje  
+c) zrychluje  
+d) maže  
+
+✅ Správná odpověď: c)
+
+---
+
+# Výsledek testu
+
+```text
+20 / 20
+```
+
+---
+
+# Klíčové poznatky
+
+- Forecast není jistota, ale statistický odhad.
+- Forecast vychází z historických dat.
+- Kvalitní forecast potřebuje pravidelnou časovou osu a dostatek dat.
+- Outliery, sezónnost nebo jednorázové akce mohou forecast výrazně zkreslit.
+- Regrese hledá vztah mezi dvěma proměnnými.
+- Forecast sleduje vývoj jedné proměnné v čase.
+- Copilot je AI asistent integrovaný v Excelu.
+- Copilot může pomoci s kontingenčními tabulkami, grafy, shrnutím a formátováním.
+- AI zrychluje práci analytika, ale nenahrazuje jeho kontrolu a business interpretaci.
