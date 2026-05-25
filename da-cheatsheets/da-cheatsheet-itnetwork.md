@@ -6703,3 +6703,316 @@ Silnější analytik:
 - jaká metrika dává smysl,
 - co z výsledku plyne pro business
 ```
+
+---
+
+# 📘 Prognózy a Copilot v Excelu – Cheat Sheet
+
+---
+
+# 📈 Co je forecasting (prognóza)
+
+Forecasting =
+```text
+odhad budoucího vývoje na základě historických dat
+```
+
+Použití:
+- revenue forecasting,
+- demand forecasting,
+- cashflow,
+- inventory planning,
+- sales prediction.
+
+---
+
+# ⚠️ Důležitý princip
+
+```text
+Forecast není jistota.
+Je to statistický odhad.
+```
+
+---
+
+# 📊 Forecast vs regrese
+
+## Regrese
+```text
+hledá vztah mezi dvěma proměnnými
+```
+
+Např.:
+- marketing spend → revenue
+- cena → počet objednávek
+
+---
+
+## Forecast
+```text
+sleduje vývoj jedné proměnné v čase
+```
+
+Např.:
+- revenue po měsících
+- počet objednávek v čase
+- návštěvnost webu
+
+---
+
+# 📈 Forecast Sheet v Excelu
+
+Excel obsahuje:
+```text
+List prognózy
+```
+
+Použití:
+- automatická predikce trendu,
+- forecast budoucích hodnot,
+- vizualizace trendu.
+
+---
+
+# 📊 Jak funguje forecast
+
+Forecast:
+- analyzuje historická data,
+- hledá trend,
+- odhaduje pokračování vývoje.
+
+---
+
+# 📌 Příklad
+
+| měsíc | revenue |
+|---|---:|
+| leden | 100000 |
+| únor | 110000 |
+| březen | 120000 |
+| duben | 130000 |
+
+Trend:
+```text
++10k měsíčně
+```
+
+Forecast pravděpodobně odhadne:
+```text
+květen ≈ 140k
+```
+
+---
+
+# ⚠️ Co forecast neví
+
+Forecast:
+```text
+nezná business důvod změny
+```
+
+Neví:
+- marketingovou akci,
+- Black Friday,
+- covid,
+- změnu trhu,
+- konkurenci,
+- sezónnost.
+
+Vidí pouze:
+```text
+historický pattern
+```
+
+---
+
+# 📊 Co je důležité pro kvalitní forecast
+
+## 1. Rovnoměrná časová osa
+Např.:
+- každý měsíc,
+- každý týden.
+
+---
+
+## 2. Dostatek historických dat
+Více dat:
+```text
+→ obvykle přesnější forecast
+```
+
+---
+
+## 3. Stabilní data
+Outliery a nepravidelnosti:
+```text
+mohou forecast výrazně zkreslit
+```
+
+---
+
+# ⚠️ Rizika forecastingu
+
+Forecast mohou zkreslit:
+- Black Friday,
+- jednorázové kampaně,
+- covid,
+- ekonomická krize,
+- sezónnost,
+- chybějící data.
+
+---
+
+# 🤖 Copilot v Excelu
+
+Copilot =
+```text
+AI asistent integrovaný přímo v Excelu
+```
+
+Dostupný:
+```text
+v Microsoft 365
+```
+
+---
+
+# 📊 Co Copilot umí
+
+## Analýza dat
+- shrnutí dat,
+- interpretace trendů,
+- návrhy insightů.
+
+---
+
+## Kontingenční tabulky
+Např.:
+```text
+„Shrň tržby podle regionů a produktů.“
+```
+
+---
+
+## Vizualizace
+- doporučení grafů,
+- přehledové dashboardy,
+- zvýraznění trendů.
+
+---
+
+## Formátování
+Např.:
+```text
+„Zvýrazni 3 zaměstnance s nejvyšším platem.“
+```
+
+---
+
+## Přirozený jazyk
+Copilot komunikuje:
+```text
+pomocí běžného jazyka
+```
+
+Není potřeba:
+- SQL,
+- VBA,
+- DAX.
+
+---
+
+# ⚠️ Důležité omezení AI
+
+```text
+AI nenahrazuje analytika.
+```
+
+AI:
+- pomáhá,
+- automatizuje,
+- zrychluje práci.
+
+Ale:
+- může chybovat,
+- nemusí chápat business kontext,
+- neumí validovat strategická rozhodnutí.
+
+---
+
+# 📊 Role analytika
+
+Analytik:
+- kontroluje výsledky,
+- interpretuje trendy,
+- řeší business kontext,
+- validuje forecast,
+- upozorňuje na rizika.
+
+---
+
+# 🧠 Forecasting mindset
+
+Začátečník:
+```text
+věří forecastu automaticky
+```
+
+Silnější analytik:
+```text
+řeší:
+- proč trend vzniká,
+- jestli je udržitelný,
+- jestli nejsou outliery,
+- jestli nehrozí sezónnost
+```
+
+---
+
+# 📈 KPI a forecasting
+
+Forecast se často používá pro:
+- revenue growth,
+- sales targets,
+- inventory planning,
+- staffing,
+- budget planning.
+
+---
+
+# 📊 Typický workflow
+
+```text
+Excel / SQL
+→ Forecast
+→ Power BI dashboard
+→ ChatGPT / Copilot summary
+→ management reporting
+```
+
+---
+
+# 🏢 Trend moderní analytiky
+
+AI stále více automatizuje:
+- formatting,
+- reporting,
+- summary,
+- základní forecasting,
+- dashboard suggestions.
+
+Analytik se více soustředí na:
+- business interpretaci,
+- KPI,
+- governance,
+- decision making,
+- validaci výsledků.
+
+---
+
+# ⚠️ Největší lesson learned
+
+```text
+Forecast je nástroj pro podporu rozhodování.
+Ne garance budoucnosti.
+```
