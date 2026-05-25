@@ -5576,3 +5576,178 @@ Používá se:
 ### Vzorec
 ```excel
 =(hodnota-MIN(oblast))/(MAX(oblast)-MIN(oblast))
+```
+
+## Význam
+Převod hodnot do intervalu:
+```text
+0 → nejnižší hodnota
+1 → nejvyšší hodnota
+```
+
+## Závěry
+- Notebook = 1,0
+- Headphones = 0,0
+
+Notebook je extrém datasetu.
+
+---
+
+# Standardizace (Z-score)
+
+## Vzorec
+```excel
+=([@revenue]-PRŮMĚR([revenue]))/SMODCH.VÝBĚR([revenue])
+```
+
+## Význam
+Určuje:
+- jak moc je hodnota vzdálená od průměru,
+- v jednotkách směrodatné odchylky.
+
+---
+
+## Interpretace
+
+| Hodnota | Význam |
+|---|---|
+| 0 | průměr |
+| +1 | nad průměrem |
+| -1 | pod průměrem |
+| > 2 | možný outlier |
+
+---
+
+## Závěry
+- Notebook:
+  - z-score ≈ 2,1
+  - potvrzuje podezřelou hodnotu (outlier)
+
+- TV:
+  - lehce nad průměrem (~0,4)
+
+- Smartwatch:
+  - lehce pod průměrem
+
+- Headphones:
+  - pod průměrem
+
+---
+
+# Customer Data Quality (Power Query)
+
+## Identifikované problémy
+- duplicitní zákazník:
+  - Jan Novak
+
+- chybějící email:
+  - Petr Sedlacek
+  - Marie Kralova
+
+- suspicious věk:
+  - Petr Sedlacek = 200
+
+- nevalidní hodnota:
+  - Eva Mala = záporný věk
+
+---
+
+# Power Query – použité transformace
+
+## Čištění textu
+Použito:
+- Oříznout (Trim)
+- Vyčistit (Clean)
+- Proper Case
+
+---
+
+## Nahrazení hodnot
+Použito:
+- Praha 4 → Praha
+- nevalidní email → null
+
+---
+
+## Deduplikace
+Odstranění duplicitních zákazníků.
+
+---
+
+## Datové typy
+Použito:
+- číslo,
+- text,
+- datum.
+
+---
+
+## Conditional Columns
+Vytvořeno:
+- suspicious_flag
+- age_status
+- email_status
+
+---
+
+# Merge Queries
+
+## Spojení datasetů
+Spojeno:
+- sales
+- customers
+
+Přes:
+```text
+customer_id
+```
+
+---
+
+# Důležitý analytický princip
+
+```text
+EDA generuje otázky.
+SDA potvrzuje odpovědi.
+```
+
+---
+
+# Co je důležité pro praxi
+
+## Reálná datová analytika není jen:
+- graf,
+- dashboard,
+- SQL dotaz.
+
+Velká část práce je:
+- čištění dat,
+- kontrola kvality,
+- validace,
+- hledání chyb,
+- interpretace výsledků.
+
+---
+
+# Použité technologie
+- Excel
+- Power Query
+- Kontingenční tabulky
+- Datové transformace
+- Normalizace
+- Standardizace
+- Z-score
+- EDA
+- SDA
+
+---
+
+# Výstupy projektu
+- cleaned dataset
+- processed dataset
+- summary sheet
+- analytical conclusions
+- suspicious flags
+- normalization
+- standardization
+- Power Query workflow
