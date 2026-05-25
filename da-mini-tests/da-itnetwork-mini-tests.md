@@ -5018,3 +5018,271 @@ EDA (Exploratory Data Analysis) slouží k průzkumu dat. Pomáhá hledat:
 SDA (Statistical Data Analysis) slouží ke statistickému ověření hypotéz a zjištění, zda výsledky nejsou způsobeny náhodou.
 
 EDA pomáhá pochopit data a formulovat otázky, zatímco SDA poskytuje statistický důkaz. Kombinace obou přístupů umožňuje dělat kvalitnější a spolehlivější business rozhodnutí.
+
+---
+
+# Minitest – Lekce 24 (ChatGPT v datové analytice)
+
+## 1.
+K čemu se ChatGPT v datové analytice používá nejčastěji?
+
+a) pouze k programování  
+b) generování reportů, práci s textem a interpretaci dat  
+c) pouze k tvorbě databází  
+d) pouze k vizualizacím  
+
+✅ Správná odpověď: b)
+
+---
+
+## 2.
+Co je hlavní výhoda ChatGPT při analýze dat?
+
+a) automaticky opraví všechna data bez kontroly  
+b) nepotřebuje žádná vstupní data  
+c) umožňuje práci v přirozeném jazyce  
+d) vždy poskytuje statisticky správné výsledky  
+
+✅ Správná odpověď: c)
+
+---
+
+## 3.
+Co je důležité dělat po vygenerování odpovědi AI?
+
+a) nic, AI se nemýlí  
+b) výsledek vždy zkontrolovat  
+c) automaticky exportovat data  
+d) odstranit původní dataset  
+
+✅ Správná odpověď: b)
+
+---
+
+## 4.
+Jak se nazývá třídění recenzí na pozitivní, negativní a neutrální?
+
+a) ETL  
+b) sentiment analysis  
+c) normalization  
+d) deduplikace  
+
+✅ Správná odpověď: b)
+
+---
+
+## 5.
+Která recenze je nejspíše neutrální?
+
+a) „Perfektní produkt!“  
+b) „Podvodníci.“  
+c) „Normální produkt, žádné překvapení.“  
+d) „Nikdy více.“  
+
+✅ Správná odpověď: c)
+
+---
+
+## 6.
+Co je hlavní problém AI při práci se sarkasmem?
+
+a) neumí pracovat s textem  
+b) nerozumí emocím dokonale  
+c) neumí číst čísla  
+d) neumí exportovat data  
+
+✅ Správná odpověď: b)
+
+---
+
+## 7.
+Co je cílem sjednocování hodnot typu Praha / praha / PHA / Prague?
+
+a) zvýšení velikosti datasetu  
+b) standardizace dat  
+c) šifrování dat  
+d) vizualizace dat  
+
+✅ Správná odpověď: b)
+
+---
+
+## 8.
+Jaké řešení je v praxi často nejlepší pro standardizaci hodnot?
+
+a) dlouhé CASE WHEN navždy  
+b) ruční přepisování  
+c) mapovací tabulka  
+d) mazání neznámých hodnot  
+
+✅ Správná odpověď: c)
+
+---
+
+## 9.
+Který nástroj je nejsilnější pro pokročilé textové transformace?
+
+a) Excel  
+b) PowerPoint  
+c) Python  
+d) Word  
+
+✅ Správná odpověď: c)
+
+---
+
+## 10.
+Co znamená ETL?
+
+a) Export → Transfer → List  
+b) Extract → Transform → Load  
+c) Excel → Table → Logic  
+d) Error → Test → Load  
+
+✅ Správná odpověď: b)
+
+---
+
+## 11.
+Který nástroj je typicky nejlepší na enterprise práci s databázemi?
+
+a) SQL  
+b) Paint  
+c) Canva  
+d) Outlook  
+
+✅ Správná odpověď: a)
+
+---
+
+## 12.
+Proč je problém posílat citlivá data do AI chatbotů?
+
+a) AI neumí čísla  
+b) chatboty mohou data ukládat  
+c) AI neumí Excel  
+d) AI nezvládne CSV  
+
+✅ Správná odpověď: b)
+
+---
+
+## 13.
+Co je typický příklad EDA?
+
+a) hledání outlierů  
+b) instalace Windows  
+c) restart notebooku  
+d) export PDF  
+
+✅ Správná odpověď: a)
+
+---
+
+## 14.
+Co je hlavní rozdíl mezi EDA a SDA?
+
+a) EDA hledá vzorce, SDA ověřuje statistickou významnost  
+b) SDA je jen v Pythonu  
+c) EDA je jen v SQL  
+d) žádný rozdíl neexistuje  
+
+✅ Správná odpověď: a)
+
+---
+
+## 15.
+Co je správný analytický přístup k outlieru?
+
+a) vždy smazat  
+b) automaticky označit jako chybu  
+c) identifikovat a dále ověřit  
+d) ignorovat  
+
+✅ Správná odpověď: c)
+
+---
+
+## 16.
+Co je hlavní role analytika při použití AI?
+
+a) jen kopírovat výstupy AI  
+b) ověřovat a interpretovat výsledky  
+c) vypnout kontrolu dat  
+d) nepoužívat business kontext  
+
+✅ Správná odpověď: b)
+
+---
+
+## 17.
+Který workflow je dnes ve firmách velmi běžný?
+
+a) SQL → Power Query → Power BI  
+b) Word → Paint → Outlook  
+c) Excel → Kalkulačka → WordPad  
+d) Chrome → YouTube → VLC  
+
+✅ Správná odpověď: a)
+
+---
+
+## 18.
+Co je hlavní výhoda Power Query oproti klasickému Excelu?
+
+a) hry  
+b) automatizace ETL a transformací  
+c) lepší psaní emailů  
+d) tvorba videí  
+
+✅ Správná odpověď: b)
+
+---
+
+## 19.
+Co je mapping table?
+
+a) tabulka pro grafy  
+b) tabulka pro převod různých variant hodnot na jednotný formát  
+c) antivirový software  
+d) SQL server  
+
+✅ Správná odpověď: b)
+
+---
+
+## 20.
+Doplň:
+
+„AI výrazně zrychluje analytika, ale ____________.“
+
+a) nahrazuje úplně analytické myšlení  
+b) neumí pracovat s daty  
+c) nenahrazuje analytické myšlení  
+d) vždy dělá správné závěry  
+
+✅ Správná odpověď: c)
+
+---
+
+# Výsledek testu
+
+```text
+19 / 20
+```
+
+Chybná odpověď byla u otázky 10.
+
+Správně:
+
+```text
+ETL = Extract → Transform → Load
+```
+
+Tedy:
+
+```text
+vytáhnout data
+→ upravit data
+→ nahrát data dál
+```
