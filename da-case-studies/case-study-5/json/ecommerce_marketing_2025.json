@@ -1,0 +1,32 @@
+[
+  {
+    "campaign": "Google Ads",
+    "spend": 45000,
+    "clicks": 12000,
+    "conversions": 340
+  },
+  {
+    "campaign": "Facebook",
+    "spend": 32000,
+    "clicks": 8500,
+    "conversions": 260
+  },
+  {
+    "campaign": "TikTok",
+    "spend": 98000,
+    "clicks": 22000,
+    "conversions": 120
+  },
+  {
+    "campaign": "Emailing",
+    "spend": 12000,
+    "clicks": 4000,
+    "conversions": 310
+  },
+  {
+    "campaign": "Influencer",
+    "spend": 250000,
+    "clicks": 18000,
+    "conversions": 95
+  }
+]
