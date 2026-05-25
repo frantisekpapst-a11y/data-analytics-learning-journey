@@ -1,4 +1,4 @@
-# Case Study 03 – Orders Analysis
+# Case Study 03 – Customer Orders Analysis
 
 ## Cíl projektu
 
