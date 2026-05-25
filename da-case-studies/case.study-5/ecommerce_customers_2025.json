@@ -1,0 +1,58 @@
+[
+  {
+    "customer_id": 1001,
+    "name": "Jan Novak",
+    "region": "Praha",
+    "email": "jan@email.cz",
+    "age": 34,
+    "registration_date": "2025-01-05"
+  },
+  {
+    "customer_id": 1002,
+    "name": "jana svobodova",
+    "region": "brno",
+    "email": "jana@email.cz",
+    "age": 29,
+    "registration_date": "05/01/2025"
+  },
+  {
+    "customer_id": 1003,
+    "name": "Petr Sedlacek",
+    "region": "Praha 4",
+    "email": "petr@email",
+    "age": 200,
+    "registration_date": "2025/01/07"
+  },
+  {
+    "customer_id": 1004,
+    "name": "Eva Mala",
+    "region": "OSTRAVA",
+    "email": "eva@email.cz",
+    "age": -5,
+    "registration_date": "7.1.2025"
+  },
+  {
+    "customer_id": 1005,
+    "name": "Jan Novak",
+    "region": "Praha",
+    "email": "jan@email.cz",
+    "age": 34,
+    "registration_date": "2025-01-05"
+  },
+  {
+    "customer_id": 1006,
+    "name": "Tomas Black",
+    "region": "Bratislava",
+    "email": "tom@email.com",
+    "age": 41,
+    "registration_date": "2025-01-08"
+  },
+  {
+    "customer_id": 1007,
+    "name": "Marie Kralova",
+    "region": "Plzen",
+    "email": "",
+    "age": 31,
+    "registration_date": "08-01-2025"
+  }
+]
