@@ -31,6 +31,9 @@ data-analytics-workspace/
 │   ├── ecommerce_sales_2025.json
 │   ├── ecommerce_marketing_2025.json
 │
+├── outputs/
+│   └── ecommerce_sales_customers_2025_output.xlsx
+│
 ├── processed/
 │   └── ecommerce_sales_customers_2025_processed.xlsx
 │
