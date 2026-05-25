@@ -1,4 +1,5 @@
 # 📘 Souhrnný kvíz – Datová analytika (ITnetwork)
+Posledních 16 otázek je závěrečného testu 
 
 ---
 
@@ -542,12 +543,192 @@ d) VPN na veřejné Wi-Fi
 
 ---
 
-# 📚 Zdroj
+## 45.
+Jak můžeme chránit data při připojení na veřejné Wi-Fi?
 
-Kvízy pochází z kurzu Datová analýza na ITnetwork.  
-:contentReference[oaicite:0]{index=0}
-:contentReference[oaicite:1]{index=1}
-:contentReference[oaicite:2]{index=2}
-:contentReference[oaicite:3]{index=3}
-:contentReference[oaicite:4]{index=4}
-:contentReference[oaicite:5]{index=5}
+a) Odesláním dat v otevřeném CSV  
+b) Použitím VPN a zabezpečeného připojení  
+c) Sdílením hesla přes e-mail  
+d) Přihlášením bez hesla  
+
+✅ Správná odpověď: b)
+
+---
+
+## 46.
+Co vyjadřuje p-hodnota v testování hypotéz?
+
+a) Počet respondentů  
+b) Průměr hodnot  
+c) Nejvyšší hodnota v datasetu  
+d) Pravděpodobnost, že rozdíl je dán náhodou  
+
+✅ Správná odpověď: d)
+
+---
+
+## 47.
+Co je osobní údaj podle GDPR?
+
+a) Pouze číslo kreditní karty  
+b) Pouze IP adresa  
+c) Údaj umožňující identifikovat konkrétní osobu  
+d) Každý údaj v databázi  
+
+✅ Správná odpověď: c)
+
+---
+
+## 48.
+Který formát je nejvhodnější pro přenos tabulkových dat?
+
+a) JPG  
+b) PDF  
+c) CSV  
+d) MP4  
+
+✅ Správná odpověď: c)
+
+---
+
+## 49.
+Co je nulová hypotéza?
+
+a) Ověřený závěr analýzy  
+b) Výchozí předpoklad, že mezi skupinami není rozdíl  
+c) Předpoklad, že výsledky jsou vždy významné  
+d) Hypotéza, která vždy platí  
+
+✅ Správná odpověď: b)
+
+---
+
+## 50.
+Co označuje pojem EDA?
+
+a) Electronic Data Archive  
+b) Exploratory Data Analysis  
+c) Extended Data Access  
+d) Easy Data Application  
+
+✅ Správná odpověď: b)
+
+---
+
+## 51.
+Proč se data archivují?
+
+a) Kvůli anonymizaci  
+b) Aby se zmenšila hodnota dat  
+c) Pro budoucí analýzy, kontrolu a právní povinnosti  
+d) Protože archivace je rychlejší než mazání  
+
+✅ Správná odpověď: c)
+
+---
+
+## 52.
+Který příklad odpovídá citlivým datům?
+
+a) Statistika teplot  
+b) Přehled jízdního řádu  
+c) Seznam veřejných parků  
+d) Zdravotní záznam pacienta  
+
+✅ Správná odpověď: d)
+
+---
+
+## 53.
+Hlavní cíl analýzy zákaznických recenzí:
+
+a) Zjistit spokojenost zákazníků a opakující se problémy  
+b) Sjednotit všechna hodnocení na 5 hvězd  
+c) Odstranit všechny texty recenzí  
+d) Převést recenze do CSV  
+
+✅ Správná odpověď: a)
+
+---
+
+## 54.
+Hlavní přínos anonymizace dat:
+
+a) Snižuje riziko zneužití osobních údajů  
+b) Zrychluje načítání souborů  
+c) Zvyšuje rozlišení grafů  
+d) Zvyšuje prodeje  
+
+✅ Správná odpověď: a)
+
+---
+
+## 55.
+Výhoda rozhodování založeného na datech:
+
+a) Nahrazuje lidskou zkušenost  
+b) Je podloženo fakty a lépe obhajitelné  
+c) Potřebuje méně času než intuice  
+d) Vždy přináší 100% správné výsledky  
+
+✅ Správná odpověď: b)
+
+---
+
+## 56.
+Co je modus?
+
+a) Rozdíl mezi max a min hodnotou  
+b) Nejčastější hodnota v datasetu  
+c) Součet hodnot  
+d) Průměr hodnot  
+
+✅ Správná odpověď: b)
+
+---
+
+## 57.
+Rozdíl mezi normalizací a standardizací:
+
+a) Normalizace je pro text, standardizace pro čísla  
+b) Normalizace šifruje data  
+c) Normalizace převádí data do rozsahu 0–1, standardizace nastaví průměr 0 a SD 1  
+d) Normalizace maže duplicity  
+
+✅ Správná odpověď: c)
+
+---
+
+## 58.
+Jak lze využít ChatGPT v datové analytice?
+
+a) Ke spouštění SQL databází  
+b) K šifrování CSV  
+c) K zálohování na cloud  
+d) K generování souhrnů a kategorizaci textů  
+
+✅ Správná odpověď: d)
+
+---
+
+## 59.
+Hlavní rozdíl mezi EDA a SDA:
+
+a) EDA data zkoumá, SDA testuje hypotézy  
+b) EDA jen vizualizuje  
+c) EDA je pro text, SDA pro čísla  
+d) SDA se používá před EDA  
+
+✅ Správná odpověď: a)
+
+---
+
+## 60.
+Co znamená spravedlnost v etické analýze?
+
+a) Sdílení všech dat  
+b) Stejná hesla pro všechny  
+c) Zajištění, aby modely nediskriminovaly určité skupiny  
+d) Vizualizace bez textu  
+
+✅ Správná odpověď: c)
