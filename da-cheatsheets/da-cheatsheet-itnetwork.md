@@ -6117,3 +6117,269 @@ Senior:
 ```text
 řeší kvalitu dat už při vstupu do systému
 ```
+
+---
+
+# Lekce 25 – ChatGPT: Čištění a anonymizace dat
+
+## Popis lekce
+
+Tato lekce byla zaměřena na praktické využití ChatGPT při:
+
+- čištění dat,
+- standardizaci textových hodnot,
+- anonymizaci datasetů,
+- práci s citlivými údaji,
+- AI governance a data security.
+
+Cílem bylo pochopit nejen možnosti AI při data cleaningu, ale také bezpečnostní a etické principy při práci s daty.
+
+---
+
+# Použité oblasti
+
+- ChatGPT
+- Data Cleaning
+- Data Standardization
+- PII (Personally Identifiable Information)
+- Business Sensitive Data
+- ETL mindset
+- AI Governance
+- GDPR základy
+
+---
+
+# 1. Standardizace textových hodnot
+
+Byly sjednocovány různé varianty stejných hodnot.
+
+## Příklad
+
+| Původní hodnota | Sjednocená hodnota |
+|---|---|
+| Praha | Praha |
+| praha | Praha |
+| PHA | Praha |
+| Prague | Praha |
+| Hlavní město Praha | Praha |
+
+---
+
+# Cíl standardizace
+
+Odstranit:
+- rozdílné velikosti písmen,
+- překlepy,
+- různé varianty zápisu,
+- nekonzistence v datech.
+
+---
+
+# 2. Sentiment Analysis
+
+Byly analyzovány textové recenze a rozděleny do kategorií:
+
+- pozitivní,
+- negativní,
+- neutrální.
+
+---
+
+# Závěry sentiment analýzy
+
+AI správně identifikovala:
+- pozitivní emoce,
+- frustraci zákazníků,
+- neutrální odpovědi,
+- problémové recenze.
+
+Zároveň bylo diskutováno, že:
+- ironie,
+- sarkasmus,
+- slang,
+- kulturní kontext
+
+jsou pro AI stále složitější.
+
+---
+
+# 3. AI-assisted Data Cleaning
+
+Bylo porovnáváno, jak standardizaci dat řeší:
+
+- Excel
+- Power Query
+- SQL
+- Python
+
+---
+
+# Nejčastější přístupy
+
+## Excel
+- KDYŽ()
+- NEBO()
+- XLOOKUP()
+- DOSADIT()
+
+---
+
+## Power Query
+- Replace Values
+- Merge Queries
+- Trim / Clean
+
+---
+
+## SQL
+- CASE WHEN
+- LOWER()
+- REPLACE()
+- JOIN na mapping table
+
+---
+
+## Python
+- replace()
+- map()
+- str.lower()
+- apply()
+
+---
+
+# 4. Mapping Table
+
+Byl vysvětlen enterprise přístup pomocí mapovacích tabulek.
+
+## Příklad
+
+| raw_value | normalized_value |
+|---|---|
+| PHA | Praha |
+| Prague | Praha |
+
+---
+
+# Výhody mapping table
+
+- lepší škálovatelnost,
+- jednodušší údržba,
+- centralizace pravidel,
+- enterprise standard.
+
+---
+
+# 5. Anonymizace dat
+
+Bylo diskutováno:
+- jaká data lze posílat do AI,
+- jaká data anonymizovat,
+- rozdíl mezi PII a business sensitive data.
+
+---
+
+# PII (Personally Identifiable Information)
+
+Osobní údaje:
+
+- jméno,
+- příjmení,
+- email,
+- telefon,
+- adresa,
+- rodné číslo.
+
+---
+
+# Business Sensitive Data
+
+Obchodně citlivé údaje:
+
+- revenue,
+- marže,
+- forecasty,
+- interní KPI,
+- strategie,
+- zákaznické databáze.
+
+---
+
+# Důležitý princip
+
+```text
+Do AI neposíláme všechna data.
+Posíláme pouze data, která AI skutečně potřebuje.
+```
+
+---
+
+# 6. Pseudonymizace vs anonymizace
+
+## Anonymizace
+Nelze zpětně identifikovat konkrétní osobu.
+
+---
+
+## Pseudonymizace
+
+Identita je nahrazena identifikátorem.
+
+Například:
+
+| customer_id | revenue |
+|---|---|
+| CUST_001 | 125000 |
+
+Firma může osobu dohledat interně, externí uživatel ne.
+
+---
+
+# 7. Human Review
+
+Bylo zdůrazněno, že:
+
+```text
+AI cleaning není 100% spolehlivý.
+```
+
+Proto je nutné:
+- kontrolovat výsledky,
+- ověřovat vzorek dat,
+- validovat business logiku.
+
+---
+
+# Reálná enterprise praxe
+
+Firmy často:
+- zakazují veřejný ChatGPT pro interní data,
+- používají enterprise AI řešení,
+- řeší AI governance a compliance.
+
+---
+
+# Klíčové poznatky
+
+## Technické dovednosti
+- standardizace dat
+- cleaning textových dat
+- sentiment analysis
+- mapping logic
+- anonymizace
+- pseudonymizace
+
+---
+
+## Analytický mindset
+
+Tato lekce ukázala, že moderní analytik:
+- neřeší pouze výpočty,
+- ale také:
+  - bezpečnost dat,
+  - governance,
+  - kvalitu dat,
+  - AI rizika,
+  - business kontext.
+
+---
+
