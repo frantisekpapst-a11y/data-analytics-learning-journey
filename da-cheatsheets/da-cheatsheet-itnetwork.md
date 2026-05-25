@@ -5492,3 +5492,87 @@ Musí:
 
 ---
 
+# Lekce 23 – EDA a SDA (Exploratory & Statistical Data Analysis)
+
+## Cíl lekce
+Pochopit rozdíl mezi:
+- EDA (Exploratory Data Analysis)
+- SDA (Statistical Data Analysis)
+
+A naučit se:
+- hledat vzorce v datech,
+- identifikovat podezřelé hodnoty,
+- ověřit, zda rozdíl není jen náhoda.
+
+---
+
+# EDA – Exploratory Data Analysis
+
+## Co je EDA
+EDA = průzkumná analýza dat.
+
+Používá se:
+- na začátku analýzy,
+- pro pochopení datasetu,
+- pro hledání:
+  - vzorců,
+  - trendů,
+  - outlierů,
+  - anomálií,
+  - podezřelých hodnot.
+
+---
+
+## Typické EDA nástroje
+- kontingenční tabulky,
+- grafy,
+- histogramy,
+- průměr,
+- medián,
+- minimum / maximum,
+- rozptyl,
+- filtry,
+- conditional formatting.
+
+---
+
+# SDA – Statistical Data Analysis
+
+## Co je SDA
+SDA = statistická analýza dat.
+
+Používá se:
+- po EDA,
+- pro ověření hypotéz,
+- pro potvrzení, že rozdíl není náhoda.
+
+---
+
+## Typické SDA nástroje
+- t-test,
+- p-value,
+- korelace,
+- regresní analýza,
+- statistické modely.
+
+---
+
+# Praktický ecommerce case
+
+## EDA – zjištěné poznatky
+
+### Sales
+- TV má vysokou tržbu, ale nižší marži.
+- Notebook je suspicious objednávka:
+  - výrazně vyšší revenue,
+  - možný VIP zákazník,
+  - nebo chyba v datech.
+- Smartwatch má stabilně vysokou marži.
+
+---
+
+## Normalizace (Min-Max Scaling)
+
+### Vzorec
+```excel
+=(hodnota-MIN(oblast))/(MAX(oblast)-MIN(oblast))
