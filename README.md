@@ -59,12 +59,6 @@ Repozitář slouží zároveň jako:
 - validace dat
 
 ## 🗄 SQL & Databases
-- SELECT
-- WHERE
-- GROUP BY
-- HAVING
-- JOINy
-- agregace
 - databázové myšlení
 - relační modelování
 
