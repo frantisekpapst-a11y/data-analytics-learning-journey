@@ -200,35 +200,58 @@ Statistika potvrzuje suspicious objednávku notebooku.
 
 ## SQL analytická část projektu
 
-V rámci case study byla následně vytvořena i SQL analytická vrstva nad vyčištěnými daty.
+## SQL analytická část projektu
 
-Procvičené oblasti:
+V rámci case study byla vytvořena také SQL analytická vrstva nad vyčištěnými daty.
+
+### Procvičené SQL oblasti
 
 - GROUP BY a agregace
 - HAVING
 - CASE
-- JOIN
-- LEFT JOIN
-- FULL OUTER JOIN logika
+- JOIN / LEFT JOIN
 - subquery
 - CTE (Common Table Expressions)
 - EXISTS
 - IN
 - ROW_NUMBER()
-- ranking a TOP per group logika
-
-Praktické analytické úlohy:
-
-- revenue per product
-- margin analysis
-- suspicious orders detection
-- problematic customers detection
-- revenue ranking produktů
-- business filtering pomocí HAVING
+- ranking logika
 - práce s NULL hodnotami
-- propojení zákazníků a objednávek
+- business filtering
 
-Součástí projektu byla také business interpretace výsledků a porovnání různých SQL přístupů (JOIN vs IN vs EXISTS vs CTE).
+### Realizované analytické úlohy
+
+- revenue analysis podle produktů
+- margin analysis podle produktů
+- identifikace suspicious objednávek
+- risk scoring pomocí CASE
+- identifikace problémových zákazníků
+- detekce chybějících dat
+- propojení zákazníků a objednávek pomocí JOIN
+- filtrování problémových objednávek pomocí IN
+- filtrování problémových objednávek pomocí EXISTS
+- business filtering pomocí HAVING
+- ranking produktů podle revenue
+- TOP produkt podle revenue pomocí ROW_NUMBER()
+
+### Hlavní business zjištění
+
+- Notebook generuje nejvyšší revenue i margin, ale jedná se o suspicious outlier objednávku.
+- Smartwatch vykazuje stabilní výkon napříč objednávkami.
+- Headphones mají nízké revenue i margin.
+- Dataset obsahuje problémové zákazníky:
+  - chybějící email,
+  - nevalidní věk,
+  - NULL hodnoty.
+- SQL analýza potvrdila závěry z předchozí EDA/SDA části projektu.
+
+### Důležité poznatky
+
+- HAVING filtruje agregované výsledky.
+- EXISTS kontroluje existenci souvisejících řádků.
+- CTE výrazně zlepšuje čitelnost komplexnějších query.
+- JOIN logika závisí na business kontextu.
+- Stejný analytický problém lze řešit více SQL přístupy.
 
 ---
 
