@@ -1,4 +1,4 @@
-# Case Study 03 – Analýza zákaznických objednávek
+# Case Study 03 – Orders Analysis
 
 ## Cíl projektu
 
