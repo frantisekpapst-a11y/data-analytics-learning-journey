@@ -140,6 +140,8 @@ data-analytics-learning-journey/
 
 # 📂 Přehled case studies
 
+Jedná se o case studies inspirované certifikovaným kurzem itnetwork Datová analýza od A do Z, část Úvod do datové analýzy a obchodního podnikání. Nejedná se tedy o case studies nebo příklady řešené přímo v rámci tohoto kurzu.
+ 
 ## 📌 Case Study 1 — Bank Database Design
 
 Základy relačního databázového myšlení:
@@ -286,7 +288,7 @@ První exploratory data analysis nad datasetem elektromobilů:
 
 # 📂 Cheatsheets
 
-Repozitář obsahuje vlastní cheatsheety a taháky:
+Repozitář obsahuje cheatsheety inspirované certifikovaným kurzem itnetwork Datová analýza od A do Z, část Úvod do datové analýzy a obchodního rozhodování:
 
 - statistika,
 - EDA,
