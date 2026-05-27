@@ -1,5 +1,4 @@
 # 📘 Souhrnný kvíz – Datová analytika (ITnetwork)
-Posledních 16 otázek je závěrečného testu části Úvod do datové analýzy a obchodního rozhodování.
 
 ---
 
