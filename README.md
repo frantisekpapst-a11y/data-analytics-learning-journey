@@ -106,7 +106,6 @@ Repozitář slouží zároveň jako:
 data-analytics-learning-journey/
 │
 ├── README.md
-├── da-certificates.pdf
 │
 ├── da-case-studies/
 │   ├── case-study-1.md
@@ -116,6 +115,10 @@ data-analytics-learning-journey/
 │   ├── case-study-5/
 │   ├── case-study-6/
 │   └── case-study-7/
+│
+├── da-certificates/
+│   ├── da-certicication-complete.pdf
+│   └── da-certificate.pdf
 │
 ├── da-cheatsheets/
 │   ├── da-cheatsheet-itnetwork.md
